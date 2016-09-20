@@ -1,0 +1,400 @@
+;            Amur Plasma Dip, 130ml (дип-желле для амуров);37,000;CZ4375;2,32 EUR;3,712;Carp Zoom;Дипы
+;            Amur Pop Ups e80 g  (плавающие бойлы для амура);51,000;CZ7927;2,00 EUR;3,2;Carp Zoom;Бойлы pop-up
+;            Amur Powder Dip e100g (дип на основе порошка для амуров);21,000;CZ0215;3,19 EUR;5,104;Carp Zoom;Дипы
+;            Amur Spice Mix, 250g (смесь специй для амуров);;CZ2455;0,79 EUR;1,264;Carp Zoom;Добавки
+;            Amur Spirulina Algae, 250g  (добавка – морские водоросли алгаи для амуров);;CZ2486;1,76 EUR;2,816;Carp Zoom;Добавки
+;            Amur XXL Corn, 220ml (125g) (гигантская кукуруза для амуров);20,000;CZ8891;1,59 EUR;2,544;Carp Zoom;Наживка
+;            CZ Amur - Grass Carp Artificial Corn, 15pcs (искусственная кукуруза-зеленая);23,000;CZ5944;0,95 EUR;1,52;Carp Zoom;Наживка
+;    2. RODS & REELS;;;;;Carp Zoom;
+;        01.;;;;;Carp Zoom;
+;            CZ Neoprene Rod Band (Неопреновый крепеж,4 шт.);;CZ7788;2,99 EUR;4,485;Carp Zoom;Чехлы для всего
+;            CZ Reel Bag (Чехол для катушки, универсальный размер ?22см.);9,000;CZ7009;3,68 EUR;5,52;Carp Zoom;Чехлы для всего
+;            CZ Rod Band  (Неопреновый крепеж для удилищ, 2шт.);;CZ6996;1,73 EUR;2,595;Carp Zoom;Чехлы для всего
+;            CZ Tip protector (Защитный чехол для телескопических удилищ с кольцами);;CZ3484;2,18 EUR;3,27;Carp Zoom;Чехлы для всего
+;            Reel Pouch, 21x10x19cm;8,000;CZ7932;3,74 EUR;5,61;Carp Zoom;Чехлы для всего
+;        02. Carp Rods (карповые удилища) (Catalogue p. 56-61);;;;0;Carp Zoom;
+;            Bull-dog Carp Rod, 360cm, 3,00lb, 3 sections;3,000;CZ8823;22,02 EUR;33,03;Carp Zoom;Карповые удилища
+;            Bull-dog Carp Rod, 390cm, 3,50lb, 3 sections;3,000;CZ8830;25,31 EUR;37,965;Carp Zoom;Карповые удилища
+;            Camoupro Carp Rod, 12' 2,75lb, 2 sections (профессиональное карповое удилище,камуфлированное,360cm);;CZ0191;36,92 EUR;55,38;Carp Zoom;Карповые удилища
+;            Camoupro Carp Rod, 12' 3,00lb, 2 sections;1,000;CZ8656;39,84 EUR;59,76;Carp Zoom;Карповые удилища
+;            Camoupro Carp Rod, 12' 3,00lb, 3 sections;4,000;CZ8663;42,33 EUR;63,495;Carp Zoom;Карповые удилища
+;            Camoupro Carp Rod, 13' 3,50lb, 50, 2 sections;4,000;CZ8687;49,67 EUR;74,505;Carp Zoom;Карповые удилища
+;            Camoupro Carp Rod, 13' 3,50lb, 3 sections;4,000;CZ8670;45,18 EUR;67,77;Carp Zoom;Карповые удилища
+;            Commando Carp Rod, 300cm, 3,00lb, 2 sections;4,000;CZ8793;13,47 EUR;20,205;Carp Zoom;Карповые удилища
+;            Commando Carp Rod, 360cm, 3,00lb, 2 sections;3,000;CZ8809;14,90 EUR;22,35;Carp Zoom;Карповые удилища
+;            Commando Carp Rod, 390cm, 3,50lb, 2 sections;4,000;CZ8816;18,47 EUR;27,705;Carp Zoom;Карповые удилища
+;            CZ Fanatic Plus 50 carp rod 12' (366cm) 3.0lbs (Двухсекционные профессиональные бойловые удилища с кольцом - 50 мм.,SiC-кольцами,186cm - в сложеном виде,5+1-колец, 325g-вес);1,000;CZ1626;54,80 EUR;82,2;Carp Zoom;Карповые удилища
+;            CZ Fanatic Plus 50 carp rod 12' (366cm) 3.5lbs (Двухсекционные профессиональные бойловые удилища с кольцом - 50 мм.,SiC-кольцами,186cm - в сложеном виде,5+1-колец, 348g-вес);;CZ1633;56,94 EUR;85,41;Carp Zoom;Карповые удилища
+;            CZ Fanatic Plus 50 carp rod 13' (396cm) 3.5lbs (Двухсекционные профессиональные бойловые удилища с кольцом - 50 мм.,SiC-кольцами,202 cm - в сложеном виде,5+1-колец, 422g-вес);;CZ1640;62,49 EUR;93,735;Carp Zoom;Карповые удилища
+;            CZ Fanatic Plus carp rod 12' (366cm) 2.75lbs (Двухсекционные профессиональные бойловые удилища,SiC-кольцами,186cm - в сложеном виде,5+1-колец, 305g-вес);40,000;CZ1596;49,82 EUR;74,73;Carp Zoom;Карповые удилища
+;            CZ Fanatic Plus carp rod 12' (366cm) 3.0lbs (Двухсекционные профессиональные бойловые удилища,SiC-кольцами,186cm - в сложеном виде,5+1-колец, 311g-вес);6,000;CZ1602;51,24 EUR;76,86;Carp Zoom;Карповые удилища
+;            CZ Fanatic Plus carp rod 12' (366cm) 3.5lbs (Двухсекционные профессиональные бойловые удилища,SiC-кольцами,186cm - в сложеном виде,5+1-колец, 334g-вес);6,000;CZ1619;53,94 EUR;80,91;Carp Zoom;Карповые удилища
+;            LionZoom 50 Carp rod, 360cm, 3.0lbs (Карповое удилище с большим 50 мм -ым кольцом);3,000;CZ1817;24,09 EUR;36,135;Carp Zoom;Карповые удилища
+;            LionZoom 50 Carp rod, 390cm, 3.5lbs (Карповое удилище с большим 50 мм -ым кольцом);2,000;CZ1824;25,59 EUR;38,385;Carp Zoom;Карповые удилища
+;            LionZoom Carp rod, 360cm, 2.75lbs (Карповое удилище);18,000;CZ1800;22,02 EUR;33,03;Carp Zoom;Карповые удилища
+;            Masterful Carp Rod, 10' 3,00lb, 2 sections;1,000;CZ8595;30,57 EUR;45,855;Carp Zoom;Карповые удилища
+;            Masterful Carp Rod, 12' 2,75lb, 2 sections;;CZ8601;36,27 EUR;54,405;Carp Zoom;Карповые удилища
+;            Masterful Carp Rod, 12' 3,00lb, 2 sections;3,000;CZ8618;36,27 EUR;54,405;Carp Zoom;Карповые удилища
+;            Masterful Carp Rod, 12' 3,50lb, 50, 2 sections;2,000;CZ8625;41,97 EUR;62,955;Carp Zoom;Карповые удилища
+;            Masterful Carp Rod, 13' 3,50lb, 50, 2 sections;5,000;CZ8632;46,25 EUR;69,375;Carp Zoom;Карповые удилища
+;            Masterful Spod Rod, 12' 7,00lb, 50, 2 sections;3,000;CZ8649;46,68 EUR;70,02;Carp Zoom;Карповые удилища
+;            Mesh Pro Carp Rod, 12', 3,00lb, 2 sections;3,000;CZ8847;25,59 EUR;38,385;Carp Zoom;Карповые удилища
+;            Mesh Pro Carp Rod, 12', 3,00lb, 3 sections;10,000;CZ8854;26,30 EUR;39,45;Carp Zoom;Карповые удилища
+;            Mesh Pro Carp Rod, 12', 3,50lb, 50, 2 sections;3,000;CZ8878;26,30 EUR;39,45;Carp Zoom;Карповые удилища
+;            Mesh Pro Carp Rod, 13', 3,50lb, 50, 2 sections;4,000;CZ8885;27,72 EUR;41,58;Carp Zoom;Карповые удилища
+;            Mesh Pro Carp Rod, 13', 3,50lb, 3 sections;6,000;CZ8861;27,72 EUR;41,58;Carp Zoom;Карповые удилища
+;            MultiZoom Carp rod, 360cm, 60-120g (Карповое удилище);;CZ1749;15,62 EUR;23,43;Carp Zoom;Карповые удилища
+;            MultiZoom Carp rod, 390cm, 60-120g (Карповое удилище);;CZ1756;17,04 EUR;25,56;Carp Zoom;Карповые удилища
+;            TigerZoom Carp rod, 390cm, 70-140g (Карповое удилище);18,000;CZ1794;28,13 EUR;42,195;Carp Zoom;Карповые удилища
+;            WolfZoom Carp rod, 390cm, 70-140g (Карповое удилище);18,000;CZ1770;25,13 EUR;37,695;Carp Zoom;Карповые удилища
+;        03. Feeder Rods (фидерные удилища) (Catalogue p. 63-65);;;;0;Carp Zoom;
+;            Dumper Feeder Rod, 360cm, 60-120g;3,000;CZ8724;17,04 EUR;25,56;Carp Zoom;Фидерные удилища
+;            Dumper Feeder Rod, 390cm, 70-140g;4,000;CZ8731;19,17 EUR;28,755;Carp Zoom;Фидерные удилища
+;            Feeder Competition 2in1 Feeder Rod, 10'-12', medium;1,000;CZ8380;42,69 EUR;64,035;Carp Zoom;Фидерные удилища
+;            Feeder Competition 2in1 Feeder Rod, 11'-13', medium heavy;2,000;CZ8397;44,12 EUR;66,18;Carp Zoom;Фидерные удилища
+;            Feeder Competition Serie A rod, 360cm, 120g;2,000;CZ8694;36,27 EUR;54,405;Carp Zoom;Фидерные удилища
+;            Feeder Competition Serie A rod, 390cm, 160g;3,000;CZ8700;39,84 EUR;59,76;Carp Zoom;Фидерные удилища
+;            Feeder Competition Serie A rod, 420cm, 180g;8,000;CZ8717;42,54 EUR;63,81;Carp Zoom;Фидерные удилища
+;            LionZoom Feeder rod, 360cm, 40-90g (Фидерное удилище,запасные кончики - 3 шт);4,000;CZ1701;31,29 EUR;46,935;Carp Zoom;Фидерные удилища
+;            LionZoom Feeder rod, 390cm, 50-100g (Фидерное удилище,запасные кончики - 3 шт);2,000;CZ1718;34,14 EUR;51,21;Carp Zoom;Фидерные удилища
+;            LionZoom Heavy Plus Feeder rod, 360cm, 70-140g (Усиленный фидер,запасные кончики - 3 шт);2,000;CZ1725;34,85 EUR;52,275;Carp Zoom;Фидерные удилища
+;            LionZoom Heavy Plus Feeder rod, 390cm, 80-160g (Усиленный фидер,запасные кончики - 3 шт);;CZ1732;36,99 EUR;55,485;Carp Zoom;Фидерные удилища
+;            Torp Feeder Rod, 360cm, 70-130g;2,000;CZ8748;22,74 EUR;34,11;Carp Zoom;Фидерные удилища
+;            Torp Feeder Rod, 390cm, 80-150g;4,000;CZ8755;25,59 EUR;38,385;Carp Zoom;Фидерные удилища
+;            Trend Feeder Rod, 360cm, 160g;3,000;CZ8762;32,57 EUR;48,855;Carp Zoom;Фидерные удилища
+;            Trend Feeder Rod, 390cm, 180g;2,000;CZ8779;34,85 EUR;52,275;Carp Zoom;Фидерные удилища
+;            Trend Feeder Rod, 420cm, 210g;2,000;CZ8786;39,12 EUR;58,68;Carp Zoom;Фидерные удилища
+;        04. Picker Rods (пикерные удилища) (Catalogue p. 66);;;;0;Carp Zoom;
+;            LionZoom Picker rod, 270cm, 3-15g   (Пикерное удилище,карбоновые запасные кончики - 2 шт);8,000;CZ1916;25,59 EUR;38,385;Carp Zoom;Пикерные удилища
+;            LionZoom Picker rod, 300cm, 3-15g   (Пикерное удилище,карбоновые запасные кончики - 2 шт);9,000;CZ1923;27,02 EUR;40,53;Carp Zoom;Пикерные удилища
+;            TigerZoom Picker rod, 270cm, 5-20g  (Пикерное удилище,запасные кончики-2 шт);;CZ1893;14,19 EUR;21,285;Carp Zoom;Пикерные удилища
+;            TigerZoom Picker rod, 300cm, 5-20g  (Пикерное удилище,запасные кончики-2 шт);3,000;CZ1909;15,62 EUR;23,43;Carp Zoom;Пикерные удилища
+;        05. Float and Surf Rods (Catalogue p. 67);;;;0;Carp Zoom;
+;            BombZoom Surf rod, 390cm, 150-300g (Удилище с повышенным тестом,подходит и для закормки «ракетой»);9,000;CZ1831;28,44 EUR;42,66;Carp Zoom;Карповые удилища
+;            BombZoom Surf rod, 420cm, 150-300g (Удилище с повышенным тестом,подходит и для закормки «ракетой»);5,000;CZ1848;31,14 EUR;46,71;Carp Zoom;Карповые удилища
+;            CZ Allround Float 360cm, 7-35g, 3 sections (матчевое удилище,бланк-карбон,SIC кольца);3,000;CZ0412;22,59 EUR;33,885;Carp Zoom;Матчевые удилища
+;            CZ Allround Float 390cm, 7-35g, 3 sections (матчевое удилище,бланк-карбон,SIC кольца);3,000;CZ0429;24,02 EUR;36,03;Carp Zoom;Матчевые удилища
+;        06. Telescopic Rods (телескопические удилища) (Catalogue p. 68);;;;0;Carp Zoom;Матчевые удилища
+;            CZ Force Telematch 395cm, 10-80g, 5 sections (телескопическое удилище,бланк-карбон,SIC кольца);4,000;CZ0450;17,75 EUR;26,625;Carp Zoom;Матчевые удилища
+;            CZ Force Telematch 420cm, 10-80g, 6 sections (телескопическое удилище,бланк-карбон,SIC кольца);5,000;CZ0467;19,74 EUR;29,61;Carp Zoom;Матчевые удилища
+;            CZ Multifish Junior Combo (Детский набор - спининг + катушка);8,000;CZ1565;4,92 EUR;7,38;Carp Zoom;Спиннинговые удилища
+;            CZ MultiZoom Pole rod, 200cm (Маховое удилище 2 м);13,000;CZ1855;2,07 EUR;3,105;Carp Zoom;Маховые удилища
+;            CZ MultiZoom Pole rod, 300cm (Маховое удилище 3 м);23,000;CZ1862;2,79 EUR;4,185;Carp Zoom;Маховые удилища
+;            CZ MultiZoom Pole rod, 400cm (Маховое удилище 4 м);14,000;CZ1879;4,22 EUR;6,33;Carp Zoom;Маховые удилища
+;            CZ MultiZoom Pole rod, 500cm (Маховое удилище 5 м);9,000;CZ1886;6,06 EUR;9,09;Carp Zoom;Маховые удилища
+;            Multifish Telefeeder 300cm, 20-60g, 6 sections (телескопическое фидерное удилище);;CZ0399;11,34 EUR;17,01;Carp Zoom;Фидерные удилища
+;            Multifish Telefeeder 360cm, 30-80g, 7 sections (телескопическое фидерное удилище);2,000;CZ0405;13,47 EUR;20,205;Carp Zoom;Фидерные удилища
+;        07. Free Spool Reels (катушки карповые) (Catalogue p. 70-73);;;;0;Carp Zoom;
+;            BigCatch 40BBC fishing reel;;CZ8068;12,77 EUR;19,155;Carp Zoom;Карповые катушки
+;            BigCatch 50BBC fishing reel;4,000;CZ8075;13,47 EUR;20,205;Carp Zoom;Карповые катушки
+;            BigCatch 60BBC fishing reel;3,000;CZ8082;13,91 EUR;20,865;Carp Zoom;Карповые катушки
+;            Concord 8000F fishing reel;;CZ9233;56,87 EUR;85,305;Carp Zoom;Карповые катушки
+;            CZ Black Ghost 3000BBC (катушка с бейтраннером с запасной графитовой шпулей,алюминиевая ручка,5+1BB);3,000;CZ0313;23,88 EUR;35,82;Carp Zoom;Карповые катушки
+;            CZ Black Ghost 4000BBC (катушка с бейтраннером с запасной графитовой шпулей,алюминиевая ручка,5+1BB);2,000;CZ0320;24,87 EUR;37,305;Carp Zoom;Карповые катушки
+;            CZ Black Ghost 5000BBC (катушка с бейтраннером с запасной графитовой шпулей,алюминиевая ручка,5+1BB);4,000;CZ0337;25,59 EUR;38,385;Carp Zoom;Карповые катушки
+;            CZ Black Ghost 6000BBC (катушка с бейтраннером с запасной графитовой шпулей,алюминиевая ручка,5+1BB);;CZ0344;26,30 EUR;39,45;Carp Zoom;Карповые катушки
+;            CZ Marshall 6000BBC Carp fishing reel (карповая катушка с бейтраннером,8+1BB);1,000;CZ1556;49,82 EUR;74,73;Carp Zoom;Карповые катушки
+;            CZ Marshall 8000BBC Carp fishing reel (карповая катушка с бейтраннером,8+1BB);5,000;CZ1563;54,80 EUR;82,2;Carp Zoom;Карповые катушки
+;            CZ MegaBite 6000BBC (Универсальная карповая катушка с бейтраннером,4+1BB,сбалансированный ротор,передаточное число-5,2:1,антиреверс,графитовый запасной барабан);4,000;CZ2067;22,02 EUR;33,03;Carp Zoom;Карповые катушки
+;            FANATIC 40BBC  (Карповая и фидерная катушка с бейтраннером,6+1BB, запасная шпуля, усиленный ролик,графитовый запасной барабан);9,000;CZ8099;19,89 EUR;29,835;Carp Zoom;Карповые катушки
+;            FANATIC 50BBC  (Карповая и фидерная катушка с бейтраннером,6+1BB, запасная шпуля, усиленный ролик,графитовый запасной барабан);5,000;CZ8105;20,60 EUR;30,9;Carp Zoom;Карповые катушки
+;            FANATIC 60BBC  (Карповая и фидерная катушка с бейтраннером,6+1BB, запасная шпуля, усиленный ролик,графитовый запасной барабан);2,000;CZ8112;21,32 EUR;31,98;Carp Zoom;Карповые катушки
+;            Jumbo 10000BBC reel;3,000;CZ8588;39,12 EUR;58,68;Carp Zoom;Карповые катушки
+;            Multifish Carp 5000BBC (катушка с бейтраннером,1BB);5,000;CZ2755;9,20 EUR;13,8;Carp Zoom;Карповые катушки
+;            SPECIFIC 4000 BBC  (Катушка с задним тормозом, с металлической запасной шпулей);2,000;CZ2074;28,37 EUR;42,555;Carp Zoom;Карповые катушки
+;            SPECIFIC 5000 BBC (Катушка с задним тормозом, с металлической запасной шпулей);1,000;CZ2081;29,15 EUR;43,725;Carp Zoom;Карповые катушки
+;            SPECIFIC 6000 BBC (Катушка с задним тормозом, с металлической запасной шпулей);2,000;CZ5181;29,87 EUR;44,805;Carp Zoom;Карповые катушки
+;        08. Rear Drag Reels (катушки) (Catalogue p. 74);;;;0;Carp Zoom;
+;            BULLDOG 40R (Классическая катушка с задним тормозом,6+1BB,Металлический барабан,усиленный ролик, складная ручка);20,000;CZ8037;15,62 EUR;23,43;Carp Zoom;Фидерные катушки 
+;            BULLDOG 60R (Классическая катушка с задним тормозом,6+1BB,Металлический барабан, усиленный ролик, складная ручка);44,000;CZ8051;17,04 EUR;25,56;Carp Zoom;Фидерные катушки 
+;            Carpex 40R fishing reel;6,000;CZ8006;9,92 EUR;14,88;Carp Zoom;Фидерные катушки 
+;            Carpex 50R fishing reel;7,000;CZ8013;10,62 EUR;15,93;Carp Zoom;Фидерные катушки 
+;            CZ Black Ghost 4000RD fishing reel (универсальная катушка,с запасной графитовой шпулей,5+1BB);2,000;CZ0351;17,04 EUR;25,56;Carp Zoom;Фидерные катушки 
+;            CZ Black Ghost 5000RD fishing reel (универсальная катушка,с запасной графитовой шпулей,5+1BB);4,000;CZ0368;17,75 EUR;26,625;Carp Zoom;Фидерные катушки 
+;            CZ Black Ghost 6000RD fishing reel (универсальная катушка,с запасной графитовой шпулей,5+1BB);3,000;CZ0375;18,47 EUR;27,705;Carp Zoom;Фидерные катушки 
+;            CZ KID 200F Reel (Детская катушка);12,000;CZ7680;2,79 EUR;4,185;Carp Zoom;Фидерные катушки 
+;            Feeder Competition FeederCast 6000F reel;12,000;CZ9226;26,73 EUR;40,095;Carp Zoom;Фидерные катушки 
+;            Feeder Reel 30F;;CZ2180;18,47 EUR;27,705;Carp Zoom;Фидерные катушки 
+;            Feeder Reel 50F;;CZ2197;19,61 EUR;29,415;Carp Zoom;Фидерные катушки 
+;            JUNIOR 20R (Легкая катушка, 2 подшипника, «задний» тормоз);11,000;CZ7993;5,36 EUR;8,04;Carp Zoom;Спиннинговые катушки
+;    3. ACCESSORIES;;;;0;Carp Zoom;
+;        01. Fishfinders, Camera (эхолот,подводная камера) (Catalogue p. 80);;;;0;Carp Zoom;
+;            CZ Fanatic Fish finder (Безпроводной эхолот,ехолокатор,сетевая и аккумуляторная зарядка,дальность 180м, глубина 100 м, 8 м длина кабеля);1,000;CZ3330;125,93 EUR;188,895;Carp Zoom;Эхолоты
+;            CZ Underwater camera (Подводная камера - 20 м кабеля,3,5-дюймовый цветной ЖК-дисплей);;CZ3323;158,93 EUR;238,395;Carp Zoom;Эхолоты
+;        02. Bivvies, Shelter, Boat Tent (палатки) (Catalogue p. 81-84);;;;0;Carp Zoom;
+;"            ""FANATIC"" Shelter - (Рыболовная полупалатка ,размер: 270x230x140 см, 5000мм(водная шкала),вес палатки 8 кг,удобная и легкая установка,съёмное износостойкое дно и колышки)";;CZ7979;85,35 EUR;128,025;Carp Zoom;Палатки, спальники, навесы 
+;            CADDAS Boat Tent - (Лодочная палатка с регулированой шириной  120-130 см., длиной 150-300см) 5000мм(водная шкала),,вес палатки 4 кг);18,000;CZ6910;44,85 EUR;67,275;Carp Zoom;Палатки, спальники, навесы 
+;            CZ Carp Expedition Bivvy 1, 280x215x135cm;;CZ0702;122,93 EUR;184,395;Carp Zoom;Палатки, спальники, навесы 
+;            CZ Carp Expedition Bivvy 2 Overwrap;1,000;CZ0696;64,13 EUR;96,195;Carp Zoom;Палатки, спальники, навесы 
+;            CZ Carp Expedition Bivvy 2, 300x270x140cm;;CZ0665;209,93 EUR;314,895;Carp Zoom;Палатки, спальники, навесы 
+;            CZ Carp Expedition Bivvy 3+1 Overwrap;1,000;CZ0689;82,35 EUR;123,525;Carp Zoom;Палатки, спальники, навесы 
+;            CZ Carp Expedition Bivvy 3+1, 390x330x165cm;;CZ0672;269,93 EUR;404,895;Carp Zoom;Палатки, спальники, навесы 
+;            Peg Set - (Набор Колышков для крепления палатки, 10шт );;CZ7672;7,28 EUR;10,92;Carp Zoom;Палатки, спальники, навесы 
+;        03. Umbrellas (зонты) (Catalogue p. 85);;;;0;Carp Zoom;
+;            CZ Camou Umbrella, 250cm (Рыболовный зонт камуфляжного цвета со сгибающимся куполом,диаметр-250см, вес 2 кг);;CZ4788;23,93 EUR;35,895;Carp Zoom;Зонты
+;            CZ CZ Umbrella Shelter, camou, 250cm  (Рыболовный палаточный рыбацкий зонт камуфляжного цвета-250см, вес 3 кг);;CZ5975;35,93 EUR;53,895;Carp Zoom;Зонты
+;"            CZ Umbrella ""Steel Frame"" tilt system, 220cm  (Рыболовный зонт с регулированным наклоном купола, диаметр-220см, вес 2,3 кг)";12,000;CZ7641;17,48 EUR;26,22;Carp Zoom;Зонты
+;            CZ Umbrella Holder 1, 30cm;21,000;CZ1628 ;2,03 EUR;3,045;Carp Zoom;Зонты
+;            CZ Umbrella Holder 2, 40cm;3,000;CZ1635 ;3,68 EUR;5,52;Carp Zoom;Зонты
+;            CZ Umbrella Shelter, 250cm (Рыболовный зонт-палатка, диаметр-250см, вес 3,2 кг);;CZ7634;32,93 EUR;49,395;Carp Zoom;Зонты
+;        04. Bivvy Accessories (аксессуары) (Catalogue p. 86);;;;0;Carp Zoom;
+;            CZ Double Wheel Trolley (Тележка для транспортировки инвентаря);1,000;CZ0184;56,25 EUR;84,375;Carp Zoom;Транспортировочные тележки
+;            CZ Sleeping bag holder(Сумка для спального мешка, размер : 35x55 см);;CZ3552;8,24 EUR;12,36;Carp Zoom;Палатки, спальники, навесы 
+;            Extreme Sleeping Bag (Спальник экстримальных условий,по бокам молнии, оснащен специальной лентой для;;CZ9639;37,43 EUR;56,145;Carp Zoom;Палатки, спальники, навесы 
+;            Fish Smoker (коптилка для рыбы);2,000;CZ8199;29,93 EUR;44,895;Carp Zoom;Решетки, шампура
+;            Thermo Sheet, 2x2m;;CZ8465;6,68 EUR;10,02;Carp Zoom;Матрацы
+;        05. Chairs (кресла рыбацкие) (Catalogue p. 88-89);;;;0;Carp Zoom;
+;            CADDAS Boat chair (Лодочное кресло, размер: 50x40x100);;CZ4719;29,85 EUR;44,775;Carp Zoom;Мебель
+;            Comfort Armchair (Комфортное рыбацкое кресло с подлокотниками и с регулируемыми ножками и наклоном спинки, размер: 48x52x28/88см);;CZ0680;43,43 EUR;65,145;Carp Zoom;Мебель
+;            Comfort Chair (Кресло-Комфорт с регулируемыми ножками, размер: 48x52x28/88см);;CZ0673;29,85 EUR;44,775;Carp Zoom;Мебель
+;            CZ Chair Rain Cover, 62x130x21cm;6,000;CZ0160;5,93 EUR;8,895;Carp Zoom;Мебель
+;            CZ Foldable Armchair, 53x43x41/94cm (Складное кресло);;CZ1390;13,13 EUR;19,695;Carp Zoom;Мебель
+;            CZ Foldable Chair L (Складное кресло, размер:43x43x36/68 см.);;CZ3187;7,43 EUR;11,145;Carp Zoom;Мебель
+;            CZ Foldable Chair M (Складное кресло, размер: 39x39x34/62 см.);;CZ3170;7,19 EUR;10,785;Carp Zoom;Мебель
+;            CZ Foldable Chair S (Складное кресло, размер: 34x34x29/56 см.);;CZ3163;6,98 EUR;10,47;Carp Zoom;Мебель
+;            CZ Heavy duty 150+ armchair (60x57x49/110) (Экстра сильное рыбацкое кресло с подлокотниками,выдерживающее большой вес до 150 кг);9,000;CZ4726;59,93 EUR;89,895;Carp Zoom;Мебель
+;            ECO Chair  (Кресло-Эко с регулируемыми ножками, размер 47x40x23/71см);;CZ0666;20,63 EUR;30,945;Carp Zoom;Мебель
+;            Full Comfort Boilie Armchair (Широкое кресло с подлокотниками-Полный Комфорт с регулируемыми ножками и наклоном спинки, размер:  60x64x32/107см);;CZ7986;48,38 EUR;72,57;Carp Zoom;Мебель
+;            Robust Armchair;4,000;CZ7895;61,43 EUR;92,145;Carp Zoom;Мебель
+;        06. Bedchairs (раскладушки рыбацкие) (Catalogue p. 90);;;;0;Carp Zoom;Мебель
+;            Bedchair Bag (Универсальный чехол для кресел и кресло кроватей, размер: 80x20x76см.);;CZ7627;11,18 EUR;16,77;Carp Zoom;Мебель
+;            Comfort Bedchair (Кресло кровать-Комфорт на 6-х регулируемых ножках, легкомоющийся материал,регулирукмая спинка, размер: 213x78x28см.);4,000;CZ0710;64,43 EUR;96,645;Carp Zoom;Мебель
+;            CZ Bedchair Rain Cover, 86x215x21cm;1,000;CZ0177;8,63 EUR;12,945;Carp Zoom;Мебель
+;            ECO Bedchair (Кресло кровать-ЭКО на 4-х регулируемых ножках, легкомоющийся материал,регулирукмая спинка, размер:184x69x37см.);;CZ0703;53,18 EUR;79,77;Carp Zoom;Мебель
+;            Full Comfort Bedchair  (Кресло кровать-Полный Комфорт на 6-х регулируемых ножках, легкомоющийся материал,регулирукмая спинка, съемная подушка, размер: 213x78x28см.);4,000;CZ0727;73,43 EUR;110,145;Carp Zoom;Мебель
+;            Robust 150+ Heavy Duty Bedchair;;CZ7871;119,78 EUR;179,67;Carp Zoom;Мебель
+;            Robust Flat Bedchair;3,000;CZ7888;86,93 EUR;130,395;Carp Zoom;Мебель
+;        07. Bait Umbrella, Chair Accessories (аксессуары для кресел) (Catalogue p. 91);;;;0;Carp Zoom;
+;"            CZ Bowl with arm (Крепление для кресла ""чаша для прикормки"")";7,000;CZ3637;7,65 EUR;11,475;Carp Zoom;Обвес
+;            CZ Feeder Competition Bait Umbrella, 100x100x177cm (Фидерный зонт);3,000;CZ1970;13,88 EUR;20,82;Carp Zoom;Зонты
+;            CZ Feeder rod holder arm (Держатель для фидерных удилищ);1,000;CZ3644;13,88 EUR;20,82;Carp Zoom;Обвес
+;            CZ Keepnet arm (Держательдля подсака и садка, крепящийся к стулу);;CZ2005;6,90 EUR;10,35;Carp Zoom;Обвес
+;            CZ Side tray cover with zipper (for CZ2029) (Чехол для латка);1,000;CZ3095;2,99 EUR;4,485;Carp Zoom;Обвес
+;            CZ Side Tray with 3 Bait Boxes (Коробочки);16,000;CZ2707;9,98 EUR;14,97;Carp Zoom;Обвес
+;            CZ Side tray with bowl (Прикрепляющийся к креслу поднос (латок) и емкость для приманки);2,000;CZ2029;22,43 EUR;33,645;Carp Zoom;Обвес
+;            CZ Umbrella arm (Держатель для зонта, крепящийся к стулу);6,000;CZ2012;8,25 EUR;12,375;Carp Zoom;Обвес
+;            Feeder Competition Side Tray;1,000;CZ8359;34,43 EUR;51,645;Carp Zoom;Обвес
+;        08. Unhooking Mats, Cradles, Weigh Slings (карповые маты,мешки для взвешивания) (Catalogue p. 92-94);;;;0;Carp Zoom;
+;            Adjustable 4 Leg Carp Cradle;;CZ7833;44,85 EUR;67,275;Carp Zoom;Маты, сумки для хранения
+;            BIG CARP Unhooking Mat (Крупнокарповый мат, размер:140x110см.);23,000;CZ7696;22,43 EUR;33,645;Carp Zoom;Маты, сумки для хранения
+;            CZ 2in1 Unhooking Mat & Weigh Sling (Мат 2в1,мешок для взвешивания и карповий мат);1,000;CZ1925;14,93 EUR;22,395;Carp Zoom;Маты, сумки для хранения
+;            CZ BigCarp-N Unhooking Mat, 110x70cm (Карповый мат);2,000;CZ0641;14,93 EUR;22,395;Carp Zoom;Маты, сумки для хранения
+;            CZ BigFish F&F Weigh Sling in carrybag,(Плавающий экстра мешок для взвешивания в чехле, размер: 130x50см.);;CZ3064;22,43 EUR;33,645;Carp Zoom;Маты, сумки для хранения
+;            CZ BigFish Weigh Sling in carrybag, (Мешок для взвешивания в чехле, размер: 130x50см.);1,000;CZ3057;14,18 EUR;21,27;Carp Zoom;Маты, сумки для хранения
+;            CZ Deluxe Weigh Sling, 64x51x60cm (Садок для взвешивания, размер в сложенном виде : 64x61x2cm);6,000;CZ1963;6,68 EUR;10,02;Carp Zoom;Маты, сумки для хранения
+;            CZ Eazi Foldable Carp Cradle, 97x66x37cm (Колыбель для карпов,размер в сложенном виде : 66x51x13cm);;CZ1710;36,68 EUR;55,02;Carp Zoom;Маты, сумки для хранения
+;            CZ Foldable Carp Cradle with Zipper (45x85x20cm) (Складная карповая колыбель);1,000;CZ1062;29,93 EUR;44,895;Carp Zoom;Маты, сумки для хранения
+;            CZ Jumbo Carp Unhooking Mat, 135x90cm (Карповый мат для крупных рыб);;CZ1932;22,43 EUR;33,645;Carp Zoom;Маты, сумки для хранения
+;            CZ MASSIVE Carp Sack (Усиленный карповый мешок, размер:100x80см.);;CZ3507;4,43 EUR;6,645;Carp Zoom;Маты, сумки для хранения
+;            CZ MASSIVE Carp Sack (Усиленный карповый мешок, размер: 150x100см.);;CZ3828;6,68 EUR;10,02;Carp Zoom;Маты, сумки для хранения
+;            CZ Oval Carp Cradle, 115x55x25cm (Складная карповая колыбель);2,000;CZ0634;25,43 EUR;38,145;Carp Zoom;Маты, сумки для хранения
+;            CZ Practic-N Unhooking Mat, 90x60cm (Карповый мат);3,000;CZ0658;11,93 EUR;17,895;Carp Zoom;Маты, сумки для хранения
+;            Easy Unhooking Mat (Стандартный карповый мат, размер: 100x60см.);16,000;CZ0888;5,63 EUR;8,445;Carp Zoom;Маты, сумки для хранения
+;            Easy Weigh Sling (Стандартный мешок для взвешивания, размер100x65см.);;CZ0956;6,68 EUR;10,02;Carp Zoom;Маты, сумки для хранения
+;        09. Scales (весы электронные и механические) (Catalogue p. 95);;;;0;Carp Zoom;
+;            Foldable Handle Digital Scales, 50kg;2,000;CZ7970;14,93 EUR;22,395;Carp Zoom;Веса
+;            Practic Scales, 50kg;;CZ8281;7,28 EUR;10,92;Carp Zoom;Веса
+;            Round Mechanical (Механические весы с рулеткой, до 22-х кг.);3,000;CZ8580;2,99 EUR;4,485;Carp Zoom;Веса
+;            Scales Pouch, 14x25x5cm;4,000;CZ7949;3,89 EUR;5,835;Carp Zoom;Веса
+;        10. Bags & Carryalls (сумки) (Catalogue p. 96-97);;;;0;Carp Zoom;
+;            Carryall and Bait Bag, 40x25x33cm;;CZ7925;25,43 EUR;38,145;Carp Zoom;Cумки, рюкзаки
+;            Cool Bag, 40x26x26cm;3,000;CZ7918;14,93 EUR;22,395;Carp Zoom;Cумки, рюкзаки
+;            CZ Belt Bag (Сумка на пояс 55x15x5см.);;CZ7887;6,68 EUR;10,02;Carp Zoom;Cумки, рюкзаки
+;            CZ Boilie Fan Carryall, 62x32x33cm (Сумка рыболовная,4 боковых кармана,дно полностью водонепроницаем;;CZ1703;23,93 EUR;35,895;Carp Zoom;Cумки, рюкзаки
+;            CZ Carry-All Fishing Bag, 70x28x29cm (Сумка рыболовная);;CZ1772;20,18 EUR;30,27;Carp Zoom;Cумки, рюкзаки
+;            CZ Carryall L (Большая рыболовная сумка 47x27x31см.);66,000;CZ7757;23,93 EUR;35,895;Carp Zoom;Cумки, рюкзаки
+;            CZ Carryall XL (Экстра большая рыболовная сумка 59x27x37см.);;CZ7764;28,43 EUR;42,645;Carp Zoom;Cумки, рюкзаки
+;            CZ Feeder bag (Рыболовная наплечная сумка 40x22x12см.);1,000;CZ7894;10,43 EUR;15,645;Carp Zoom;Cумки, рюкзаки
+;            CZ Feeder bag (Фидерная сумка 55x25x50см.);3,000;CZ2203;16,43 EUR;24,645;Carp Zoom;Cумки, рюкзаки
+;            CZ Practic-All Fishing Bag, 58x23x29cm (Сумка рыболовная);;CZ1765;16,43 EUR;24,645;Carp Zoom;Cумки, рюкзаки
+;            CZ Rucksack  (Рыболовный рюкзак 70 л. 50x32x60см.);2,000;CZ7771;29,85 EUR;44,775;Carp Zoom;Cумки, рюкзаки
+;            CZ Rucksack (Рыболовный рюкзак 50 л. 34x28x56см.);;CZ7375;23,93 EUR;35,895;Carp Zoom;Cумки, рюкзаки
+;            CZ Universal Bag (Большая рыболовная сумка с термо отсеком 60x29x37см.);;CZ7702;27,68 EUR;41,52;Carp Zoom;Cумки, рюкзаки
+;            Easy bag, 40x17x28cm;;CZ7901;12,68 EUR;19,02;Carp Zoom;Cумки, рюкзаки
+;        11. Accessory Boxes (Catalogue p. 98);;;;0;Carp Zoom;Cумки, рюкзаки
+;            CZ Bait&Dip Bag (30x19x10cm) (Сумка для приманок и ароматизаторов);1,000;CZ3439;10,13 EUR;15,195;Carp Zoom;Cумки, рюкзаки
+;            CZ Hooklink box (Поводочница 34,3x6x2см.) (Поводочница);1,000;CZ1985;4,13 EUR;6,195;Carp Zoom;Поводочницы
+;            CZ Lead&Accessory Box (24x16x7,5cm) (Сумка для принадлежностей);5,000;CZ3446;7,13 EUR;10,695;Carp Zoom;Cумки, рюкзаки
+;            CZ Rig wallet (36x14x4cm) (Поводочница);;CZ3422;7,49 EUR;11,235;Carp Zoom;Поводочницы
+;            CZ Transparent Top Soft Box L (17x12x9,5cm) (Мягкая сумка с прозрачным верхом для принадлежностей);1,000;CZ3477;2,93 EUR;4,395;Carp Zoom;Cумки, рюкзаки
+;            CZ Transparent Top soft Box M (16x11,5x7cm) (Мягкая сумка с прозрачным верхом для принадлежностей);7,000;CZ3460;2,78 EUR;4,17;Carp Zoom;Cумки, рюкзаки
+;            CZ Transparent Top Soft Box S (14x11x6cm) (Мягкая сумка с прозрачным верхом для принадлежностей);5,000;CZ3453;2,63 EUR;3,945;Carp Zoom;Cумки, рюкзаки
+;        12. Bait Bags & Bucket (Catalogue p. 95);;;;0;Carp Zoom;Cумки, рюкзаки
+;            CZ Bait belt bag (Сумка-пояс для прикормок 32,5x14x21,5см);3,000;CZ3569;6,68 EUR;10,02;Carp Zoom;Cумки, рюкзаки
+;            CZ Bait carry bag (Сумка-ведро для прикормок 32x27,5см);;CZ3538;8,18 EUR;12,27;Carp Zoom;Ведра, сита
+;            CZ Groundbait Bucket (Матерчатое ведро для смешивания прикормок 40x17см);;CZ0421;7,43 EUR;11,145;Carp Zoom;Ведра, сита
+;        13. Rod Bags & Holdalls (чехлы для удилищ) (Catalogue p. 100-101);;;;0;Carp Zoom;
+;            CZ Casting Glove (Перчатки для забрасывания, универсальный размер);7,000;CZ7016;8,93 EUR;13,395;Carp Zoom;Карп - аксессуары
+;            CZ Double Rod Bag (Двойной чехол для удилищ 120x20x20см.);2,000;CZ7900;11,93 EUR;17,895;Carp Zoom;Чехлы для удилищ
+;            CZ Double Rod Bag (Двойной чехол для удилищ 140x20x20см.);;CZ7559;13,43 EUR;20,145;Carp Zoom;Чехлы для удилищ
+;            CZ Double Rod Bag (Двойной чехол для удилищ 160x20x20см.);2,000;CZ7566;14,18 EUR;21,27;Carp Zoom;Чехлы для удилищ
+;            CZ Double Rod Stiff Bag  (Чехол-тубус для 2-х удилищ-жесткий 160x17x17см);;CZ3385;22,43 EUR;33,645;Carp Zoom;Чехлы для удилищ
+;            CZ Double Rod Stiff Bag  (Чехол-тубус для 2-х удилищ-жесткий 140x17x17см);;CZ3378;20,93 EUR;31,395;Carp Zoom;Чехлы для удилищ
+;            CZ ELITE-3 Rod Holdall 12' (205x31x8cm) (Бойловый чехол для удилищ);;CZ3392;17,93 EUR;26,895;Carp Zoom;Чехлы для удилищ
+;            CZ ELITE-3 Rod Holdall 13' (215x31x8cm) (Бойловый чехол для удилищ);;CZ3408;18,68 EUR;28,02;Carp Zoom;Чехлы для удилищ
+;            CZ Finger Protector (Кожаный напальчник);8,000;CZ0414;2,93 EUR;4,395;Carp Zoom;Карп - аксессуары
+;            CZ Neoprene Finger Protector (Неопреновый напальчник для забрасывания);;CZ1529;3,23 EUR;4,845;Carp Zoom;Карп - аксессуары
+;            CZ Rod Bag (Классический чехол для удилищ 120x20x10см.);4,000;CZ7863;7,43 EUR;11,145;Carp Zoom;Чехлы для удилищ
+;            CZ Rod Bag (Классический чехол для удилищ 140x20x10см.);6,000;CZ7573;8,18 EUR;12,27;Carp Zoom;Чехлы для удилищ
+;            CZ Rod Bag (Классический чехол для удилищ 160x20x10см.);6,000;CZ7580;8,93 EUR;13,395;Carp Zoom;Чехлы для удилищ
+;            CZ Rod Holdall 12' (Профессиональный чехол для удилищ 190x30см.);2,000;CZ7917;21,68 EUR;32,52;Carp Zoom;Чехлы для удилищ
+;            CZ Rod Holdall 13' (Профессиональный чехол для удилищ 205x30см.);;CZ7603;22,43 EUR;33,645;Carp Zoom;Чехлы для удилищ
+;            CZ Rod Sleeve 12' (Мягкий чехол для удилищ 190x25см.);4,000;CZ7924;8,93 EUR;13,395;Carp Zoom;Чехлы для удилищ
+;            CZ Rod Sleeve 13' (Мягкий чехол для удилищ 205x25см.);15,000;CZ7597;9,68 EUR;14,52;Carp Zoom;Чехлы для удилищ
+;            CZ StrongHold Rod Bag, 130cm (Чехол-тубус для удилищ-жесткий,усиленное дно);;CZ1741;15,68 EUR;23,52;Carp Zoom;Чехлы для удилищ
+;            CZ StrongHold Rod Bag, 160cm (Чехол-тубус для удилищ-жесткий,усиленное дно);;CZ1758;17,18 EUR;25,77;Carp Zoom;Чехлы для удилищ
+;        14. Landing Nets (подсаки) (Catalogue p. 102-103);;;;0;Carp Zoom;
+;            CZ ALPHA-N 2 section landing net (40x40x130) (Подсак складной);;CZ0016;4,43 EUR;6,645;Carp Zoom;Подсаки
+;            CZ ALPHA-N 2 section landing net (50x50x150) (Подсак складной);;CZ0009;5,18 EUR;7,77;Carp Zoom;Подсаки
+;            CZ BETA-N 2 section landing net (50x50x150) (Подсак складной);;CZ0061;5,93 EUR;8,895;Carp Zoom;Подсаки
+;            CZ BETA-N 2 section landing net (50x50x180) (Подсак складной);;CZ0054;6,68 EUR;10,02;Carp Zoom;Подсаки
+;            CZ BETA-N 2 section landing net (50x50x220) (Подсак складной);;CZ0078;7,43 EUR;11,145;Carp Zoom;Подсаки
+;            CZ Boat Landing Net, 1 section (65x55x165) (Лодочный СКЛАДНОЙ ПОДСАК, 20мм ПРОРЕЗИНЕННАЯ ЧЕРНАЯ СЕТКА);;CZ8211;21,68 EUR;32,52;Carp Zoom;Подсаки
+;            CZ DELTA-N 2 section landing net (60x50x200cm) (Телескопический подсак);;CZ3705;9,68 EUR;14,52;Carp Zoom;Подсаки
+;            CZ DELTA-N 2 section landing net (70x60x250cm)(Телескопический подсак);;CZ3712;11,18 EUR;16,77;Carp Zoom;Подсаки
+;            CZ GAMMA 2 section landing net (50x50x170) (Телескопический подсак);73,000;CZ8129;9,43 EUR;14,145;Carp Zoom;Подсаки
+;            CZ GAMMA-N 2 section landing net (70x70x180cm) (Телескопический подсак С ЗАКРУГЛЕННЫМИ КОНЦАМИ,10мм ЧЕРНАЯ СЕТКА);;CZ3682;11,78 EUR;17,67;Carp Zoom;Подсаки
+;            CZ GAMMA-N 2 section landing net (70x70x250cm) (ТЕЛЕСКОПИЧЕСКИЙ ПОДСАК С ЗАКРУГЛЕННЫМИ КОНЦАМИ,10мм ЧЕРНАЯ СЕТКА);;CZ3699;13,28 EUR;19,92;Carp Zoom;Подсаки
+;            CZ Net Float, L (?5x16cm)  (ПОПЛАВОК ДЛЯ ПОДСАКА);9,000;CZ3071;1,94 EUR;2,91;Carp Zoom;Подсаки
+;            CZ Net Float, XL  (?9x20cm)  (ПОПЛАВОК ДЛЯ ПОДСАКА);;CZ3088;2,69 EUR;4,035;Carp Zoom;Подсаки
+;            CZ Omega 2 section landing net (70x70x210cm) (Карповый складной подсак,сильное крепление);3,000;CZ1307;19,43 EUR;29,145;Carp Zoom;Подсаки
+;            CZ Omega 2 section landing net (70x70x250cm) (Карповый складной подсак,сильное крепление);2,000;CZ1321;20,93 EUR;31,395;Carp Zoom;Подсаки
+;            CZ Practic Landing Net, 1 section (55x40x130) (ОДНОРУЧНЫЙ СКЛАДНОЙ ПОДСАК);3,000;CZ8259;11,93 EUR;17,895;Carp Zoom;Подсаки
+;            CZ XXL Gamma Landing Net, 2 section (100x100x280cm) (Подсак XXL);;CZ1406;17,18 EUR;25,77;Carp Zoom;Подсаки
+;            Foldable Landing Net, 2 sections (40x60x180) (Складывающийся подсак);;CZ0438;20,18 EUR;30,27;Carp Zoom;Подсаки
+;        15. Net Heads (головы подсак) (Catalogue p. 110);;;;0;Carp Zoom;
+;            Catfish Trap (?50x100);;CZ8403;7,43 EUR;11,145;Carp Zoom;Cадки
+;            CZ Catfish Net (?30x60) (ЛОВУШКА ДЛЯ КАНАЛЬНОГО СОМИКА);;CZ8396;3,68 EUR;5,52;Carp Zoom;Cадки
+;            CZ Feeder FCR1 Net Head (50x40x30cm) (Фидерная голова подсака,6 мм отверстие,прорезиненная,латунь ви;4,000;CZ1413;6,68 EUR;10,02;Carp Zoom;Подсаки
+;            CZ Feeder FCR2 Net Head (75x65x52cm) (Фидерная голова подсака,6 мм отверстие,прорезиненная,латунь ви;3,000;CZ1420;8,18 EUR;12,27;Carp Zoom;Подсаки
+;            CZ Landing net handle, 2 section, 2m  (ТЕЛЕСКОПИЧЕСКАЯ РУЧКА ДЛЯ ГОЛОВЫ ПОДСАКА);;CZ7351;5,18 EUR;7,77;Carp Zoom;Подсаки
+;            CZ Landing net handle, 3 sections, 3m (ТЕЛЕСКОПИЧЕСКАЯ РУЧКА ДЛЯ ГОЛОВЫ ПОДСАКА);;CZ7368;6,68 EUR;10,02;Carp Zoom;Подсаки
+;"            CZ Net Head ""BASIC"", 55x45cm (Голова подсак базовая модель)";6,000;CZ2951;4,13 EUR;6,195;Carp Zoom;Подсаки
+;"            CZ Net Head ""BASIC"", 65x55cm (Голова подсак базовая модель)";;CZ2968;4,43 EUR;6,645;Carp Zoom;Подсаки
+;"            CZ Net Head ""Fast Flow"", 56x44cm (Голова подсак быстропропускающий воду)";4,000;CZ2975;6,68 EUR;10,02;Carp Zoom;Подсаки
+;"            CZ Net Head ""GREEN"", 60x55cm (Голова подсак -зеленый)";3,000;CZ2999;7,43 EUR;11,145;Carp Zoom;Подсаки
+;"            CZ Net Head ""RED"", 56x44cm( Голова подсак-красный)";3,000;CZ2982;6,68 EUR;10,02;Carp Zoom;Подсаки
+;            CZ Net Head 1 (48x40) (ГОЛОВА ПОДСАК , 20мм МОНОФИЛЬНАЯ СЕТКА);;CZ8280;5,18 EUR;7,77;Carp Zoom;Подсаки
+;            CZ Net Head 2 (55x43) (ГОЛОВА ПОДСАК,10мм ПРОРЕЗИНЕННАЯ СЕТКА);;CZ8297;7,88 EUR;11,82;Carp Zoom;Подсаки
+;            CZ Net Head 3 (60x42) (ГОЛОВА ПОДСАК,8мм МОНОФИЛЬНАЯ СЕТКА);;CZ8273;8,18 EUR;12,27;Carp Zoom;Подсаки
+;            CZ Net Head 5 (45x40)  (ГОЛОВА ПОДСАК, 4 мм ТКАННАЯ СЕТКА);31,000;CZ8310;3,97 EUR;5,955;Carp Zoom;Подсаки
+;            CZ Pond Landing Net (?25x100) (ПОДСАК ДЛЯ ДОМАШНИХ ОЗЕР);1,000;CZ8266;2,93 EUR;4,395;Carp Zoom;Подсаки
+;        16. Keepnets (садки) (Catalogue p. 105);;;;0;Carp Zoom;
+;            Competition D Keepnet (60x45-50x40cm, 300cm) (Матерчастый садок,9 металическими кольцами( 6 колец : 60x45cm ,6 колец : 50x40cm) • Размер: 60x45 - 50x40cm , 300 см;2,000;CZ1437;23,70 EUR;35,55;Carp Zoom;Cадки
+;            CZ  StarkKeepnet, 5 section (?45x250)  (МАТЕРЧАТЫЙ САДОК С МЕТАЛИЧЕСКИМИ КОЛЬЦАМИ);3,000;CZ8341;12,68 EUR;19,02;Carp Zoom;Cадки
+;            CZ  StarkKeepnet, 6 section (?45x300)  (МАТЕРЧАТЫЙ САДОК С МЕТАЛИЧЕСКИМИ КОЛЬЦАМИ);2,000;CZ8358;14,18 EUR;21,27;Carp Zoom;Cадки
+;            CZ Competition Keepnet, 50x40cmx3m (садок для рыбы - для соревнований);1,000;CZ3040;17,18 EUR;25,77;Carp Zoom;Cадки
+;            CZ Eco-N Keepnet, 5 section (?35x140cm);;CZ0023;2,93 EUR;4,395;Carp Zoom;Cадки
+;            CZ Eco-N Keepnet, 5 section (?40x160cm);2,000;CZ0030;3,68 EUR;5,52;Carp Zoom;Cадки
+;            CZ Eco-N Keepnet, 6 section (?45x180cm);2,000;CZ0047;5,18 EUR;7,77;Carp Zoom;Cадки
+;            CZ Keepnet Bag (?55x8cm) (Сумка-чехол для садка);2,000;CZ7948;7,13 EUR;10,695;Carp Zoom;Cадки
+;            CZ Stark Keepnet, 4 section (?45x200)  (МАТЕРЧАТЫЙ САДОК С МЕТАЛИЧЕСКИМИ КОЛЬЦАМИ);1,000;CZ8334;10,43 EUR;15,645;Carp Zoom;Cадки
+;        17. Carp Landing Nets (карповые подсаки) (Catalogue p. 106-107);;;;0;Carp Zoom;
+;            Big Catch Landing Net (80x85x175cm);;CZ8410;29,93 EUR;44,895;Carp Zoom;Подсаки
+;            CZ Carp Landing Net, 1 section handle, 107x107x180cm (Карповый подсак,с одной части,6мм зеленая сетка);1,000;CZ1604;20,93 EUR;31,395;Carp Zoom;Подсаки
+;            CZ Carp Landing Net, 2 section handle, 107x107x180cm (Карповый подсак,из двух частей,6мм зеленая сетка);2,000;CZ1611;19,43 EUR;29,145;Carp Zoom;Подсаки
+;            CZ Elite Carp Landing Net 31.8m long telescopic handle, 80cm arms, reinforced nylon block, super soft and strong green mesh  ( 80x80x80 см, РУЧКА ТЕЛЕСКОПИЧЕСКАЯ,180 см,ЗЕЛЕНАЯ СЕТКА );;CZ7511;35,93 EUR;53,895;Carp Zoom;Подсаки
+;"            CZ Elite Carp Landing Net 41.8m long 1pc strong carbon composite handle; 80cm arms; reinforced nylon block, arm ends and bottom cap; super soft and strong black mesh ( 80x80x80 см,КАРБОНОВАЯ РУЧКА, ИЗ ОДНОЙ ЧАСТИ 180 см, ЧЕРНАЯ КРЕПКАЯ СЕТКА)";;CZ1534;29,85 EUR;44,775;Carp Zoom;Подсаки
+;            CZ Spare Net (107x107x90cm) (Запасная сетка на подсак);;CZ1819;4,43 EUR;6,645;Carp Zoom;Подсаки
+;        18. Rod Pods (род поды) (Catalogue p. 109-111);;;;0;Carp Zoom;
+;            Alu Rod Pod (Длина регулируется в пределах 77-121 см, вес 2,25 кг);;CZ0544;44,85 EUR;67,275;Carp Zoom;Род – поды
+;            Camou 3 rod pod;;CZ8311;73,20 EUR;109,8;Carp Zoom;Род – поды
+;            Camou 4 rod pod;;CZ8304;74,85 EUR;112,275;Carp Zoom;Род – поды
+;            CZ Anti-theft Alarm (Противоугонная сигнализация с датчиком движения для род-подов);4,000;CZ1680;8,93 EUR;13,395;Carp Zoom;Род – поды
+;            CZ Feeder Competition Side Rod Rest (Подставка для удилищ);3,000;CZ1345;25,43 EUR;38,145;Carp Zoom;Род – поды
+;            CZ Tripod  (Длина регулируется в пределах  55-159 см.);2,000;CZ0568;12,68 EUR;19,02;Carp Zoom;Род – поды
+;            Easy Rod Pod;;CZ7840;12,68 EUR;19,02;Carp Zoom;Род – поды
+;            Elite Rod Pod  (Для 4-х удилищ, длина регулируется в пределах 87-144 см, вес 3,25 кг. );2,000;CZ0551;74,93 EUR;112,395;Carp Zoom;Род – поды
+;            Fanatic 3 Rod Pod ( Длина регулируется в пределах 75-122 см, вес 3,5 кг.);;CZ0537;62,93 EUR;94,395;Carp Zoom;Род – поды
+;            Fanatic 4 Rod Pod (Для 4-х удилищ, длина регулируется в пределах 75-122 см, вес 3,5 кг.);;CZ3132;65,93 EUR;98,895;Carp Zoom;Род – поды
+;            KATIUSHA rod pod;;CZ8298;88,43 EUR;132,645;Carp Zoom;Род – поды
+;            Standard Rod Pod (Длина регулируется в пределах 76-129 см, вес 1,8 кг);2,000;CZ0520;37,43 EUR;56,145;Carp Zoom;Род – поды
+;        19. Bite Indicators (свингера) (Catalogue p. 112);;;;0;Carp Zoom;
+;            Bite Indicator L, red, yellow, green, 3pcs;7,000;CZ8120;0,38 EUR;0,57;Carp Zoom;Сигнализаторы, свингера
+;            Bite Indicator S, red, yellow, green, 3pcs;36,000;CZ8137;0,38 EUR;0,57;Carp Zoom;Сигнализаторы, свингера
+;            Bite Indicator, S04, blue (Свингер на цепочке, синий);;CZ8014;2,63 EUR;3,945;Carp Zoom;Сигнализаторы, свингера
+;            Bite Indicator, S04, green (Свингер на цепочке, зеленый);;CZ8007;2,63 EUR;3,945;Carp Zoom;Сигнализаторы, свингера
+;            Bite Indicator, S04, red (Свингер на цепочке, красный);;CZ7987;2,63 EUR;3,945;Carp Zoom;Сигнализаторы, свингера
+;            Bite Indicator, S04, yellow (Свингер на цепочке, желтый);;CZ7994;2,63 EUR;3,945;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator 2in1, S05, blue (Свингер,световая индикация-LED - синий);;CZ1116;2,99 EUR;4,485;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator 2in1, S05, green (Свингер,световая индикация-LED - зеленый);;CZ1109;2,99 EUR;4,485;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator 2in1, S05, red (Свингер,световая индикация-LED - красный);10,000;CZ1086;2,99 EUR;4,485;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator 2in1, S05, yellow (Свингер,световая индикация-LED - желтый);9,000;CZ1093;2,99 EUR;4,485;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S01, blue  (СИНИЙ , LED СВЕТИТСЯ);;CZ3537;5,93 EUR;8,895;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S01, green  (ЗЕЛЕНЫЙ , LED СВЕТИТСЯ);;CZ3520;5,93 EUR;8,895;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S01, red  (КРАСНЫЙ , LED СВЕТИТСЯ);;CZ3506;5,93 EUR;8,895;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S01, yellow (ЖЕЛТЫЙ , LED СВЕТИТСЯ);;CZ3513;5,93 EUR;8,895;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S02, blue     (СИНИЙ , LED СВЕТИТСЯ);;CZ3575;3,98 EUR;5,97;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S02, green    (ЗЕЛЕНЫЙ , LED СВЕТИТСЯ);;CZ3568;3,98 EUR;5,97;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S02, red    (КРАСНЫЙ , LED СВЕТИТСЯ);;CZ3544;3,98 EUR;5,97;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S02, yellow   (ЖЕЛТЫЙ , LED СВЕТИТСЯ);11,000;CZ3551;3,98 EUR;5,97;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S03, blue  (НА ЦЕПОЧКЕ,СИНИЙ);3,000;CZ3612;2,82 EUR;4,23;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S03, green (НА ЦЕПОЧКЕ,ЗЕЛЕНЫЙ);3,000;CZ3605;2,82 EUR;4,23;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S03, red  (НА ЦЕПОЧКЕ,КРАСНЫЙ);2,000;CZ3582;2,82 EUR;4,23;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite Indicator, S03, yellow  (НА ЦЕПОЧКЕ,ЖЕЛТЫЙ);4,000;CZ3599;2,82 EUR;4,23;Carp Zoom;Сигнализаторы, свингера
+;        20. Bank Sticks, Bite Alarm Holders, Buzz Bars (буз бар,стойки под удилища) (Catalogue p. 113);;;;0;Carp Zoom;
+;            Bank Stick 50cм (Подставка с вилкой под удилище);;CZ8627;0,66 EUR;0,99;Carp Zoom;Подставки и держатели
+;            Bank Stick 70cм (Подставка с вилкой под удилище);;CZ8634;0,74 EUR;1,11;Carp Zoom;Подставки и держатели
+;            CZ Beach Rod Holder (stainless steel), ?35x285mm (Береговой держатель удилища,нержавеющая сталь);4,000;CZ4337;2,63 EUR;3,945;Carp Zoom;Подставки и держатели
+;            CZ Black Power, 122-234cм (Телескопическая подставка -усилена);12,000;CZ3033;4,43 EUR;6,645;Carp Zoom;Подставки и держатели
+;            CZ Black Power, 38-71cм   (Телескопическая подставка -усилена);;CZ3002;2,48 EUR;3,72;Carp Zoom;Подставки и держатели
+;            CZ Black Power, 61-114cм (Телескопическая подставка -усилена);8,000;CZ3019;2,78 EUR;4,17;Carp Zoom;Подставки и держатели
+;            CZ Black Power, 76-145cм (Телескопическая подставка -усилена);5,000;CZ3026;3,38 EUR;5,07;Carp Zoom;Подставки и держатели
+;            CZ Easy Alu Buzz Bar, 2 rod, 30cm;10,000;CZ1215;2,69 EUR;4,035;Carp Zoom;Подставки и держатели
+;            CZ Easy Alu Buzz Bar, 3 rod, 40cm;14,000;CZ1222 ;2,93 EUR;4,395;Carp Zoom;Подставки и держатели
+;            CZ Strong Buzz Bar, 2 rod, 30cm;4,000;CZ1239 ;4,80 EUR;7,2;Carp Zoom;Подставки и держатели
+;            CZ Strong Buzz Bar, 3 rod, 40cm;17,000;CZ1246 ;5,24 EUR;7,86;Carp Zoom;Подставки и держатели
+;            Tele Bank Stick 55cм  (Телескопическая подставка с вилкой);;CZ8641;1,88 EUR;2,82;Carp Zoom;Подставки и держатели
+;            Tele Bank Stick 75cм  (Телескопическая подставка с вилкой);;CZ8658;2,18 EUR;3,27;Carp Zoom;Подставки и держатели
+;            Tele Electric Bait Indicator Holder 55cм (Телескопическая подставка);;CZ8665;2,39 EUR;3,585;Carp Zoom;Подставки и держатели
+;            Tele Electric Bait Indicator Holder 75cм (Телескопическая подставка);;CZ8672;2,69 EUR;4,035;Carp Zoom;Подставки и держатели
+;        21. Rod Rests & Accessories (подставки под удилища) (Catalogue p. 104);;;;0;Carp Zoom;Подставки и держатели
+;            Anti draw back rest  (Антискользящая вилка держатель);6,000;CZ1175;2,39 EUR;3,585;Carp Zoom;Подставки и держатели
+;            CZ Alarm Tilt Adapter  (Быстросъемный адаптер с возможностью изменение угла наклона);3,000;CZ7719;3,98 EUR;5,97;Carp Zoom;Подставки и держатели
+;            CZ Dip Tube Rod Rest, adjustable (14x23cm)(Подставка под фидер);10,000;CZ3798;2,22 EUR;3,33;Carp Zoom;Подставки и держатели
+;            CZ Feeder Competition Back Feeder Rod Rest, 50cm (Подставка под фидерные удилища);3,000;CZ1383;2,84 EUR;4,26;Carp Zoom;Подставки и держатели
+;            CZ Feeder Competition Front Feeder Rod Rest, 30cm (Подставка под фидерные удилища);5,000;CZ1369;2,63 EUR;3,945;Carp Zoom;Подставки и держатели
+;            CZ Feeder Competition L-Shape Rod Rest (Подставка под фидерные удилища);;CZ0146;2,93 EUR;4,395;Carp Zoom;Подставки и держатели
+;            CZ Feeder Competition V-Shape Rod Rest (Подставка под фидерные удилища);6,000;CZ0153;2,93 EUR;4,395;Carp Zoom;Подставки и держатели
+;            CZ Quick Adaptor, standard  (Быстросъемный адаптер-стандартный);7,000;CZ2050;2,78 EUR;4,17;Carp Zoom;Подставки и держатели
+;            CZ Quick Release Adaptor,small  (Быстросъемный адаптер-маленький);8,000;CZ2043;2,24 EUR;3,36;Carp Zoom;Подставки и держатели
+;            CZ Rubber Head Rod (Резиновая головка держатель под удилище);26,000;CZ7726;0,83 EUR;1,245;Carp Zoom;Подставки и держатели
+;            CZ Tube Rod rest, adjustable (Подставка под фидер);7,000;CZ3118;2,22 EUR;3,33;Carp Zoom;Подставки и держатели
+;            CZ U-Head Rod Rest  ( U - образная головка держатель под удилище);;CZ7733;0,83 EUR;1,245;Carp Zoom;Подставки и держатели
+;            CZ V-Head Rod Rest  (V - образная головка держатель под удилище);21,000;CZ7740;0,83 EUR;1,245;Carp Zoom;Подставки и держатели
+;            Feeder Rod Rest (подставка под фидер);8,000;CZ8366;4,49 EUR;6,735;Carp Zoom;Подставки и держатели
+;            Quick release adaptor  (Быстросъемный адаптер );364,000;CZ1205;2,24 EUR;3,36;Carp Zoom;Подставки и держатели
+;        22. Bite Alarms (сигнализаторы) (Catalogue p. 115-116);;;;0;Carp Zoom;
+;            6th Sense 3+1 Bite Alarm Set;;CZ7956;89,85 EUR;134,775;Carp Zoom;Сигнализаторы, свингера
+;            6th Sense 4+1 Bite Alarm Set;;CZ7963;112,43 EUR;168,645;Carp Zoom;Сигнализаторы, свингера
+;            Bite Alarm FSI (Сигнализатор поклевки);17,000;CZ7826;5,24 EUR;7,86;Carp Zoom;Сигнализаторы, свингера
+;            Bite Alarm TT-1 (Цифровой сигнализатор клева);9,000;CZ1697;4,43 EUR;6,645;Carp Zoom;Сигнализаторы, свингера
+;            Bite Alarm ZRX (Цифровой сигнализатор клева);5,000;CZ1833;7,88 EUR;11,82;Carp Zoom;Сигнализаторы, свингера
+;            CZ Bite alarm XTR (Эектронный индикатор клева, цифровой сигнализатор);;CZ3156;9,68 EUR;14,52;Carp Zoom;Сигнализаторы, свингера
+;            CZ FLAT PROF bite alarm set (Профессиональный набор электронных сигнализаторов поклевки);;CZ3125;67,43 EUR;101,145;Carp Zoom;Сигнализаторы, свингера
+;            CZ Illuminated Snag bar, blue (Фиксатор удилищ,встроенная светодиодная подсветка);5,000;CZ1598;4,43 EUR;6,645;Carp Zoom;Сигнализаторы, свингера
+;            CZ Illuminated Snag bar, green (Фиксатор удилищ,встроенная светодиодная подсветка);3,000;CZ1581;4,43 EUR;6,645;Carp Zoom;Сигнализаторы, свингера
+;            CZ Illuminated Snag bar, yellow (Фиксатор удилищ,встроенная светодиодная подсветка);7,000;CZ1574;4,43 EUR;6,645;Carp Zoom;Сигнализаторы, свингера
+;            Illuminated Snag bar, red (Фиксатор удилищ,встроенная светодиодная подсветка);9,000;CZ1567;4,43 EUR;6,645;Carp Zoom;Сигнализаторы, свингера
+;            Messenger 2+1 Bite Alarm Set (Набор цифрових сигнализаторов с пейджером 2+1,водонепроницаемый);;CZ0603;29,93 EUR;44,895;Carp Zoom;Сигнализаторы, свингера
+;            Snag Bar;13,000;CZ8021;2,18 EUR;3,27;Carp Zoom;Сигнализаторы, свингера
+;        23. Lamps, Head Lamps (лампы и фонари) (Catalogue p. 118-119);;;;0;Carp Zoom;
+;            Bivvy Lamp 24 LED (24-х диодная лампа для палатки, с магнитным креплением);95,000;CZ0734;8,24 EUR;12,36;Carp Zoom;Фонари, лампы
+;            CZ 2+1 LED Head Lamp (Фонарь на голову 2+1 - светодиодный);;CZ0758;2,69 EUR;4,035;Carp Zoom;Фонари, лампы
+;            CZ 8+2 LED Head lamp (Фонарь на голову 8+2 - светодиодный);;CZ3347;3,74 EUR;5,61;Carp Zoom;Фонари, лампы
+;            CZ Bivvy LED lamp with motion sensor (Сигнализирующая палаточная лампа с датчиком движения, и с магнитным креплением);3,000;CZ1992;9,38 EUR;14,07;Carp Zoom;Фонари, лампы
+;            CZ Night Guide 1+1 headlamp (Фонарь на голову 1+1 - светодиодный);;CZ1642;4,43 EUR;6,645;Carp Zoom;Фонари, лампы
+;            CZ Night Guide 1+4 headlamp (Фонарь на голову 4+1 - светодиодный);10,000;CZ1659;7,43 EUR;11,145;Carp Zoom;Фонари, лампы
+;            CZ ZOOM Head lamp (Фонарь на голову с линзой);3,000;CZ3354;8,78 EUR;13,17;Carp Zoom;Фонари, лампы
+;            Handy Power Lamp;4,000;CZ8229;4,43 EUR;6,645;Carp Zoom;Фонари, лампы
+;            Multifunction Power Lamp;2,000;CZ8205;17,93 EUR;26,895;Carp Zoom;Фонари, лампы
+;            Smart Bivvy Lamp;3,000;CZ8212;17,93 EUR;26,895;Carp Zoom;Фонари, лампы
+;        24. Tackle Boxes, Buckets (ящики) (Catalogue p. 115-117);;;;0;Carp Zoom;
+;            4 comp. Assortment box (4-Х СЕКЦИОННАЯ КОРОБКА, РАЗМЕР: 10x7x2см.);;CZ2578;0,53 EUR;0,795;Carp Zoom;Универсальные коробки
+;            6 comp. Assortment box (6-Х СЕКЦИОННАЯ КОРОБКА, РАЗМЕР: 10x7x2см.);3,000;CZ2592;0,59 EUR;0,885;Carp Zoom;Универсальные коробки
+;            8 comp. Assortment box (8-Х СЕКЦИОННАЯ КОРОБКА, РАЗМЕР: 10x7x2см.);2,000;CZ2585;0,59 EUR;0,885;Carp Zoom;Универсальные коробки
+;            Bait Bucket, 45 liter (Ведро для замеса прикормок, 45л.);;CZ9981;14,78 EUR;22,17;Carp Zoom;Ведра, сита
+;            Carp Accessories Box, 29x23x5cm;1,000;CZ8434;8,18 EUR;12,27;Carp Zoom;Универсальные коробки
+;            Carp Box (КАРПОВАЯ КОРОБКА, РАЗМЕР:27x20x6см.);;CZ2523;8,78 EUR;13,17;Carp Zoom;Универсальные коробки
+;            CZ Bait Bucket Lid for 18 liter bucket, green  (Кришка для 18л ведра);;CZ0506;2,78 EUR;4,17;Carp Zoom;Ведра, сита
+;            CZ Bait Bucket, 12 liter(Рыбацкие ведра для замешивания прикормок);;CZ0483;5,24 EUR;7,86;Carp Zoom;Ведра, сита

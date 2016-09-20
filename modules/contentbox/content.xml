@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<html>
+
+		<content_1>&lt;script src=&quot;//vk.com/js/api/openapi.js?121&quot;&gt;&lt;/script&gt;
+&lt;!-- VK Widget --&gt;
+&lt;div id=&quot;vk_groups&quot;&gt;&lt;/div&gt;
+&lt;script&gt;// &lt;![CDATA[
+VK.Widgets.Group(&quot;vk_groups&quot;, {mode: 0, width: &quot;270&quot;, height: &quot;200&quot;,  color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 111928645);
+// ]]&gt;&lt;/script&gt;</content_1>
+		<tab>AdminModules</tab>
+</html>

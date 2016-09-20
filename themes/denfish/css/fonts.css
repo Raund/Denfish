@@ -1,0 +1,51 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../font/RobotoRegular/RobotoRegular.eot");
+	src: url("../font/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../font/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../font/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "RobotoLight";
+	src: url("../font/RobotoLight/RobotoLight.eot");
+	src: url("../font/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+	url("../font/RobotoLight/RobotoLight.woff") format("woff"),
+	url("../font/RobotoLight/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../font/RobotoMedium/RobotoMedium.eot");
+	src: url("../font/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+	url("../font/RobotoMedium/RobotoMedium.woff") format("woff"),
+	url("../font/RobotoMedium/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../font/RobotoBold.eot");
+	src: url("../font/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../font/RobotoBold.woff") format("woff"),
+	url("../font/RobotoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "FontAwesome"; */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/fontawesome-webfont.eot');
+    src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/fontawesome-webfont.woff') format('woff'),
+    url('../font/fontawesome-webfont.ttf') format('truetype'),
+    url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }

@@ -1,0 +1,65 @@
+#opc_new_account{
+  width: 77.5%;
+  float: right;
+  padding-left: 50px;
+}
+
+/*розміщення блоку підпунктів інформації*/
+.bullet{
+  width: 300px;
+  height: 380px;
+  background: #ededed;
+  padding-top: 15px; 
+  margin-top: -10px;  
+}
+/*розміщення підпунктів інформації*/
+.bullet li{
+  padding-left: 40px;
+}
+/*стилі підпунктів інформації*/
+.bullet li:nth-child(2n){
+  font-family: "Verdana";
+  font-size: 14px;
+  color: #3f3e41;
+  margin-bottom: 25px;
+}
+/*стилі підпунктів інформації*/
+.bullet li:nth-child(2n+1){
+  font-family: "Arial";
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #00adaa;
+  font-weight: bold;
+  line-height: 21px;
+  background: url("../img/bg_reg.png") no-repeat 4% 50%;
+}
+/*стилі підпунктів інформації*/
+.bullet li:nth-child(3){
+  color: #ff0060;
+  background: url("../img/bg_reg2.png") no-repeat 4% 50%;
+}
+
+/*стилі заголовків*/
+.perevagi{
+  font-size: 20px;
+  margin-bottom: 38px;
+  color: #ff0060;
+}
+
+form.std input{
+  display: block;
+  width: 335px;
+  padding: 10px;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+form.std label{
+  float: right;
+  width: 100%;
+  color: #a0a0a0;
+  font-size: 11px;
+  text-align: right;
+  margin-right: 2px;
+}

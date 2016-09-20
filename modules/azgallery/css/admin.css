@@ -1,0 +1,60 @@
+.album_list li {
+	height:45px;
+	margin-bottom:5px;
+}
+.album_list .album_id {
+	float:left;
+	width:50px;
+	margin:0 10px 0 0;
+	line-height:45px;
+	text-align:center;
+}
+.album_list p.album_image {
+	float:left;
+	width:49px;
+	height:45px;
+	margin:0 10px 0 0;
+}
+.album_list .album_link {
+	float:left;
+	width:400px;
+	line-height:45px;
+	margin:0 10px 0 0;
+    padding-left: 40px;
+}
+.album_list .album_delete {
+	float:left;
+	padding-top:10px;
+}
+
+/* Images list */
+.image_list li {
+	height:45px;
+	margin-bottom:5px;
+}
+.image_list .image_id {
+	float:left;
+	width:50px;
+	margin:0 10px 0 0;
+	line-height:45px;
+	text-align:center;
+}
+.image_list p.image_small {
+	float:left;
+	width:49px;
+	height:45px;
+	margin:0 10px 0 0;
+}
+.image_list .image_caption {
+	float:left;
+	width:400px;
+	height:45px;
+	line-height:45px;
+	line-height:45px;
+	margin:0 10px 0 0;
+    padding-left: 40px;
+}
+.image_list .image_delete {
+	float:left;
+	padding-top:10px;
+}

@@ -1,0 +1,299 @@
+;            CZ MAXXX Boilies, 800g, 20mm, black pepper-liver (черный перец-ливер);9,000;CZ2089;4,24 EUR;6,784;Carp Zoom;Бойлы, pop-up
+;            CZ MAXXX Boilies, 800g, 20mm, pineapple-scopex (ананас - скопекс);9,000;CZ2072;4,24 EUR;6,784;Carp Zoom;Бойлы, pop-up
+;            CZ MAXXX Boilies, 800g, 20mm, spicy sausage-chilli-robin red (колбаса-специи);9,000;CZ2102;4,24 EUR;6,784;Carp Zoom;Бойлы, pop-up
+;            CZ MAXXX Boilies, 800g, 20mm, spicy squid-krill (кальмар - криль);19,000;CZ2096;4,24 EUR;6,784;Carp Zoom;Бойлы, pop-up
+;            CZ MAXXX Boilies, 800g, 20mm, strawberry-fish (клубника - рыба);9,000;CZ2065;4,24 EUR;6,784;Carp Zoom;Бойлы, pop-up
+;        42. Boilie Paste (пилящая паста для бойлов) (Catalogue p. 26);;;;0;Carp Zoom;
+;            CZ Boilie Paste, 600g, black pepper-liver (черный перец-ливер);12,000;CZ2140;2,40 EUR;3,84;Carp Zoom;Бойлы, pop-up
+;            CZ Boilie Paste, 600g, pineapple-scopex (ананас - скопекс);;CZ2133;2,40 EUR;3,84;Carp Zoom;Бойлы, pop-up
+;            CZ Boilie Paste, 600g, spicy sausage-chilli-robin red (колбаса-специи);12,000;CZ2164;2,40 EUR;3,84;Carp Zoom;Бойлы, pop-up
+;            CZ Boilie Paste, 600g, spicy squid-krill (кальмар - криль);13,000;CZ2157;2,40 EUR;3,84;Carp Zoom;Бойлы, pop-up
+;            CZ Boilie Paste, 600g, strawberry-fish (клубника - рыба);13,000;CZ2126;2,40 EUR;3,84;Carp Zoom;Бойлы, pop-up
+;        43. Weekend boilies (прикормочные бойлы) (Catalogue p. 27);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Weekend Boilies, 16&20mm, fruit mix, 10kg (фруктовая смесь);;CZ7092;28,40 EUR;45,44;Carp Zoom;Бойлы, pop-up
+;            CZ Weekend Boilies, 16&20mm, meat mix, 10kg (мясная смесь);;CZ7108;28,40 EUR;45,44;Carp Zoom;Бойлы, pop-up
+;            Weekend boilies fruit mix 16+20 mm 2500 g (фруктовая смесь);;CZ6296;7,92 EUR;12,672;Carp Zoom;Бойлы, pop-up
+;            Weekend boilies meat mix 16+20 mm 2500 g (мясная смесь);;CZ6302;6,92 EUR;11,072;Carp Zoom;Бойлы, pop-up
+;        44. High Protein Boilie Mix (бойловая смесь-основа с высоким содержанием белка) (Catalogue p. 29);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ High Protein Boilie Mix, 1 kg (насыщенная протеинами,белками бойловая смесь);6,000;CZ4856;2,39 EUR;3,824;Carp Zoom;Бойлы, pop-up
+;        45. Hand Made Boilies (бойлы ручной работы);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Hand Made Boilies, 16mm, 400g, Power Gammarus (гаммарус-рак);319,000;CZ6354;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ Hand Made Boilies, 16mm, 400g, Power Pellets (микропеллетсы);151,000;CZ6347;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ Hand Made Boilies, 20mm, 400g, Power Gammarus (гаммарус-рак);;CZ9003;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ Hand Made Boilies, 20mm, 400g, Power Pellets (микропеллетсы);212,000;CZ8990;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ Hand Made Boilies, 28mm, 400g, Power Gammarus (гаммарус-рак);538,000;CZ9027;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ Hand Made Boilies, 28mm, 400g, Power Pellets (микропеллетсы);552,000;CZ9010;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;        46. Spice Bomb (бойлы со специями);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Spice Bomb Boilies, 16mm, 400g, Hot Bomb (вибух специ-бойлы);36,000;CZ6088;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ Spice Bomb Boilies, 20mm, 400g, Hot Bomb (вибух специ-бойлы);262,000;CZ8822;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ Spice Bomb Boilies, 28mm, 400g, Hot Bomb (вибух специ-бойлы);380,000;CZ8525;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;        47. XXL Carp (большие бойлы для карпов);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ XXL Carp Boilies, 30mm, 500g, lobster-tigernut (омар-тигровый орех);433,000;CZ8921;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ XXL Carp Boilies, 30mm, 500g, squid-wild cherry (кальмар-дикая вишня);453,000;CZ8914;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;            CZ XXL Carp Boilies, 30mm, 500g, strawberry-liver (клубника-печень);384,000;CZ8907;1,65 EUR;2,64;Carp Zoom;Бойлы, pop-up
+;        48. Boilie Liquid Aroma (ликвид для изготовление бойлов, можно варить) (Catalogue p. 30);;;;0;Carp Zoom;
+;            CZ Liquid Boilie Aroma, 50ml, banana (банан);5,000;CZ6149;3,00 EUR;4,8;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, GLM (зелено губая ракушка);8,000;CZ6224;3,00 EUR;4,8;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, liver (печень);;CZ6200;4,63 EUR;7,408;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, mango (манго);4,000;CZ6163;3,00 EUR;4,8;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, monster crab  (гигантский краб);;CZ6194;4,63 EUR;7,408;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, pineapple (ананас);;CZ6156;3,00 EUR;4,8;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, smoked sausage (копченая колбаса);2,000;CZ6170;3,00 EUR;4,8;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, spice mix (микс из специй);;CZ6187;3,00 EUR;4,8;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, squid-octopus  (кальмар-осьминог);;CZ6217;3,00 EUR;4,8;Carp Zoom;Добавки
+;            CZ Liquid Boilie Aroma, 50ml, strawberry (клубника);1,000;CZ6132;3,00 EUR;4,8;Carp Zoom;Добавки
+;        49. Fanatic Boilie Mix (бойловый микс премиум-класса для изготовление бойлов) (Catalogue p. 30);;;;0;Carp Zoom;Добавки
+;            CZ Boilie Mix, 3kg, crazy fish  (бешеная рыба);3,000;CZ6101;9,92 EUR;15,872;Carp Zoom;Добавки
+;            CZ Boilie Mix, 3kg, hell spice (адсткие специи);10,000;CZ6125;9,92 EUR;15,872;Carp Zoom;Добавки
+;            CZ Boilie Mix, 3kg, robin red (перец-специи );9,000;CZ6095;9,92 EUR;15,872;Carp Zoom;Добавки
+;            CZ Boilie Mix, 3kg, sweet cream (сливки);15,000;CZ6118;9,92 EUR;15,872;Carp Zoom;Добавки
+;        50. Fire Shot Hookable Baits 16мм (насадочные бойлы) (Catalogue p. 31);;;;0;Carp Zoom;
+;            Fire Shot Hook Baits Boilie Honey 120g   (мед);26,000;CZ8160;0,90 EUR;1,44;Carp Zoom;Бойлы, pop-up
+;            Fire Shot Hook Baits Boilie Monster Crab 120g  (гигантский краб);36,000;CZ8184;0,90 EUR;1,44;Carp Zoom;Бойлы, pop-up
+;            Fire Shot Hook Baits Boilie Mussel 120g  (ракушка,мидия);;CZ8207;0,90 EUR;1,44;Carp Zoom;Бойлы, pop-up
+;            Fire Shot Hook Baits Boilie Pineapple 120g (ананас);37,000;CZ8177;0,90 EUR;1,44;Carp Zoom;Бойлы, pop-up
+;            Fire Shot Hook Baits Boilie Squid-Octopus 120g  (кальмар-осьминог);;CZ8191;0,90 EUR;1,44;Carp Zoom;Бойлы, pop-up
+;            Fire Shot Hook Baits Boilie Strawberry 120g    (клубника);25,000;CZ8153;0,90 EUR;1,44;Carp Zoom;Бойлы, pop-up
+;        51. Carp Barrel & Mega Barrel (бочковидные бойлы);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Carp Barrel, 20mm, 110g, banana-hemp (банан-конопляное семя);1 228,000;CZ8730;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Carp Barrel, 20mm, 110g, mexicano (мексиканские специи);897,000;CZ8754;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Carp Barrel, 20mm, 110g, pineapple-squid (ананас-кальмар);1 343,000;CZ8747;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Carp Barrel, 20mm, 110g, robin red (перец-специи );977,000;CZ8716;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Carp Barrel, 20mm, 110g, wild cherry (дикая черешня);855,000;CZ8723;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Mega Barrel, 30mm, 230g, banana-hemp (банан-конопляное семя);1 429,000;CZ8792;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Mega Barrel, 30mm, 230g, mexicano (мексиканские специи);1 428,000;CZ8815;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Mega Barrel, 30mm, 230g, pineapple-squid (ананас-кальмар);1 455,000;CZ8808;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Mega Barrel, 30mm, 230g, robin red (перец-специи );1 450,000;CZ8778;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Mega Barrel, 30mm, 230g, strawberry-fish (клубника-рыба );1 392,000;CZ8761;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;            CZ Mega Barrel, 30mm, 230g, wild cherry (дикая черешня);1 412,000;CZ8785;0,99 EUR;1,584;Carp Zoom;Бойлы, pop-up
+;        52. Mini Boilies 10мм  (мини бойлы) (Catalogue p. 31);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, Banana-Hemp, 150g 10мм. (банан-конопляное семя);;CZ2318;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, GLM, 150g 10мм. (зелено губая ракушка,мидия);;CZ2295;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, Honey, 150g 10мм. (мед);55,000;CZ2288;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, Pineapple-Squid, 150g 10мм. (ананас-кальмар);;CZ2271;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, Scopex-Tigernuts, 150g 10мм. (скопекс-тигровый орех);;CZ2301;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, Strawberry, 150g 10мм. (клубника);50,000;CZ2264;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, Sweat Corn, 150g 10мм.  (сладкая кукуруза);;CZ2257;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;            CZ Mini Boilies, Vanilla, 150g 10мм. (ваниль);;CZ4658;1,27 EUR;2,032;Carp Zoom;Бойлы, pop-up
+;        53. Duo Hook Boilies (комбинированные бойлы с двойным вкусом) (Catalogue p. 32);;;;0;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16 mm, 110g, banana-liver (двухцветные бойлы, банан-печень);;CZ5303;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16 mm, 110g, Robin Red-Black Pepper (двухцветные бойлы, робин ред острые специи-черный перец);;CZ5259;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16&20mm, 110g, banana-liver (банан-печень);13,000;CZ9745;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16&20mm, 110g, choco-vanilla (шоколад-ваниль);;CZ9714;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16&20mm, 110g, hot spice-garlic (острые специи-чеснок);6,000;CZ9752;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16&20mm, 110g, pineapple-squid (ананас-кальмар);3,000;CZ9738;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16&20mm, 110g, plum-octopus  (слива-осьминог,кальмар);;CZ9721;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16&20mm, 110g, robin red-black pepper (робин ред острые специи-черный перец);;CZ9691;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;            Duo Hook Boilies, 16&20mm, 110g, strawberry-fish (клубника-рыба);;CZ9707;1,52 EUR;2,432;Carp Zoom;Бойлы, pop-up
+;        54. Balanced Boilie (балансировочные бойли);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Balanced Boilie, GLM, 100g (зеленогубая мидия);528,000;CZ0369;1,12 EUR;1,792;Carp Zoom;Бойлы, pop-up
+;            CZ Balanced Boilie, Hot Spicy, 100g (острые специи);516,000;CZ0376;1,12 EUR;1,792;Carp Zoom;Бойлы, pop-up
+;            CZ Balanced Boilie, Pineapple-Squid, 100g (ананас-кальмар);313,000;CZ0352;1,12 EUR;1,792;Carp Zoom;Бойлы, pop-up
+;            CZ Balanced Boilie, Scopex-Tigernuts, 100g (скопекс-тигровый орех);142,000;CZ0338;1,12 EUR;1,792;Carp Zoom;Бойлы, pop-up
+;        55. Duo Pop Ups (комбинированные бойлы с двойным вкусом-плавающие) (Catalogue p. 32);;;;0;Carp Zoom;Бойлы, pop-up
+;            Duo Pop Ups, 12&16mm, 65g, banana-liver (банан-печень);;CZ9813;2,42 EUR;3,872;Carp Zoom;Бойлы, pop-up
+;            Duo Pop Ups, 12&16mm, 65g, choco-vanilla (шоколад-ваниль);32,000;CZ9783;2,42 EUR;3,872;Carp Zoom;Бойлы, pop-up
+;            Duo Pop Ups, 12&16mm, 65g, hot spice-garlic (острые специи-чеснок);24,000;CZ9820;2,42 EUR;3,872;Carp Zoom;Бойлы, pop-up
+;            Duo Pop Ups, 12&16mm, 65g, pineapple-squid (ананас-кальмар);31,000;CZ9806;2,42 EUR;3,872;Carp Zoom;Бойлы, pop-up
+;            Duo Pop Ups, 12&16mm, 65g, plum-octopus (слива-осьминог,кальмар);28,000;CZ9790;2,42 EUR;3,872;Carp Zoom;Бойлы, pop-up
+;            Duo Pop Ups, 12&16mm, 65g, robin red-black pepper (робин ред острые специи-черный перец);4,000;CZ9769;2,42 EUR;3,872;Carp Zoom;Бойлы, pop-up
+;            Duo Pop Ups, 12&16mm, 65g, strawberry-fish (клубника-рыба);31,000;CZ9776;2,42 EUR;3,872;Carp Zoom;Бойлы, pop-up
+;        56. Coated Boilie (пылящие бойлы с покрытием);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Coated Boilie, Hot Spicy, 100g (острые специи);502,000;CZ0420;1,16 EUR;1,856;Carp Zoom;Бойлы, pop-up
+;            CZ Coated Boilie, Monster Crab, 100g (гигантский краб);591,000;CZ0406;1,16 EUR;1,856;Carp Zoom;Бойлы, pop-up
+;            CZ Coated Boilie, Pineapple-Squid, 100g (ананас-кальмар);280,000;CZ0413;1,16 EUR;1,856;Carp Zoom;Бойлы, pop-up
+;            CZ Coated Boilie, Scopex, 100g (скопекс);573,000;CZ0390;1,16 EUR;1,856;Carp Zoom;Бойлы, pop-up
+;            CZ Coated Boilie, Strawberry, 100g (клубника);213,000;CZ0383;1,16 EUR;1,856;Carp Zoom;Бойлы, pop-up
+;        57. Mini Pop Ups 10мм  (мини бойлы-плавающие) (Catalogue p. 33);;;;0;Carp Zoom;Бойлы, pop-up
+;            Mini Pop Ups, Crab-Mussel e120g   10мм. (краб-мидия);7,000;CZ7514;3,19 EUR;5,104;Carp Zoom;Бойлы, pop-up
+;            Mini Pop Ups, GLM e120g     10мм. (зелено губая ракушка);145,000;CZ7507;2,79 EUR;4,464;Carp Zoom;Бойлы, pop-up
+;            Mini Pop Ups, Honey e120g  10мм.  (мед);30,000;CZ7477;3,19 EUR;5,104;Carp Zoom;Бойлы, pop-up
+;            Mini Pop Ups, Scopex e120g  10мм.  (скопекс);135,000;CZ7491;2,79 EUR;4,464;Carp Zoom;Бойлы, pop-up
+;            Mini Pop Ups, Strawberry e120g 10мм.  (клубника);37,000;CZ7460;3,19 EUR;5,104;Carp Zoom;Бойлы, pop-up
+;            Mini Pop Ups, Sweet Corn e120g 10мм. (сладкая какуруза);;CZ7484;3,19 EUR;5,104;Carp Zoom;Бойлы, pop-up
+;            Mini Pop Ups, Vanilla e120g 10мм. (ваниль);69,000;CZ4399;3,19 EUR;5,104;Carp Zoom;Бойлы, pop-up
+;        58. Pop Ups 16мм (плавающие бойлы,насадочные ) (Catalogue p. 33);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Banana-Hemp, 100g 16мм. (банан-конопляное семя);22,000;CZ0277;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, GLM, 100g 16мм. (зелено губая ракушка,мидия);36,000;CZ0246;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Honey, 100g 16мм. (мед);;CZ0253;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Hot Spicy, 100g 16мм. (острые специи);26,000;CZ0314;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Monster Crab, 100g 16мм. (гигантский краб);28,000;CZ0291;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Pineapple-Squid, 100g 16мм. (ананас-кальмар);39,000;CZ0307;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Scopex-Tigernuts, 100g  16мм. (скопекс-тигровый орех);12,000;CZ0284;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Scopex, 100g 16мм. (скопекс);44,000;CZ0260;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Strawberry, 100g 16мм. (клубника);21,000;CZ0222;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Sweet Corn, 100g 16мм.  (сладкая кукуруза);21,000;CZ0239;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;            CZ Pop Ups, Vanilla, 100g 16мм. (ваниль);;CZ4405;2,07 EUR;3,312;Carp Zoom;Бойлы, pop-up
+;        59. Fluo Pop Ups (плавающие насадочные  бойлы-флуоресцентные) (Catalogue p. 34);;;;0;Carp Zoom;Бойлы, pop-up
+;            CZ FLUO Pop Ups Green, GLM, 16mm, 100g (зелено губая ракушка,мидия);33,000;CZ0178;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            CZ FLUO Pop Ups Orange, Tropical Fruits, 16mm,100g(тропические фрукты);19,000;CZ0161;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            CZ FLUO Pop Ups Red, Strawberry-Fish, 16mm, 100g  (клубника-рыба);11,000;CZ0147;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            CZ FLUO Pop Ups White, Pineapple-Squid, 16mm, 100g (ананас-кальмар);30,000;CZ0185;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            CZ FLUO Pop Ups Yellow, Banana-Sweet Corn,16mm,100g(банан-кукуруза);16,000;CZ0154;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            CZ Fluo Pop Ups, 10mm, 100g, colour mix (цветной микс - без вкусовых добавок);14,000;CZ6279;3,99 EUR;6,384;Carp Zoom;Бойлы, pop-up
+;            CZ Fluo Pop Ups, 10mm, 100g, green (зеленый - без вкусовых добавок);16,000;CZ6262;3,99 EUR;6,384;Carp Zoom;Бойлы, pop-up
+;            CZ Fluo Pop Ups, 10mm, 100g, red (красный - без вкусовых добавок);20,000;CZ6248;3,99 EUR;6,384;Carp Zoom;Бойлы, pop-up
+;            CZ Fluo Pop Ups, 10mm, 100g, white (белый - без вкусовых добавок);22,000;CZ6231;3,99 EUR;6,384;Carp Zoom;Бойлы, pop-up
+;            CZ Fluo Pop Ups, 10mm, 100g, yellow (желтый - без вкусовых добавок);17,000;CZ6255;3,99 EUR;6,384;Carp Zoom;Бойлы, pop-up
+;        60. Soft Pop Ups (плавающие мягкие насадки) (Catalogue p. 34);;;;0;Carp Zoom;Бойлы, pop-up
+;            Soft Pop Ups, 8&10&12mm, 70g, fish-halibut (рыба-палтус);36,000;CZ0669;2,26 EUR;3,616;Carp Zoom;Бойлы, pop-up
+;            Soft Pop Ups, 8&10&12mm, 70g, monster crab (гигантский краб);12,000;CZ0676;2,26 EUR;3,616;Carp Zoom;Бойлы, pop-up
+;            Soft Pop Ups, 8&10&12mm, 70g, pineapple (ананас);30,000;CZ0621;2,26 EUR;3,616;Carp Zoom;Бойлы, pop-up
+;            Soft Pop Ups, 8&10&12mm, 70g, red fruit mix (красный, фруктовый микс);25,000;CZ0638;2,26 EUR;3,616;Carp Zoom;Бойлы, pop-up
+;            Soft Pop Ups, 8&10&12mm, 70g, spice mix (смесь специй);23,000;CZ0652;2,26 EUR;3,616;Carp Zoom;Бойлы, pop-up
+;            Soft Pop Ups, 8&10&12mm, 70g, strawberry (клубника);38,000;CZ0614;2,26 EUR;3,616;Carp Zoom;Бойлы, pop-up
+;            Soft Pop Ups, 8&10&12mm, 70g, yellow fruit mix (желтый, фруктовый микс);23,000;CZ0645;2,26 EUR;3,616;Carp Zoom;Бойлы, pop-up
+;        61. Feeder Fizz Tablets (фидерные пилящие таблетки) (Catalogue p. 35);;;;0;Carp Zoom;
+;            Feeder Competition Feeder Fizz Tablets, 100g, cheese (сыр);58,000;CZ1808;2,74 EUR;4,384;Carp Zoom;Добавки
+;            Feeder Competition Feeder Fizz Tablets, 100g, fish mix (рыбный микс);56,000;CZ1815;2,74 EUR;4,384;Carp Zoom;Добавки
+;            Feeder Competition Feeder Fizz Tablets, 100g, pineapple (ананас);54,000;CZ1822;2,74 EUR;4,384;Carp Zoom;Добавки
+;            Feeder Competition Feeder Fizz Tablets, 100g, spicy garlic (чеснок);33,000;CZ1839;2,74 EUR;4,384;Carp Zoom;Добавки
+;            Feeder Competition Feeder Fizz Tablets, 100g, strawberry (клубника);35,000;CZ1792;2,74 EUR;4,384;Carp Zoom;Добавки
+;        62. Feeder Boilies (фидерные насадочные бойлы) (Catalogue p. 36);;;;0;Carp Zoom;
+;            Feeder Competition Feeder Boilies, 8mm, 85g, fish-halibut (рыба-палтус);71,000;CZ0898;1,71 EUR;2,736;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Feeder Boilies, 8mm, 85g, garlic (чеснок);;CZ0874;1,71 EUR;2,736;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Feeder Boilies, 8mm, 85g, honey (мед);36,000;CZ0850;1,71 EUR;2,736;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Feeder Boilies, 8mm, 85g, hot pepper (острый перец);36,000;CZ0881;1,71 EUR;2,736;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Feeder Boilies, 8mm, 85g, pineapple (ананас);43,000;CZ0867;1,71 EUR;2,736;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Feeder Boilies, 8mm, 85g, strawberry (клубника);1,000;CZ0836;1,71 EUR;2,736;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Feeder Boilies, 8mm, 85g, vanilla (ваниль);36,000;CZ0843;1,71 EUR;2,736;Carp Zoom;Бойлы, pop-up
+;        63. Pre-Drilled Feeder Boilies (фидерные насадочные бойлы-перфорированные) (Catalogue p. 36);;;;0;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Pre-drilled Feeder Boilies, 9mm, 85g, exotic fruits (с дыркой, экзотические фрукт;34,000;CZ0805;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Pre-drilled Feeder Boilies, 9mm, 85g, pineapple (с дыркой, ананас);26,000;CZ0799;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Pre-drilled Feeder Boilies, 9mm, 85g, robin red (с дыркой, перец робин ред);24,000;CZ0812;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Pre-drilled Feeder Boilies, 9mm, 85g, squid-octopus (с дыркой, кальмар-осьминог);24,000;CZ0829;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Pre-drilled Feeder Boilies, 9mm, 85g, strawberry (с дыркой, клубника);28,000;CZ0775;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;            Feeder Competition Pre-drilled Feeder Boilies, 9mm, 85g, vanilla (с дыркой, ваниль);29,000;CZ0782;3,20 EUR;5,12;Carp Zoom;Бойлы, pop-up
+;        64. Feeder Soft Hookers (фидерный насадочный пеллетс) (Catalogue p. 37);;;;0;Carp Zoom;
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, banana (банан);16,000;CZ0928;1,72 EUR;2,752;Carp Zoom;Наживка
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, fish-halibut (рыба-палтус);11,000;CZ0966;1,72 EUR;2,752;Carp Zoom;Наживка
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, garlic (чеснок);27,000;CZ0942;1,72 EUR;2,752;Carp Zoom;Наживка
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, honey (мед);23,000;CZ0911;1,72 EUR;2,752;Carp Zoom;Наживка
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, monster crab (гигантский краб);11,000;CZ0973;1,72 EUR;2,752;Carp Zoom;Наживка
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, scopex-tigernuts (скопекс-тигровый орех);19,000;CZ0935;1,72 EUR;2,752;Carp Zoom;Наживка
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, spice mix (смесь специй);14,000;CZ0959;1,72 EUR;2,752;Carp Zoom;Наживка
+;            Feeder Competition Feeder Soft Hookers, 8&10mm, 90g, strawberry (клубника);;CZ0904;1,72 EUR;2,752;Carp Zoom;Наживка
+;        65. Sweet Feeder Dip (фидерный дип) (Catalogue p. 37);;;;0;Carp Zoom;
+;            Feeder Competition Sweet Feeder Dip, 80ml, caramel (карамель);35,000;CZ0737;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet cinnamon & plum;47,000;CZ0720;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet clove;25,000;CZ0751;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet fish (сладкая рыба);32,000;CZ0768;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet honey (сладкий мед);16,000;CZ0690;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet punch;24,000;CZ0713;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet spicy (сладкие специи);33,000;CZ0744;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet strawberry (сладкая клубника);9,000;CZ0683;1,78 EUR;2,848;Carp Zoom;Дипы
+;            Feeder Competition Sweet Feeder Dip, 80ml, sweet vanilla (сладкая ваниль);13,000;CZ0706;1,78 EUR;2,848;Carp Zoom;Дипы
+;        66. Feeder Halibut Pellets (фидерный пеллетс-халибут ) (Catalogue p. 38);;;;0;Carp Zoom;
+;            Feeder Competition Feeder Halibut Pellets, 2,0mm, 380g (фидерный пеллетс-халибут);7,000;CZ1648;1,41 EUR;2,256;Carp Zoom;Pellets
+;            Feeder Competition Feeder Halibut Pellets, 3,0mm, 380g (фидерный пеллетс-халибут);9,000;CZ1655;1,41 EUR;2,256;Carp Zoom;Pellets
+;            Feeder Competition Feeder Halibut Pellets, 4,5mm, 380g (фидерный пеллетс-халибут);12,000;CZ1662;1,41 EUR;2,256;Carp Zoom;Pellets
+;        67. Attractor Feeder Pellets (фидерный пеллетс-халибут , ароматизированный) (Catalogue p. 38);;;;0;Carp Zoom;Pellets
+;            Feeder Competition Attractor Feeder Pellets, 3,0mm, 320g, colour mix (микс);12,000;CZ1709;1,57 EUR;2,512;Carp Zoom;Pellets
+;            Feeder Competition Attractor Feeder Pellets, 3,0mm, 320g, red strawberry (клубника);11,000;CZ1679;1,57 EUR;2,512;Carp Zoom;Pellets
+;            Feeder Competition Attractor Feeder Pellets, 3,0mm, 320g, spicy cinnamon (корица);12,000;CZ1693;1,57 EUR;2,512;Carp Zoom;Pellets
+;            Feeder Competition Attractor Feeder Pellets, 3,0mm, 320g, yellow pineapple (ананас);11,000;CZ1686;1,57 EUR;2,512;Carp Zoom;Pellets
+;        68. Magic Method Paste (фидерная паста - метод) (Catalogue p. 39);;;;0;Carp Zoom;
+;            Feeder Competition Magic Method Paste, 350g, pineapple (ананас);17,000;CZ1723;1,91 EUR;3,056;Carp Zoom;Прикормки
+;            Feeder Competition Magic Method Paste, 350g, spicy (острые специи);17,000;CZ1730;1,91 EUR;3,056;Carp Zoom;Прикормки
+;            Feeder Competition Magic Method Paste, 350g, strawberry (клубника);12,000;CZ1716;1,91 EUR;3,056;Carp Zoom;Прикормки
+;        69. Method Attractor (методный аттрактант) (Catalogue p. 39);;;;0;Carp Zoom;
+;            Feeder Competition Method Attractor, 50ml, fish-halibut (рыба-халибут);43,000;CZ1976;0,79 EUR;1,264;Carp Zoom;Добавки
+;            Feeder Competition Method Attractor, 50ml, garlic (чеснок);34,000;CZ1969;0,79 EUR;1,264;Carp Zoom;Добавки
+;            Feeder Competition Method Attractor, 50ml, honey (мед);51,000;CZ1921;0,79 EUR;1,264;Carp Zoom;Добавки
+;            Feeder Competition Method Attractor, 50ml, pineapple (ананас);34,000;CZ1938;0,79 EUR;1,264;Carp Zoom;Добавки
+;            Feeder Competition Method Attractor, 50ml, spicy (специи);9,000;CZ1952;0,79 EUR;1,264;Carp Zoom;Добавки
+;            Feeder Competition Method Attractor, 50ml, strawberry (клубника);33,000;CZ1914;0,79 EUR;1,264;Carp Zoom;Добавки
+;            Feeder Competition Method Attractor, 50ml, sweet fruits (сладкие фрукты);23,000;CZ1945;0,79 EUR;1,264;Carp Zoom;Добавки
+;        70. Trout Attac - Floating (плавающая паста);;;;0;Carp Zoom;
+;            Trout Attac, 50g, Black Flash  (Плавающее тесто на Форель-Черное);13,000;100545;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Trout Attac, 50g, Forelli  (Плавающее тесто на Форель-Коричневое);10,000;100550;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Trout Attac, 50g, Green Flash (Плавающее тесто на Форель-Зеленое);12,000;100522;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Trout Attac, 50g, Orange Flash (Плавающее тесто на Форель-Оранжевое);13,000;100515;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Trout Attac, 50g, Red Flash (Плавающее тесто на Форель-Красное);8,000;100520;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Trout Attac, 50g, White Flash (Плавающее тесто на Форель-Белое);11,000;100505;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Trout Attac, 50g, Yellow Flash (Плавающее тесто на Форель-Желтое);10,000;100510;2,39 EUR;3,824;Carp Zoom;Наживка
+;        71. Hook Paste (насадочная паста на крючок) (Catalogue p. 40);;;;0;Carp Zoom;Наживка
+;            Hook Paste, 170g, garlic (чеснок);19,000;CZ1884;1,59 EUR;2,544;Carp Zoom;Наживка
+;            Hook Paste, 170g, honey (мед);19,000;CZ1853;1,59 EUR;2,544;Carp Zoom;Наживка
+;            Hook Paste, 170g, liver (ливер);8,000;CZ1891;1,59 EUR;2,544;Carp Zoom;Наживка
+;            Hook Paste, 170g, octopus (осьминог);18,000;CZ1907;1,59 EUR;2,544;Carp Zoom;Наживка
+;            Hook Paste, 170g, pineapple (ананас)Hook Paste, 170g, pineapple (ананас);6,000;CZ1877;1,59 EUR;2,544;Carp Zoom;Наживка
+;            Hook Paste, 170g, strawberry (клубника);10,000;CZ1846;1,59 EUR;2,544;Carp Zoom;Наживка
+;            Hook Paste, 170g, vanilla (ваниль);15,000;CZ1860;1,59 EUR;2,544;Carp Zoom;Наживка
+;        72. Rice (воздушный рис) (Catalogue p. 40);;;;0;Carp Zoom;Наживка
+;            CZ Rice, 25g, honey (мед);27,000;CZ6293;0,88 EUR;1,408;Carp Zoom;Наживка
+;            CZ Rice, 25g, natural (натуральный);17,000;CZ6286;0,88 EUR;1,408;Carp Zoom;Наживка
+;            CZ Rice, 25g, vanilla (ваниль);26,000;CZ6309;0,88 EUR;1,408;Carp Zoom;Наживка
+;        73. Wheat (воздушная пшеница) (Catalogue p. 40);;;;0;Carp Zoom;Наживка
+;            CZ Wheat, 15g, carpex;22,000;CZ6316;0,88 EUR;1,408;Carp Zoom;Наживка
+;            CZ Wheat, 15g, honey (мед);7,000;CZ6323;0,88 EUR;1,408;Carp Zoom;Наживка
+;            CZ Wheat, 15g, vanilla (ваниль);6,000;CZ6330;0,88 EUR;1,408;Carp Zoom;Наживка
+;        74. Natural Corn Floaters (воздушная кукуруза) (Catalogue p. 41);;;;0;Carp Zoom;Наживка
+;            CZ Natural Corn Floaters, Honey, 30g (мед);1,000;CZ0536;0,63 EUR;1,008;Carp Zoom;Наживка
+;            CZ Natural Corn Floaters, Natural, 30g (натуральная);;CZ0550;0,63 EUR;1,008;Carp Zoom;Наживка
+;            CZ Natural Corn Floaters, Strawberry, 30g (клубника);4,000;CZ0543;0,63 EUR;1,008;Carp Zoom;Наживка
+;        75. Natural Pellet Floaters (натуральное воздушное тесто-Пуфик ) (Catalogue p. 41);;;;0;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Midi Garlic, 30g (размер-средний - чеснок);6 861,000;CZ2265;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Midi Honey, 30g (размер-средний - мед);6,000;CZ0598;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Midi Mussel, 30g (размер-средний - ракушка);;CZ8518;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Midi Strawberry, 30g (размер-средний - клубника);53,000;CZ0604;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Midi Vanilla, 30g  (размер-средний - ваниль);;CZ0611;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Mini Garlic, 30g (размер-маленький - чеснок);3 549,000;CZ2258;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Mini Honey, 30g (размер-маленький - мед);;CZ0567;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Mini Mussel, 30g (размер-маленький - ракушка);;CZ8501;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Mini Strawberry,30g (размер-маленький-клубника);;CZ0574;0,69 EUR;1,104;Carp Zoom;Наживка
+;            CZ Natural Pellet Floaters, Mini Vanilla, 30g (размер-маленький - ваниль);123,000;CZ0581;0,69 EUR;1,104;Carp Zoom;Наживка
+;        76. Aroma Plus (ароматизированный порошок для прикормки) (Catalogue p. 42);;;;0;Carp Zoom;
+;            CZ Aroma Plus Groundbait Additive, Banana, 100g (банан);68,000;CZ2417;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Caramel, 100g (карамель);1,000;CZ2400;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Cheese, 100g (сыр);;CZ2394;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Coco, 100g (кокос);45,000;CZ2448;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Fruit Mix, 100g (фруктовый микс);50,000;CZ2431;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Honey, 100g (мед);;CZ2363;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Pineapple, 100g (ананас);40,000;CZ2387;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Spice, 100g (специи);18,000;CZ2424;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Strawberry, 100g (клубника);;CZ2356;0,65 EUR;1,04;Carp Zoom;Добавки
+;            CZ Aroma Plus Groundbait Additive, Vanilla, 100g (ваниль);;CZ2370;0,65 EUR;1,04;Carp Zoom;Добавки
+;        77. Aroma Additive (ароматизированный порошок для прикормки) (Catalogue p. 42);;;;0;Carp Zoom;Добавки
+;            Aroma Additive, big carp spicy, 250g  (со специями);27,000;CZ5596;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, bream - caramel, 250g (карамель);38,000;CZ5541;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, cheese - parmesan, 250g (сыр пармезан-Parmigiano);;CZ5558;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, feeder, 250g (фидер);16,000;CZ5602;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, fish-meat, 250g (рыба-мясо);;CZ8556;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, honey, 250g (мед);3,000;CZ5510;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, raspberry, 250g (малина);;CZ8549;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, roach, 250g (плотва);68,000;CZ5589;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, strawberry, 250g (клубника);15,000;CZ5527;1,11 EUR;1,776;Carp Zoom;Добавки
+;            Aroma Additive, vanilla, 250g (ваниль);;CZ5534;1,11 EUR;1,776;Carp Zoom;Добавки
+;        78. CSL Turbo (турбо соус на основе курузных рылец) (Catalogue p. 43);;;;0;Carp Zoom;Добавки
+;            CSL Turbo Sauce, 500 ml, fish-meat (турбо соус, рыба-мясо);19,000;CZ4870;2,80 EUR;4,48;Carp Zoom;Добавки
+;            CSL Turbo Sauce, 500 ml, hot spice (турбо соус, острые специи);6,000;CZ4894;2,80 EUR;4,48;Carp Zoom;Добавки
+;            CSL Turbo Sauce, 500 ml, strawberry-fish (турбо соус, клубника-рыба);34,000;CZ4863;2,80 EUR;4,48;Carp Zoom;Добавки
+;            CSL Turbo Sauce, 500 ml,fruit coctail (турбо соус, фруктовый коктейль);34,000;CZ4887;2,80 EUR;4,48;Carp Zoom;Добавки
+;        79. Express Attractor (житкий аттрактант) (Catalogue p. 43);;;;0;Carp Zoom;Добавки
+;            Express Attractor, Crab-Mussel, 50 ml (краб-ракушка);3,000;CZ7521;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Feeder, 50 ml  (фидер);;CZ7552;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Fish-Meat, 50 ml (рыба-мясо);;CZ7538;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Honey, 50 ml (мед);2,000;CZ7576;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Scopex, 50 ml (скопекс);9,000;CZ7606;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Spicy, 50 ml (специи);;CZ7545;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Strawberry, 50 ml  (клубника);;CZ7569;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Sweet Corn, 50 ml (сладкая кукуруза);;CZ7613;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Tutti Frutti, 50 ml (тутти-фрутти);9,000;CZ7590;0,63 EUR;1,008;Carp Zoom;Добавки
+;            Express Attractor, Vanilla, 50 ml (ваниль);;CZ7583;0,63 EUR;1,008;Carp Zoom;Добавки
+;        80. Attractor Spray (житкий аттрактант-спрей) (Catalogue p. 43);;;;0;Carp Zoom;
+;            Attractor Spray, Cheese-Parmesan 50 ml  (сыр пармезан);;CZ4467;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Dead 50 ml  (дохлый);4,000;CZ7712;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Eel/Aal 50 ml   (угорь);43,000;CZ7644;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Fish-Halibut 50 ml  (рыба-палтус);47,000;CZ4443;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Garlic 50 ml   (чеснок);;CZ4412;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Hot Spicy 50 ml   (острые специи);2,000;CZ7675;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Liver 50 ml   (печень);29,000;CZ4450;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Mango 50 ml  (манго);54,000;CZ4436;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Plum 50 ml  (слива);25,000;CZ4429;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Strawberry 50 ml  (клубника);;CZ7682;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Sweet Corn 50 ml  (сладкая кукуруза);21,000;CZ7705;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Sweet Fruits 50 ml (сладкие фрукты);;CZ7699;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Trout 50 ml    (форель);32,000;CZ7637;1,43 EUR;2,288;Carp Zoom;Спреи
+;            Attractor Spray, Worm Extract 50 ml     (земляной червяк);45,000;CZ7620;1,43 EUR;2,288;Carp Zoom;Спреи
+;        81. Aroma Liquid (жидкий ликвид) (Catalogue p. 44);;;;0;Carp Zoom;

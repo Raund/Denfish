@@ -1,0 +1,64 @@
+.annonce_list li {
+	height:45px;
+	margin-bottom:5px;
+}
+.annonce_list .annonce_id {
+	float:left;
+	width:50px;
+	margin:0 10px 0 0;
+	line-height:45px;
+	text-align:center;
+}
+.annonce_list p.annonce_image {
+	float:left;
+	width:49px;
+	height:45px;
+	margin:0 10px 0 0;
+}
+.annonce_list .annonce_link {
+	float:left;
+	width:400px;
+	line-height:45px;
+	margin:0 10px 0 0;
+    padding-left: 30px;
+}
+.annonce_list .annonce_delete {
+	float:left;
+	padding-top:10px;
+}
+.annonce_list .annonce_edit {
+	float:left;
+	padding-top:10px;
+}
+
+/* Images list */
+.image_list li {
+	height:45px;
+	margin-bottom:5px;
+}
+.image_list .image_id {
+	float:left;
+	width:50px;
+	margin:0 10px 0 0;
+	line-height:45px;
+	text-align:center;
+}
+.image_list p.image_small {
+	float:left;
+	width:49px;
+	height:45px;
+	margin:0 10px 0 0;
+    padding-right: 30px;
+}
+.image_list .image_caption {
+	
+	margin:0 10px 0 0;
+}
+.image_list .image_delete {
+	float:left;
+	padding-top:10px;
+}
+.image_list .image_edit {
+	float:left;
+	padding-top:10px;
+}

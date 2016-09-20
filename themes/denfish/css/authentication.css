@@ -1,0 +1,157 @@
+/**********************************************************
+        Authentication Styles
+**********************************************************/
+#create-account_form{
+  height: 270px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #d8d8d8;
+  -moz-box-shadow: 0 0 10px #d8d8d8;
+  -ms-box-shadow: 0 0 10px #d8d8d8;
+  -o-box-shadow: 0 0 10px #d8d8d8;
+  box-shadow: 0 0 10px #d8d8d8;
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+}
+
+#login_form{
+  height: 270px;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #d8d8d8;
+  -moz-box-shadow: 0 0 10px #d8d8d8;
+  -ms-box-shadow: 0 0 10px #d8d8d8;
+  -o-box-shadow: 0 0 10px #d8d8d8;
+  box-shadow: 0 0 10px #d8d8d8;
+  margin-top: 40px;
+  width: 35%;
+  float: right;
+}
+/*розміщення і стилі форми*/
+#create-account_form input,
+#login_form input,
+#account-creation_form input{
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#account-creation_form input{
+  display: block;
+  width: 97%;
+}
+
+#create-account_form input:focus,
+#login_form input:focus,
+#account-creation_form input:focus{
+  -webkit-box-shadow: 0 0 10px #1dd;
+  -moz-box-shadow: 0 0 10px #1dd;
+  -ms-box-shadow: 0 0 10px #1dd;
+  -o-box-shadow: 0 0 10px #1dd;
+  box-shadow: 0 0 10px #1dd;
+}
+
+#create-account_form .page-subheading,
+#login_form .page-subheading,
+#account-creation_form .page-subheading{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#create-account_form p{
+  color: #cbcbcb;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+#SubmitCreate, 
+#SubmitLogin,
+#submitAccount{
+  width: 70px;
+  height: 50px;
+  background: #1dd;
+  border: none;
+  border-radius: 10px;
+}
+
+#SubmitCreate,
+#submitAccount{
+  margin-top: 22px;
+}
+
+#SubmitCreate:hover .fa,
+#SubmitLogin:hover .fa,
+#submitAccount:hover .fa{
+  color: #fff;
+}
+
+#SubmitCreate:hover, 
+#SubmitLogin:hover,
+#submitAccount:hover{
+  -webkit-box-shadow: 0 0 10px #d8d8d8;
+  -moz-box-shadow: 0 0 10px #d8d8d8;
+  -ms-box-shadow: 0 0 10px #d8d8d8;
+  -o-box-shadow: 0 0 10px #d8d8d8;
+  box-shadow: 0 0 10px #d8d8d8;
+  cursor: pointer;
+}
+
+.alert{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: red;
+}
+
+.form-group {
+  text-align: right;
+}
+
+.lost_password a{
+  color: #cbcbcb;
+  text-decoration: underline;
+}
+
+.lost_password a:hover{
+  color: #cbcbcb;
+  text-decoration: none;
+}
+
+#center_column{
+  margin: 20px 0 0 30px;
+  width: 35%;
+  float: left;
+}
+
+#account-creation_form{
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #d8d8d8;
+  -moz-box-shadow: 0 0 10px #d8d8d8;
+  -ms-box-shadow: 0 0 10px #d8d8d8;
+  -o-box-shadow: 0 0 10px #d8d8d8;
+  box-shadow: 0 0 10px #d8d8d8;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 430px;
+  float: left;
+}
+
+form.std label{
+  float: right;
+  width: 100%;
+  color: #a0a0a0;
+  font-size: 11px;
+  text-align: right;
+  margin-right: 3%;
+  margin-bottom: 10px;
+}
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<items>
+	<item>
+		<title_1>Черное море</title_1>
+		<title_2>Annonce 1</title_2>
+		<text_1>Ловля акулы</text_1>
+		<text_2>FR quae multa de humanae naturae praestantia afferuntur a multis.</text_2>
+		<img>slides/slide0.jpg</img>
+	</item>
+
+	<item>
+		<text_1>Ловля карпа</text_1>
+		<img>slides/slide1.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide2.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide3.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide4.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide5.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide6.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide7.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide8.jpg</img>
+	</item>
+
+	<item>
+		<img>slides/slide9.jpg</img>
+	</item>
+
+</items>

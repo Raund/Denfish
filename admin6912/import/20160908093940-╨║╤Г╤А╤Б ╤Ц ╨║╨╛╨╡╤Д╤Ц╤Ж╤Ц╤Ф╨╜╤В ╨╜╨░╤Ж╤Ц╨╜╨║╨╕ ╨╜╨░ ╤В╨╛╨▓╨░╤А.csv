@@ -1,0 +1,400 @@
+;            Bull-Dog Fluo Carp 1000м, 0,35mm,15,45kg (Леска,флуо-салатовая);;CZ3049;4,17 EUR;6,255;Carp Zoom;Лески
+;            Bull-Dog Fluo Carp Line 300м,0,25mm, 8,80kg  (Леска,флуо-салатовая);;CZ0582;1,49 EUR;2,235;Carp Zoom;Лески
+;            Bull-Dog Fluo Carp Line 300м,0,28mm,10,75kg (Леска,флуо-салатовая);23,000;CZ2998;1,49 EUR;2,235;Carp Zoom;Лески
+;            Bull-Dog Fluo Carp Line 300м,0,31mm,12,65kg (Леска,флуо-салатовая);49,000;CZ3001;1,49 EUR;2,235;Carp Zoom;Лески
+;            Bull-Dog Fluo Carp Line 300м,0,35mm,15,45kg (Леска,флуо-салатовая);40,000;CZ3018;1,49 EUR;2,235;Carp Zoom;Лески
+;            CZ Fanatic Fishing Line (olive), 0,27, 1000м  (Леска оливковый цвет,сделано в Германии);;CZ4398;3,68 EUR;5,52;Carp Zoom;Лески
+;            CZ Fanatic Fishing Line (olive), 0,30, 1000м (Леска оливковый цвет,сделано в Германии);;CZ4404;3,68 EUR;5,52;Carp Zoom;Лески
+;            CZ Fanatic Fishing Line (olive), 0,34, 1000м (Леска оливковый цвет,сделано в Германии);;CZ4411;3,68 EUR;5,52;Carp Zoom;Лески
+;            CZ Fanatic Fishing Line (olive), 0,38, 1000м (Леска оливковый цвет,сделано в Германии);;CZ4428;3,68 EUR;5,52;Carp Zoom;Лески
+;            CZ Line counter (Измеритель вытяжки шнура и лески);5,000;CZ4238;7,43 EUR;11,145;Carp Zoom;Карп - аксессуары
+;            CZ Picker Zoom Fishing Line 150м, 0,12mm,2,25 kg (Леска пикерная);;CZ7399;1,19 EUR;1,785;Carp Zoom;Лески
+;            CZ Picker Zoom Fishing Line 150м, 0,14mm,2,95 kg (Леска пикерная);;CZ7405;1,19 EUR;1,785;Carp Zoom;Лески
+;            CZ Picker Zoom Fishing Line 150м, 0,16mm,3,55 kg (Леска пикерная);;CZ7412;1,19 EUR;1,785;Carp Zoom;Лески
+;            CZ Picker Zoom Fishing Line 150м, 0,18mm,4,25 kg (Леска пикерная);;CZ7429;1,19 EUR;1,785;Carp Zoom;Лески
+;            Feeder Competition Distance fishing line (green), 0,18mm, 4,40kg, 250m (Фидерная леска для соревнова;41,000;CZ2045;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Distance fishing line (green), 0,20mm, 5,60kg, 250m (Фидерная леска для соревнова;27,000;CZ2052;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Distance fishing line (green), 0,22mm, 6,35kg, 250m (Фидерная леска для соревнова;47,000;CZ2069;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Distance fishing line (green), 0,24mm, 7,65kg, 250m (Фидерная леска для соревнова;46,000;CZ2076;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Distance fishing line (green), 0,26mm, 8,20kg, 250m (Фидерная леска для соревнова;34,000;CZ2083;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Extreme fishing line (black), 0,17mm, 4,60kg, 200m (Фидерная леска для соревнован;40,000;CZ1987;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Extreme fishing line (black), 0,19mm, 5,70kg, 200m (Фидерная леска для соревнован;18,000;CZ1994;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Extreme fishing line (black), 0,21mm, 6,70kg, 200m (Фидерная леска для соревнован;44,000;CZ2007;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Extreme fishing line (black), 0,23mm, 7,45kg, 200m (Фидерная леска для соревнован;36,000;CZ2014;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Extreme fishing line (black), 0,25mm, 8,45kg, 200m (Фидерная леска для соревнован;46,000;CZ2021;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Competition Extreme fishing line (black), 0,28mm, 9,20kg, 200m (Фидерная леска для соревнован;60,000;CZ2038;1,73 EUR;2,595;Carp Zoom;Лески
+;            Feeder Zoom 150м, 0,16mm, PT 3,75kg (Леска фидерная);29,000;CZ2868;1,32 EUR;1,98;Carp Zoom;Лески
+;            Feeder Zoom 150м, 0,18mm, PT 4,45kg (Леска фидерная);12,000;CZ2875;1,32 EUR;1,98;Carp Zoom;Лески
+;            Feeder Zoom 150м, 0,20mm, PT 5,40kg (Леска фидерная);5,000;CZ4832;1,32 EUR;1,98;Carp Zoom;Лески
+;            Feeder Zoom 150м, 0,22mm, PT 6,25kg (Леска фидерная);61,000;CZ2882;1,32 EUR;1,98;Carp Zoom;Лески
+;            Feeder Zoom 150м, 0,25mm, PT 8,45kg (Леска фидерная);42,000;CZ2899;1,32 EUR;1,98;Carp Zoom;Лески
+;            Feeder Zoom 150м, 0,28mm, PT 9,75kg (Леска фидерная);33,000;CZ2905;1,32 EUR;1,98;Carp Zoom;Лески
+;        42. Feeding Baskets (фидерные кормушки) (Catalogue p. 151);;;;0;Carp Zoom;
+;            Drop Lead w. Swivel 10 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9648;0,18 EUR;0,27;Carp Zoom;
+;            Drop Lead w. Swivel 100 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9716;0,74 EUR;1,11;Carp Zoom;
+;            Drop Lead w. Swivel 20 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9655;0,23 EUR;0,345;Carp Zoom;
+;            Drop Lead w. Swivel 30 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9662;0,30 EUR;0,45;Carp Zoom;
+;            Drop Lead w. Swivel 40 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9679;0,36 EUR;0,54;Carp Zoom;
+;            Drop Lead w. Swivel 50 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9686;0,42 EUR;0,63;Carp Zoom;
+;            Drop Lead w. Swivel 60 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9693;0,48 EUR;0,72;Carp Zoom;
+;            Drop Lead w. Swivel 80 g (ГРУЗ С ВЕРТЛЮГОМ);;CZ9709;0,60 EUR;0,9;Carp Zoom;
+;            Feeder Drop Feeding Basket 10 g, 50pcs/pack (Фидерная кормушка);6,000;CZ9426;0,30 EUR;0,45;Carp Zoom;
+;            Feeder Drop Feeding Basket 10 g, coated, 50pcs/pack (Фидерная кормушка);3,000;CZ9457;0,38 EUR;0,57;Carp Zoom;
+;            Feeder Drop Feeding Basket 20 g, 50pcs/pack (Фидерная кормушка);15,000;CZ9433;0,33 EUR;0,495;Carp Zoom;
+;            Feeder Drop Feeding Basket 20 g, coated, 50pcs/pack (Фидерная кормушка);4,000;CZ9464;0,41 EUR;0,615;Carp Zoom;
+;            Feeder Drop Feeding Basket 30 g, 50pcs/pack (Фидерная кормушка);;CZ9440;0,38 EUR;0,57;Carp Zoom;
+;            Feeder Drop Feeding Basket 30 g, coated, 50pcs/pack (Фидерная кормушка);11,000;CZ9471;0,44 EUR;0,66;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 20 g  (Ребристая кормушка для закидывания);;CZ9884;0,35 EUR;0,525;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 20 g, coated  (Ребристая кормушка для закидывания);;CZ9921;0,42 EUR;0,63;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 30 g  (Ребристая кормушка для закидывания);;CZ9891;0,36 EUR;0,54;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 30 g, coated  (Ребристая кормушка для закидывания);;CZ9938;0,44 EUR;0,66;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 40 g  (Ребристая кормушка для закидывания);;CZ9907;0,41 EUR;0,615;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 40 g, coated  (Ребристая кормушка для закидывания);;CZ9945;0,48 EUR;0,72;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 50 g  (Ребристая кормушка для закидывания);;CZ9914;0,48 EUR;0,72;Carp Zoom;
+;            Long Casting Ribbed Feeding Basket 50 g, coated  (Ребристая кормушка для закидывания);;CZ9952;0,51 EUR;0,765;Carp Zoom;
+;            Long Casting Spiral Feeding Basket 6cm (Кормушка для закидывания );;CZ9259;0,20 EUR;0,3;Carp Zoom;
+;            Long Casting Spiral Feeding Basket 7cm (Кормушка для закидывания );;CZ9266;0,21 EUR;0,315;Carp Zoom;
+;            Long Casting Spiral Feeding Basket 8cm (Кормушка для закидывания );;CZ9273;0,23 EUR;0,345;Carp Zoom;
+;            Long Casting Spiral Feeding Basket w. Winged Lead 20 g (кормушка с крылатым свинцом);;CZ9563;0,44 EUR;0,66;Carp Zoom;
+;            Long Casting Spiral Feeding Basket w. Winged Lead 30 g (кормушка с крылатым свинцом);;CZ9570;0,48 EUR;0,72;Carp Zoom;
+;            Long Casting Spiral Feeding Basket w. Winged Lead 40 g (кормушка с крылатым свинцом);;CZ9587;0,56 EUR;0,84;Carp Zoom;
+;            Long Casting Spiral Feeding Basket w. Winged Lead 60 g (кормушка с крылатым свинцом);;CZ9594;0,59 EUR;0,885;Carp Zoom;
+;            Plastic Spool big (?78x27mm) (E-6-14-4) (ШПУЛЯ);;CZ2944;0,15 EUR;0,225;Carp Zoom;
+;            Plastic Spool small (?78x13mm) (E-6-14-3) (ШПУЛЯ);50,000;CZ2937;0,12 EUR;0,18;Carp Zoom;
+;"            Pole Rig 1, float: 1,5gr; line: 8m 0,16mm; hook: 14 (Готовая поплавочная снасть)";5,000;CZ2188;0,98 EUR;1,47;Carp Zoom;Поплавочные оснастки
+;"            Pole Rig 2, float: 1,5gr; line: 8m 0,16mm; hook: 14 (Готовая поплавочная снасть)";15,000;CZ2195;0,98 EUR;1,47;Carp Zoom;Поплавочные оснастки
+;"            Pole Rig 3, float: 2,0gr; line: 8m 0,16mm; hook: 14 (Готовая поплавочная снасть)";25,000;CZ2201;0,98 EUR;1,47;Carp Zoom;Поплавочные оснастки
+;            Pole rig Chop, 1,5g   (Поплавочная снасть);;CZ2844;0,74 EUR;1,11;Carp Zoom;
+;            Ribbed Feeding Basket 20 g  (Ребристая кормушка);;CZ9808;0,32 EUR;0,48;Carp Zoom;
+;            Ribbed Feeding Basket 20 g, coated (Ребристая кормушка);;CZ9846;0,39 EUR;0,585;Carp Zoom;
+;            Ribbed Feeding Basket 30 g  (Ребристая кормушка);;CZ9815;0,35 EUR;0,525;Carp Zoom;
+;            Ribbed Feeding Basket 30 g, coated (Ребристая кормушка);;CZ9853;0,42 EUR;0,63;Carp Zoom;
+;            Ribbed Feeding Basket 40 g  (Ребристая кормушка);;CZ9822;0,38 EUR;0,57;Carp Zoom;
+;            Ribbed Feeding Basket 40 g, coated (Ребристая кормушка);;CZ9860;0,45 EUR;0,675;Carp Zoom;
+;            Ribbed Feeding Basket 50 g  (Ребристая кормушка);;CZ9839;0,42 EUR;0,63;Carp Zoom;
+;            Ribbed Feeding Basket 50 g, coated (Ребристая кормушка);;CZ9877;0,51 EUR;0,765;Carp Zoom;
+;            Spiral Feeding Basket 6cm (коническая спиральная кормушка);;CZ9198;0,18 EUR;0,27;Carp Zoom;
+;            Spiral Feeding Basket 7cm (коническая спиральная кормушка);;CZ9204;0,20 EUR;0,3;Carp Zoom;
+;            Spiral Feeding Basket 8cm (коническая спиральная кормушка);283,000;CZ9211;0,21 EUR;0,315;Carp Zoom;
+;            Spiral Feeding Basket w. Winged Lead 20 g (Спиральная кормушка с крылатым свинцом);;CZ9488;0,39 EUR;0,585;Carp Zoom;
+;            Spiral Feeding Basket w. Winged Lead 30 g (Спиральная кормушка с крылатым свинцом);;CZ9495;0,45 EUR;0,675;Carp Zoom;
+;            Spiral Feeding Basket w. Winged Lead 40 g (Спиральная кормушка с крылатым свинцом);;CZ9501;0,51 EUR;0,765;Carp Zoom;
+;            Spiral Feeding Basket w. Winged Lead 60 g (Спиральная кормушка с крылатым свинцом);;CZ9518;0,57 EUR;0,855;Carp Zoom;
+;        43. Floats (поплавки);;;;0;Carp Zoom;
+;            CZ MultiCatch Float 1, 4g (Поплавок для стоячей воды,подходить для ночной рыбалки);16,000;CZ3742;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 1, 5g (Поплавок для стоячей воды,подходить для ночной рыбалки);27,000;CZ3759;0,63 EUR;0,945;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 1, 6g (Поплавок для стоячей воды,подходить для ночной рыбалки);28,000;CZ3766;0,66 EUR;0,99;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 1, 8g (Поплавок для стоячей воды,подходить для ночной рыбалки);28,000;CZ3773;0,71 EUR;1,065;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 10, 2g (сменая антена,для маховой и традицион.рыбалки);1,000;CZ4107;0,59 EUR;0,885;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 10, 3g (сменая антена,для маховой и традицион.рыбалки);11,000;CZ4114;0,59 EUR;0,885;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 10, 4g (сменая антена,для маховой и традицион.рыбалки);14,000;CZ4121;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 10, 5g (сменая антена,для маховой и традицион.рыбалки);15,000;CZ4138;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 16, 3g (попловок для маховой рыбалки с бамбуковой антеной);13,000;CZ4381;0,62 EUR;0,93;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 2, 3g  (для стоячей воды с встроенным грузилом);19,000;CZ3780;0,66 EUR;0,99;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 2, 4g  (для стоячей воды с встроенным грузилом);19,000;CZ3797;0,74 EUR;1,11;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 2, 6g  (для стоячей воды с встроенным грузилом);10,000;CZ3803;0,83 EUR;1,245;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 2, 8g  (для стоячей воды с встроенным грузилом);10,000;CZ3810;0,93 EUR;1,395;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 3, 3g (для стоячей воды подходить для ночной рыбалки);14,000;CZ3827;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 3, 4g (для стоячей воды подходить для ночной рыбалки);14,000;CZ3834;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 3, 5g (для стоячей воды подходить для ночной рыбалки);20,000;CZ3841;0,63 EUR;0,945;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 3, 6g (для стоячей воды подходить для ночной рыбалки);23,000;CZ3858;0,66 EUR;0,99;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 4, 5g (с встроенным грузилом,подходить для ночной рыбалки);;CZ3865;0,66 EUR;0,99;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 4, 7g (с встроенным грузилом,подходить для ночной рыбалки);1,000;CZ3872;0,74 EUR;1,11;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 5, 6g  (для стоячей воды подходить для ночной рыбалки);5,000;CZ3902;0,63 EUR;0,945;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 6, 3g (поплавок для стоячей воды,для глубокой воды);20,000;CZ3940;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 6, 4g (поплавок для стоячей воды,для глубокой воды);11,000;CZ3957;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 6, 5g (поплавок для стоячей воды,для глубокой воды);11,000;CZ3964;0,63 EUR;0,945;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 6, 6g (поплавок для стоячей воды,для глубокой воды);34,000;CZ3971;0,63 EUR;0,945;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 7, 10g (с встроенным грузилом,подходить для ночной рыбалки);8,000;CZ4015;0,83 EUR;1,245;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 7, 3g (с встроенным грузилом,подходить для ночной рыбалки);;CZ3988;0,63 EUR;0,945;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 7, 5g (с встроенным грузилом,подходить для ночной рыбалки);10,000;CZ3995;0,66 EUR;0,99;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 7, 8g (с встроенным грузилом,подходить для ночной рыбалки);7,000;CZ4008;0,78 EUR;1,17;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 8, 12g (карповый тип,подходит и для медленного течения);29,000;CZ4053;0,78 EUR;1,17;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 8, 3g (карповый тип,подходит и для медленного течения);14,000;CZ4022;0,60 EUR;0,9;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 8, 5g (карповый тип,подходит и для медленного течения);27,000;CZ4039;0,63 EUR;0,945;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 8, 8g  (карповый тип,подходит и для медленного течения);28,000;CZ4046;0,66 EUR;0,99;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 9, 10g (для стоячей воды подходить для ночной рыбалки);9,000;CZ4077;0,78 EUR;1,17;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 9, 12g (для стоячей воды подходить для ночной рыбалки);19,000;CZ4084;0,83 EUR;1,245;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 9, 15g (для стоячей воды подходить для ночной рыбалки);10,000;CZ4091;0,93 EUR;1,395;Carp Zoom;Поплавки
+;            CZ MultiCatch Float 9, 8g (для стоячей воды подходить для ночной рыбалки);36,000;CZ4060;0,72 EUR;1,08;Carp Zoom;Поплавки
+;        44. Pliers, Knives, Scissors (ножницы,ножи и зажимы) (Catalogue p. 152-154);;;;0;Carp Zoom;
+;            CZ Cut resistant glove (Защитная перчатка от порезов);9,000;CZ4320;3,59 EUR;5,385;Carp Zoom;Перчатки
+;            CZ Fillet Knife with Sheath  (Нож для филе,нержавеющая сталь,длина лезвия 16 см);;CZ3636;2,78 EUR;4,17;Carp Zoom;Ножи
+;"            CZ Fisherman's Filleting Kit ( Набор для „филейщика"")";;CZ3667;12,72 EUR;19,08;Carp Zoom;Ножи
+;            CZ Fishing Knife with Sheath (Рыбацкий нож,длина лезвия 9,5см,нержавеющая сталь);;CZ3674;2,78 EUR;4,17;Carp Zoom;Ножи
+;            CZ Fishing Pliers (Многофункциональные щипцы,нескользящая рукоятка,в чехле);;CZ3711;4,49 EUR;6,735;Carp Zoom;Плоскогубцы, щипцы
+;            CZ Fishing Pliers Crocodile (Рыбацкие щипцы,нержавеющая сталь,чёрный чехол);25,000;CZ3728;4,88 EUR;7,32;Carp Zoom;Плоскогубцы, щипцы
+;            CZ Floating Knife with Sheath  (Плавающий нож,нержавеющая сталь);2,000;CZ3629;2,93 EUR;4,395;Carp Zoom;Ножи
+;            CZ Handy scissors (Удобные ножницы);4,000;CZ3194;1,28 EUR;1,92;Carp Zoom;Ножницы
+;            CZ Heavy Duty Scissors (Сильные ножницы,нержавеющая стал,ручки из мягкой трезины,длина 23,3 см );2,000;CZ3643;3,38 EUR;5,07;Carp Zoom;Ножницы
+;            CZ Multi-Pliers (дополняется наличием отвёртки, напильника, пилы, консервного ножа,открывалки и ножа,в чехле,длина: 16,5 см);;CZ3704;6,72 EUR;10,08;Carp Zoom;Плоскогубцы, щипцы
+;            CZ Pliers & Knife Set (Щипцы + нож, нержавеющая сталь,длина 17,8 см,мягкие рифлёные ручки);3,000;CZ3650;10,43 EUR;15,645;Carp Zoom;Плоскогубцы, щипцы
+;            CZ Pocket Pliers  ( Многофункциональные щипцы,включают 6 различных вспомогательных приспособлений,нержавеющая сталь,чехол);;CZ3698;4,49 EUR;6,735;Carp Zoom;Плоскогубцы, щипцы
+;            CZ Pocket scissors (Карманные ножницы);7,000;CZ3149;1,34 EUR;2,01;Carp Zoom;Ножницы
+;            CZ Scissors for braided line (Щипцы для шнура);;CZ2111;5,24 EUR;7,86;Carp Zoom;Плоскогубцы, щипцы
+;            CZ Worm scissors  (Ножницы для разрезания червяков);;CZ6446;2,78 EUR;4,17;Carp Zoom;Ножницы
+;            Dragon Knife;;CZ8328;2,78 EUR;4,17;Carp Zoom;Ножи
+;            Lead plier  (Плоскогубцы для свинца);;CZ1212;0,74 EUR;1,11;Carp Zoom;Плоскогубцы, щипцы
+;            MFA-1 Pliers;1,000;CZ8335;17,24 EUR;25,86;Carp Zoom;Ножи
+;            Scraper-Knife;7,000;CZ8571;2,99 EUR;4,485;Carp Zoom;Ножи
+;    4. OUTWEAR;;;;0;Carp Zoom;
+;        01. Rain Ponchos, Suit (костюмы от дождя) (Catalogue p. 156);;;;0;Carp Zoom;
+;            EAZI Rain poncho, camou (Камуфлированный плащ от легкого дождя);5,000;CZ3668;2,54 EUR;3,81;Carp Zoom;Костюмы
+;            HIGH-Q rain poncho, camou (камуфлированный плащ от проливного дождя);6,000;CZ3675;7,43 EUR;11,145;Carp Zoom;Костюмы
+;            HIGH-Q rain suit, large (Костюм от дождя - большой);2,000;CZ3781;11,93 EUR;17,895;Carp Zoom;Костюмы
+;            HIGH-Q rain suit, medium (Костюм от дождя - средний);2,000;CZ3774;11,93 EUR;17,895;Carp Zoom;Костюмы
+;            HIGH-Q Rain Suit, XL;1,000;CZ5860;11,93 EUR;17,895;Carp Zoom;Костюмы
+;            HIGH-Q Rain Suit, XXL;;CZ5877;11,93 EUR;17,895;Carp Zoom;Костюмы
+;            HIGH-Q Rain Suit, XXXL;1,000;CZ5884;11,93 EUR;17,895;Carp Zoom;Костюмы
+;        02. T-Shirts, Jacket, Vest, Underwear (футболки, куртки, жилеты,термобелье) (Catalogue p. 157);;;;0;Carp Zoom;
+;            CZ Feeder Competition T-Shirt L (Фирменная футболка);1,000;CZ/SHIRT5 L;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Feeder Competition T-Shirt M (Фирменная футболка);;CZ/SHIRT5 M;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Feeder Competition T-Shirt S (Фирменная футболка);;CZ/SHIRT5 S;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Feeder Competition T-Shirt XL (Фирменная футболка);1,000;CZ/SHIRT5 XL;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Feeder Competition T-Shirt XXL (Фирменная футболка);;CZ/SHIRT5 XXL;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Feeder Competition T-Shirt XXXL (Фирменная футболка);;CZ/SHIRT5 XXXL;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Fleece Jacket, L (Флисовая термо-кофта);;CZ3162;25,43 EUR;38,145;Carp Zoom;Регланы футболки 
+;            CZ Fleece Jacket, XL (Флисовая термо-кофта);;CZ3179;25,43 EUR;38,145;Carp Zoom;Регланы футболки 
+;            CZ Fleece Jacket, XXL (Флисовая термо-кофта);10,000;CZ3186;25,43 EUR;38,145;Carp Zoom;Регланы футболки 
+;            CZ Fleece Jacket, XXXL (Флисовая термо-кофта);1,000;CZ3193;25,43 EUR;38,145;Carp Zoom;Регланы футболки 
+;            CZ Shirt L (МАЙКА);;CZ/SHIRT2 L;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Shirt M (МАЙКА);1,000;CZ/SHIRT2 M;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Shirt XL (МАЙКА);;CZ/SHIRT2 XL;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Shirt XXL (МАЙКА);;CZ/SHIRT2 XXL;6,50 EUR;9,75;Carp Zoom;Регланы футболки 
+;            CZ Thermo Fleece Jacket, L   (Флисовая термо-куртка);6,000;CZ3216;35,49 EUR;53,235;Carp Zoom;Куртки
+;            CZ Thermo Fleece Jacket, M  (Флисовая термо-куртка);8,000;CZ3209;35,49 EUR;53,235;Carp Zoom;Куртки
+;            CZ Thermo Fleece Jacket, XXXL (Флисовая термо-куртка);;CZ3247;35,49 EUR;53,235;Carp Zoom;Куртки
+;            CZ Waterside Vest, L (Жилетка для рыбалки);;CZ3736;21,68 EUR;32,52;Carp Zoom;Жилетки
+;            CZ Waterside Vest, M (Жилетка для рыбалки);1,000;CZ3729;21,68 EUR;32,52;Carp Zoom;Жилетки
+;            CZ Waterside Vest, XL (Жилетка для рыбалки);;CZ3743;21,68 EUR;32,52;Carp Zoom;Жилетки
+;            CZ Waterside Vest, XXL (Жилетка для рыбалки);;CZ3750;21,68 EUR;32,52;Carp Zoom;Жилетки
+;            CZ Waterside Vest, XXXL (Жилетка для рыбалки);2,000;CZ3767;21,68 EUR;32,52;Carp Zoom;Жилетки
+;        03. Thermo Suit, Gloves (термо костюм, перчатки) (Catalogue p. 158);;;;0;Carp Zoom;
+;            CZ Thermo Suit, L (Термо-костюм зимний);;CZ3117;52,35 EUR;78,525;Carp Zoom;Костюмы
+;            CZ Thermo Suit, M (Термо-костюм зимний);;CZ3346;52,35 EUR;78,525;Carp Zoom;Костюмы
+;            CZ Thermo Suit, XL (Термо-костюм зимний);;CZ3124;52,35 EUR;78,525;Carp Zoom;Костюмы
+;            CZ Thermo Suit, XXL (Термо-костюм зимний);3,000;CZ3131;52,35 EUR;78,525;Carp Zoom;Костюмы
+;            CZ Thermo Suit, XXXL (Термо-костюм зимний);1,000;CZ3148;52,35 EUR;78,525;Carp Zoom;Костюмы
+;            CZ Thermo Suit, XXXXL (Термо-костюм зимний);8,000;CZ3353;52,35 EUR;78,525;Carp Zoom;Костюмы
+;            Neoprene Gloves, L;2,000;CZ8052;7,13 EUR;10,695;Carp Zoom;Перчатки
+;            Neoprene Gloves, XL;2,000;CZ8069;7,13 EUR;10,695;Carp Zoom;Перчатки
+;            Neoprene Gloves, XXL;2,000;CZ8076;7,13 EUR;10,695;Carp Zoom;Перчатки
+;            Rigging Gloves;58,000;CZ8250;4,13 EUR;6,195;Carp Zoom;Перчатки
+;            Thermo Fleece Underwear, L;1,000;CZ8144;14,85 EUR;22,275;Carp Zoom;Термобелье
+;            Thermo Fleece Underwear, XXL;2,000;CZ8151;14,85 EUR;22,275;Carp Zoom;Термобелье
+;            Warm Gloves;14,000;CZ8267;3,53 EUR;5,295;Carp Zoom;Перчатки
+;            Термобелье L;8,000;L;25,00 EUR;37,5;Carp Zoom;Термобелье
+;            Термобелье M;11,000;M;25,00 EUR;37,5;Carp Zoom;Термобелье
+;            Термобелье XL;4,000;XL;25,00 EUR;37,5;Carp Zoom;Термобелье
+;        04. Boots (ботинки) (Catalogue p. 159);;;;0;Carp Zoom;
+;            CZ Boot holder bag (Сумка-чехол для ботинок);2,000;CZ3576;6,68 EUR;10,02;Carp Zoom;Обувь
+;            CZ Camou Field Boots, 43  (Обувь,водонепрницаемая,для любого рельефа);15,000;CZ2319;20,93 EUR;31,395;Carp Zoom;Обувь
+;            CZ Camou Field Boots, 44  (Обувь,водонепрницаемая,для любого рельефа);47,000;CZ2326;20,93 EUR;31,395;Carp Zoom;Обувь
+;            CZ DuraBoots, 41 (Непромокаемые ботинки);1,000;CZ1840;23,93 EUR;35,895;Carp Zoom;Обувь
+;            CZ DuraBoots, 42 (Непромокаемые ботинки);;CZ1857;23,93 EUR;35,895;Carp Zoom;Обувь
+;            CZ DuraBoots, 43 (Непромокаемые ботинки);;CZ1864;23,93 EUR;35,895;Carp Zoom;Обувь
+;            CZ DuraBoots, 44 (Непромокаемые ботинки);;CZ1871;23,93 EUR;35,895;Carp Zoom;Обувь
+;            CZ DuraBoots, 45 (Непромокаемые ботинки);;CZ1888;23,93 EUR;35,895;Carp Zoom;Обувь
+;            CZ Fishing Socks;9,000;CZ8274;1,19 EUR;1,785;Carp Zoom;Обувь
+;            CZ Shoe insoles, 41 (Стельки);10,000;CZ4665;0,74 EUR;1,11;Carp Zoom;Обувь
+;            CZ Shoe insoles, 42 (Стельки);9,000;CZ4672;0,74 EUR;1,11;Carp Zoom;Обувь
+;            CZ Shoe insoles, 43 (Стельки);10,000;CZ4689;0,74 EUR;1,11;Carp Zoom;Обувь
+;            CZ Shoe insoles, 44 (Стельки);10,000;CZ4696;0,74 EUR;1,11;Carp Zoom;Обувь
+;            CZ Shoe insoles, 45 (Стельки);10,000;CZ4702;0,74 EUR;1,11;Carp Zoom;Обувь
+;        05. Sunglasses, Caps (солнцезащитные очки, шапки) (Catalogue p. 160);;;;0;Carp Zoom;
+;            CZ 1+2 LED Fishing Cap (кепка с LED - фонарем);1,000;CZ1495;4,95 EUR;7,425;Carp Zoom;Кепки, шапки
+;            CZ Beanie Hat (шапка);1,000;CZ1826;4,80 EUR;7,2;Carp Zoom;Кепки, шапки
+;            CZ Fisherman's Hat (Рыбацкая панама);3,000;CZ3309;5,63 EUR;8,445;Carp Zoom;Кепки, шапки
+;            CZ Fishing Cap (кепка);6,000;CZ1488;2,93 EUR;4,395;Carp Zoom;Кепки, шапки
+;            CZ Fleece Winter Cap (Флисовая зимняя шапка);36,000;CZ3286;2,24 EUR;3,36;Carp Zoom;Кепки, шапки
+;            CZ Fleece Winter Hood;7,000;CZ8083;3,74 EUR;5,61;Carp Zoom;Кепки, шапки
+;            CZ Mosquito Hat;2,000;CZ1512;4,28 EUR;6,42;Carp Zoom;Кепки, шапки
+;            CZ Summer cap with Neck Protector(Летняя кепка с защитой  шеи);2,000;CZ3279;3,68 EUR;5,52;Carp Zoom;Кепки, шапки
+;            CZ Summer Cap, green (Кепка армейского покроя,зеленая);5,000;CZ3255;2,93 EUR;4,395;Carp Zoom;Кепки, шапки
+;            CZ Sunglasses, full frame, brown lenses (поляризационные очки,коричневые) ;2,000;CZ1587;8,63 EUR;12,945;Carp Zoom;Поляризационные очки
+;            CZ Sunglasses, full frame, grey lenses (поляризационные очки,серые);;CZ1570;8,63 EUR;12,945;Carp Zoom;Поляризационные очки
+;            CZ Sunglasses, semi-frame, brown lenses (поляризационные очки,коричневые);3,000;CZ1600;11,24 EUR;16,86;Carp Zoom;Поляризационные очки
+;            CZ Sunglasses, semi-frame, grey lenses (поляризационные очки,серые);1,000;CZ1594;11,24 EUR;16,86;Carp Zoom;Поляризационные очки
+;            CZ Winter Cap with LED Light (Зимняя кепка-шапка с LED - лампой);4,000;CZ3262;5,18 EUR;7,77;Carp Zoom;Кепки, шапки
+;    5. PREDATOR-Z;;;;;Carp Zoom;
+;        01. Catfish Mega Pellet & Dip (пеллетс и дип на сома) (Catalogue p. 2);;;;;Carp Zoom;
+;            Predator-Z Catfish Dip, 130ml (СОМОВЫЙ ДИП);21,000;CZ8693;2,39 EUR;3,824;Carp Zoom;Дипы
+;            Predator-Z Catfish Dip, 130ml, fish essence (СОМОВЫЙ ДИП,РЫБНАЯ ЭССЕНЦИЯ);34,000;CZ6989;2,39 EUR;3,824;Carp Zoom;Дипы
+;            Predator-Z Catfish Dip, 130ml, liver extract (СОМОВЫЙ ДИП,ЭКСТРАКТ ПЕЧЕНИ);19,000;CZ6972;2,39 EUR;3,824;Carp Zoom;Дипы
+;            Predator-Z Catfish Mega Pellet, 30mm, 230g, crab-chicken (ПЕЛЛЕТС НА СОМА,КРАБ-КУРИЦА);9,000;CZ8686;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Predator-Z Catfish Mega Pellet, 30mm, 230g, fish-meat (ПЕЛЛЕТС НА СОМА,РЫБА-МЯСО);7,000;CZ8662;2,39 EUR;3,824;Carp Zoom;Наживка
+;            Predator-Z Catfish Mega Pellet, 30mm, 230g, liver-blood (ПЕЛЛЕТС НА СОМА,ПЕЧЕНЬ-КРОВЬ);3,000;CZ8679;2,39 EUR;3,824;Carp Zoom;Наживка
+;        02. XXL Boilies (бойлы на сома) (Catalogue p. 31);;;;0;Carp Zoom;Наживка
+;            XXL Boilies, extra combination  30 mm 500g  (БОЙЛЫ ДЛЯ КАРПА И СОМА,ЭКСТРА КОМБИНАЦИЯ);28,000;CZ5145;3,19 EUR;5,104;Carp Zoom;Наживка
+;            XXL Boilies, water insect 30 mm 500g  (БОЙЛЫ ДЛЯ КАРПА И СОМА,ВОДЯНЫЕ НАСЕКОМЫЕ);25,000;CZ6265;3,19 EUR;5,104;Carp Zoom;Наживка
+;        03. Soft Lure Spray (спрей для силикона и других насадок) (Catalogue p. 19);;;;0;Carp Zoom;
+;            Predator-Z Soft Lure Spray, 50ml, Burbot/Menyhal (Налим);35,000;CZ3880;1,57 EUR;2,512;Carp Zoom;Спреи
+;            Predator-Z Soft Lure Spray, 50ml, Catfish (Сом);;CZ3866;1,57 EUR;2,512;Carp Zoom;Спреи
+;            Predator-Z Soft Lure Spray, 50ml, Eel/Aal (Угорь);39,000;CZ3842;1,57 EUR;2,512;Carp Zoom;Спреи
+;            Predator-Z Soft Lure Spray, 50ml, Pike (Щука);;CZ3859;1,57 EUR;2,512;Carp Zoom;Спреи
+;            Predator-Z Soft Lure Spray, 50ml, Sardine (Сардина);36,000;CZ3897;1,57 EUR;2,512;Carp Zoom;Спреи
+;            Predator-Z Soft Lure Spray, 50ml, Trout (Форель);13,000;CZ3835;1,57 EUR;2,512;Carp Zoom;Спреи
+;            Predator-Z Soft Lure Spray, 50ml, Zander (Судак);;CZ3873;1,57 EUR;2,512;Carp Zoom;Спреи
+;        04. Spinning Rods (спиннинговые удилища) (Catalogue p. 3);;;;;Carp Zoom;
+;            Predator-Z Basic Spin 210, 15-45g, 2 sections (спиннинговое удилище);3,000;CZ1464;6,35 EUR;9,525;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Basic Spin 240, 20-50g, 2 sections (спиннинговое удилище);3,000;CZ0436;7,07 EUR;10,605;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Basic Spin 270, 20-80g, 2 sections (спиннинговое удилище);4,000;CZ0443;7,77 EUR;11,655;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Classic Spin Heavy spinning rod, 2.7m, 60-150g;8,000;CZ5112;24,43 EUR;36,645;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Classic Spin Light Plus spinning rod, 2.4m  10-30g;;CZ5082;18,03 EUR;27,045;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Classic Spin Light spinning rod, 2.1m, 5-25g;;CZ5075;17,04 EUR;25,56;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Classic Spin Medium spinning rod, 2.4m  20-50g;;CZ5099;19,17 EUR;28,755;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Classic Spin Medium spinning rod, 2.4m  20-50g;33,000;CZ5105;21,43 EUR;32,145;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Frontline Spin 210, 10-30g, 2 sections (спиннинг на хищника);;CZ0535;21,32 EUR;31,98;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Frontline Spin 210, 7-20g, 2 sections (спиннинг на хищника);1,000;CZ0511;19,89 EUR;29,835;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Frontline Spin 240, 10-30g, 2 sections (спиннинг на хищника);1,000;CZ0542;22,74 EUR;34,11;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Frontline Spin 240, 7-20g, 2 sections (спиннинг на хищника);1,000;CZ0528;21,32 EUR;31,98;Carp Zoom;Спиннинговые удилища
+;        05. Twitch, Jig Rods (твичинговое и джиговое удилище) (Catalogue p. 4-5);;;;0;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus River Jig 195, 8-35g, 1+1 sections (спиннинг для джига);2,000;CZ0498;21,32 EUR;31,98;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus River Jig 210, 15-45g, 1+1 sections (спиннинг для джига);2,000;CZ0504;22,74 EUR;34,11;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Twitch&Cast 205, 7-28g, 1 section (спиннинг для твичинга под мультипликатор);2,000;CZ0559;31,01 EUR;46,515;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Twitch&Spin 195, 7-28g, 1 section (спиннинг для твичинга);2,000;CZ0566;29,87 EUR;44,805;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Vertic Jig Heavy 195, 80-250g, 1+1 sections (спиннинг для твичинга крупных воблеров;2,000;CZ0474;27,72 EUR;41,58;Carp Zoom;Спиннинговые удилища
+;        06. Drop Shot, Catfish, Boat, Ice Rods (сомовье,лодочные,зимние и спиннинговые удилища) (Catalogue p;;;;0;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Boat rod, 1.9m, 150-300g;1,000;CZ5136;15,47 EUR;23,205;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Catfish rod, 2.7m, 150-300g;2,000;CZ5129;35,57 EUR;53,355;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Drop Shot rod, 2.1m, 3-20g;1,000;CZ5143;17,04 EUR;25,56;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Drop Shot rod, 2.2m, 15-45g;3,000;CZ5150;18,47 EUR;27,705;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Ice Plus rod 0.9m;;CZ5174;3,93 EUR;5,895;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Ice rod 0.7m;;CZ5167;3,78 EUR;5,67;Carp Zoom;Спиннинговые удилища
+;            Predator-Z Oplus Stupek Catfish Float 300, 150-300g, 2 sections (удилище на сома);2,000;CZ0481;34,85 EUR;52,275;Carp Zoom;Спиннинговые удилища
+;        07. Reels (катушки) (Catalogue p. 7-8);;;;0;Carp Zoom;
+;            Predator-Z Oplus O-cast Baitcasting Reel;1,000;CZ1956;39,12 EUR;58,68;Carp Zoom;Мультипликаторные катушки
+;            Predator-Z Oplus Red-Act 2000FD spinning reel (катушка для блеснения, 6+1BB,запасная шпуля-графитова;3,000;CZ0573;28,44 EUR;42,66;Carp Zoom;Спиннинговые катушки
+;            Predator-Z Oplus Red-Act 3000FD spinning reel (катушка для блеснения, 6+1BB,запасная шпуля-графитова;2,000;CZ0580;29,87 EUR;44,805;Carp Zoom;Спиннинговые катушки
+;            Predator-Z Oplus Red-Act 4000FD spinning reel (катушка для блеснения, 6+1BB,запасная шпуля-графитова;3,000;CZ0597;31,29 EUR;46,935;Carp Zoom;Спиннинговые катушки
+;            Predator-Z Rival 1000 spinning reel (Спиннинговая катушка для блеснения,5+1BB,антиреверс,шпуля из алюминия,дополнительная шпуля-графитовая);4,000;CZ2890;12,77 EUR;19,155;Carp Zoom;Спиннинговые катушки
+;            Predator-Z Rival 2000 spinning reel (Спиннинговая катушка для блеснения,5+1BB,антиреверс,шпуля из алюминия,дополнительная шпуля-графитовая);1,000;CZ2906;14,19 EUR;21,285;Carp Zoom;Спиннинговые катушки
+;            Predator-Z Rival 3000 spinning reel (Спиннинговая катушка для блеснения,5+1BB,антиреверс,шпуля из алюминия,дополнительная шпуля-графитовая);10,000;CZ2913;15,62 EUR;23,43;Carp Zoom;Спиннинговые катушки
+;            Predator-Z Rival 4000 spinning reel (Спиннинговая катушка для блеснения,5+1BB,антиреверс,шпуля из алюминия,дополнительная шпуля-графитовая);16,000;CZ2920;17,04 EUR;25,56;Carp Zoom;Спиннинговые катушки
+;        08. Spinner Baits (приманки) (Catalogue p. 9);;;;0;Carp Zoom;
+;            Predator-Z Oplus Spinner Bait, 14g, 1pc;6,000;CZ2861;2,93 EUR;4,395;Carp Zoom;Блесны
+;            Predator-Z Oplus Spinner Bait, 14g, 1pc;4,000;CZ2878;2,93 EUR;4,395;Carp Zoom;Блесны
+;            Predator-Z Oplus Spinner Bait, 14g, 1pc;9,000;CZ2885;2,93 EUR;4,395;Carp Zoom;Блесны
+;            Predator-Z Oplus Spinner Bait, 14g, 1pc;8,000;CZ2892;2,93 EUR;4,395;Carp Zoom;Блесны
+;        09. Soft Lures (силиконовые приманки) (Catalogue p. 9-13);;;;0;Carp Zoom;
+;            Predator-Z  Jink Frog, 6,7cm, 14g (Мягкие приманки-жабки);2,000;CZ2838;2,78 EUR;4,17;Carp Zoom;Силиконовые приманки
+;            Predator-Z  Jink Frog, 6,7cm, 14g (Мягкие приманки-жабки);29,000;CZ2845;2,78 EUR;4,17;Carp Zoom;Силиконовые приманки
+;            Predator-Z  Jink Frog, 6,7cm, 14g (Мягкие приманки-жабки);;CZ2852;2,78 EUR;4,17;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 10cm, 4,4g, 3pcs;1,000;CZ8977;1,41 EUR;2,115;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 10cm, 4,4g, 3pcs;3,000;CZ8984;1,41 EUR;2,115;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 10cm, 4,4g, 3pcs;;CZ8991;1,41 EUR;2,115;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 10cm, 4,4g, 3pcs;;CZ9004;1,41 EUR;2,115;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 5cm, 0,7g, 5pcs;;CZ8892;1,80 EUR;2,7;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 5cm, 0,7g, 5pcs;;CZ8908;1,80 EUR;2,7;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 5cm, 0,7g, 5pcs;;CZ8915;1,80 EUR;2,7;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 5cm, 0,7g, 5pcs;;CZ8922;1,80 EUR;2,7;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 7cm, 1,5g, 4pcs;;CZ8939;1,49 EUR;2,235;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 7cm, 1,5g, 4pcs;1,000;CZ8946;1,49 EUR;2,235;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 7cm, 1,5g, 4pcs;;CZ8953;1,49 EUR;2,235;Carp Zoom;Силиконовые приманки
+;            Predator-Z Bit Dancer soft lure, 7cm, 1,5g, 4pcs;;CZ8960;1,49 EUR;2,235;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 10cm, 9,4g, 3pcs;10,000;CZ9073;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 10cm, 9,4g, 3pcs;9,000;CZ9080;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 10cm, 9,4g, 3pcs;7,000;CZ9097;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 6cm, 2,4g, 5pcs;4,000;CZ9011;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 6cm, 2,4g, 5pcs;4,000;CZ9028;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 6cm, 2,4g, 5pcs;7,000;CZ9035;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 8cm, 5,4g, 4pcs;1,000;CZ9042;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 8cm, 5,4g, 4pcs;2,000;CZ9059;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Combi Dancer soft lure, 8cm, 5,4g, 4pcs;5,000;CZ9066;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 10cm, 1,9g (Мягкие приманки);5,000;CZ2432;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 10cm, 1,9g (Мягкие приманки);4,000;CZ2449;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 10cm, 1,9g (Мягкие приманки);7,000;CZ2456;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 10cm, 1,9g (Мягкие приманки);9,000;CZ2463;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 7,5cm, 1,3g (Мягкие приманки);5,000;CZ2395;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 7,5cm, 1,3g (Мягкие приманки);7,000;CZ2401;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 7,5cm, 1,3g (Мягкие приманки);7,000;CZ2418;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Drop Shot soft lure, 7,5cm, 1,3g (Мягкие приманки);10,000;CZ2425;1,13 EUR;1,695;Carp Zoom;Силиконовые приманки
+;            Predator-Z Jumper Frog, 7cm, 16,4g (Мягкие приманки-жабки);20,000;CZ2869;2,78 EUR;4,17;Carp Zoom;Силиконовые приманки
+;            Predator-Z Jumper Frog, 7cm, 16,4g (Мягкие приманки-жабки);17,000;CZ2876;2,78 EUR;4,17;Carp Zoom;Силиконовые приманки
+;            Predator-Z Jumper Frog, 7cm, 16,4g (Мягкие приманки-жабки);30,000;CZ2883;2,78 EUR;4,17;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Bombina frog, 6,5cm, 16,5g (мягкие приманки-жабки);10,000;CZ2687;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Bombina frog, 6,5cm, 16,5g (мягкие приманки-жабки);10,000;CZ2694;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Bufo frog, 7cm, 19g (мягкие приманки-жабки);10,000;CZ2731;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Bufo frog, 7cm, 19g (мягкие приманки-жабки);10,000;CZ2748;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Crawbug, 2,5cm, 6pcs;9,000;CZ2908;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Crawbug, 2,5cm, 6pcs;7,000;CZ2915;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Crawbug, 2,5cm, 6pcs;10,000;CZ2922;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Crawbug, 2,5cm, 6pcs;10,000;CZ2939;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Mini Dancer, 3cm, 10шт/уп;3,000;CZ2946;0,83 EUR;1,245;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Mini Dancer, 3cm, 10шт/уп;;CZ2953;0,83 EUR;1,245;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Mini Dancer, 3cm, 10шт/уп;;CZ2960;0,83 EUR;1,245;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Mini Dancer, 3cm, 10шт/уп;3,000;CZ2977;0,83 EUR;1,245;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Rana frog, 6,5cm, 16g (мягкие приманки-жабки);9,000;CZ2663;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus Rana frog, 6,5cm, 16g (мягкие приманки-жабки);10,000;CZ2670;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus SF-Mouse, 6,5cm, 13,5g (мягкие приманки-мышь);4,000;CZ2700;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus SF-Mouse, 6,5cm, 13,5g (мягкие приманки-мышь);6,000;CZ2717;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Oplus SF-Mouse, 6,5cm, 13,5g (мягкие приманки-мышь);4,000;CZ2724;2,24 EUR;3,36;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 10cm, 11g (Мягкие приманки);5,000;CZ2753;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 10cm, 11g (Мягкие приманки);15,000;CZ2760;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 10cm, 11g (Мягкие приманки);3,000;CZ2777;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 10cm, 11g (Мягкие приманки);7,000;CZ2784;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 10cm, 11g (Мягкие приманки);10,000;CZ9127;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 10cm, 11g (Мягкие приманки);10,000;CZ9134;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 12cm, 25g (Мягкие приманки);5,000;CZ2791;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 12cm, 25g (Мягкие приманки);8,000;CZ2807;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 12cm, 25g (Мягкие приманки);6,000;CZ2814;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 12cm, 25g (Мягкие приманки);9,000;CZ2821;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 12cm, 25g (Мягкие приманки);11,000;CZ9141;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 12cm, 25g (Мягкие приманки);11,000;CZ9158;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 6cm, 4g, 5pcs (Мягкие приманки);5,000;CZ9325;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 6cm, 4g, 5pcs (Мягкие приманки);5,000;CZ9332;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 6cm, 4g, 5pcs (Мягкие приманки);5,000;CZ9349;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 6cm, 4g, 5pcs (Мягкие приманки);5,000;CZ9356;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 8cm, 6g (Мягкие приманки);5,000;CZ2715;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 8cm, 6g (Мягкие приманки);5,000;CZ2722;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 8cm, 6g (Мягкие приманки);6,000;CZ2739;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 8cm, 6g (Мягкие приманки);5,000;CZ2746;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 8cm, 6g (Мягкие приманки);9,000;CZ9103;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Rumba soft lure, 8cm, 6g (Мягкие приманки);10,000;CZ9110;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 10cm, 12g (Мягкие приманки);12,000;CZ2517;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 10cm, 12g (Мягкие приманки);5,000;CZ2524;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 10cm, 12g (Мягкие приманки);15,000;CZ2531;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 10cm, 12g (Мягкие приманки);13,000;CZ2548;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 10cm, 12g (Силиконовая мягкая рыбка с ребристым телом);11,000;CZ9189;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 10cm, 12g (Силиконовая мягкая рыбка с ребристым телом);5,000;CZ9196;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 13cm, 25g (Мягкие приманки);9,000;CZ2555;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 13cm, 25g (Мягкие приманки);3,000;CZ2562;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 13cm, 25g (Мягкие приманки);7,000;CZ2579;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 13cm, 25g (Мягкие приманки);8,000;CZ2586;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 13cm, 25g (Силиконовая мягкая рыбка с ребристым телом);11,000;CZ9202;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 13cm, 25g (Силиконовая мягкая рыбка с ребристым телом);6,000;CZ9219;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 8cm, 8g (Мягкие приманки);1,000;CZ2470;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 8cm, 8g (Мягкие приманки);5,000;CZ2487;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 8cm, 8g (Мягкие приманки);4,000;CZ2494;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 8cm, 8g (Мягкие приманки);11,000;CZ2500;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 8cm, 8g (Силиконовая мягкая рыбка с ребристым телом);15,000;CZ9165;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Samba soft lure, 8cm, 8g (Силиконовая мягкая рыбка с ребристым телом);8,000;CZ9172;1,28 EUR;1,92;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 10,5cm, 15g (Мягкие приманки);5,000;CZ2630;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 10,5cm, 15g (Мягкие приманки);5,000;CZ2647;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 10,5cm, 15g (Мягкие приманки);5,000;CZ2654;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 10,5cm, 15g (Мягкие приманки);4,000;CZ2661;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 13,5cm, 21g (Мягкие приманки);5,000;CZ2678;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 13,5cm, 21g (Мягкие приманки);6,000;CZ2685;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 13,5cm, 21g (Мягкие приманки);1,000;CZ2692;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 13,5cm, 21g (Мягкие приманки);5,000;CZ2708;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 9cm, 10g (Мягкие приманки);5,000;CZ2593;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 9cm, 10g (Мягкие приманки);5,000;CZ2609;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 9cm, 10g (Мягкие приманки);5,000;CZ2616;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;            Predator-Z Tango soft lure, 9cm, 10g (Мягкие приманки);5,000;CZ2623;1,04 EUR;1,56;Carp Zoom;Силиконовые приманки
+;        10. Hard Lures (воблеры) (Catalogue p. 14-18);;;;0;Carp Zoom;
+;            Predator-Z Arrow Minnow, 12,5cm, 10g, floating;3,000;CZ0948;1,43 EUR;2,145;Carp Zoom;Воблеры
+;            Predator-Z Arrow Minnow, 12,5cm, 10g, floating;1,000;CZ0955;1,43 EUR;2,145;Carp Zoom;Воблеры
+;            Predator-Z Arrow Minnow, 12,5cm, 10g, floating;6,000;CZ0962;1,43 EUR;2,145;Carp Zoom;Воблеры
+;            Predator-Z Asp Minnow, 9cm, 5,8g, floating;7,000;CZ1006;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Asp Minnow, 9cm, 5,8g, floating;;CZ1013;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Asp Minnow, 9cm, 5,8g, floating;;CZ1020;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Asp Minnow, 9cm, 5,8g, floating;;CZ1037;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Asp Shad, 10cm, 11g, floating;3,000;CZ0832;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Asp Shad, 10cm, 11g, floating;2,000;CZ0849;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Asp Shad, 10cm, 11g, floating;7,000;CZ0856;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Baby Sider, 5,5cm, 3,8g, floating;3,000;CZ1136;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Baby Sider, 5,5cm, 3,8g, floating;3,000;CZ1143;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Baby Sider, 5,5cm, 3,8g, floating;8,000;CZ1150;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Baby Sider, 5,5cm, 3,8g, floating;;CZ1167;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Baby Sider, 5,5cm, 3,8g, floating;7,000;CZ1174;1,13 EUR;1,695;Carp Zoom;Воблеры
+;            Predator-Z Bleak Minnow, 8,5cm, 8g, floating;4,000;CZ0764;1,13 EUR;1,695;Carp Zoom;Воблеры
