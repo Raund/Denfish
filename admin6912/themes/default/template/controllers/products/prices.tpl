@@ -288,7 +288,7 @@ $(document).ready(function () {
 			product_prices['{$combination.id_product_attribute}'] = '{$combination.price|@addcslashes:'\''}';
 		{/foreach}
 	</script>
-	<div id="add_specific_price" class="well clearfix" style="display: none;">
+	<div id="add_specific_price" class="well clearfix">
 		<div class="col-lg-12">
 			<div class="form-group">
 				<label class="control-label col-lg-2" for="{if !$multi_shop}spm_currency_0{else}sp_id_shop{/if}">{l s='For'}</label>
