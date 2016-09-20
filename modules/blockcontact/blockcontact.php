@@ -1,6 +1,6 @@
 <?php
 /*
-* 2007-2015 PrestaShop
+* 2007-2016 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2015 PrestaShop SA
+*  @copyright  2007-2016 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -34,20 +34,22 @@ class Blockcontact extends Module
 		$this->name = 'blockcontact';
 		$this->author = 'PrestaShop';
 		$this->tab = 'front_office_features';
-		$this->version = '1.4.0';
+		$this->version = '1.4.1';
 
 		$this->bootstrap = true;
 		parent::__construct();
 
 		$this->displayName = $this->l('Contact block');
 		$this->description = $this->l('Allows you to add additional information about your store\'s customer service.');
-		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
+		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
 	}
 
 	public function install()
 	{
 		return parent::install()
 			&& Configuration::updateValue('BLOCKCONTACT_TELNUMBER', '')
+			&& Configuration::updateValue('BLOCKCONTACT_TELNUMBER2', '')
+			&& Configuration::updateValue('BLOCKCONTACT_TELNUMBER3', '')
 			&& Configuration::updateValue('BLOCKCONTACT_EMAIL', '')
 			&& $this->registerHook('displayNav')
 			&& $this->registerHook('displayHeader');
@@ -56,7 +58,7 @@ class Blockcontact extends Module
 	public function uninstall()
 	{
 		// Delete configuration
-		return Configuration::deleteByName('BLOCKCONTACT_TELNUMBER') && Configuration::deleteByName('BLOCKCONTACT_EMAIL') && parent::uninstall();
+		return Configuration::deleteByName('BLOCKCONTACT_TELNUMBER') && deleteByName('BLOCKCONTACT_TELNUMBER2') && deleteByName('BLOCKCONTACT_TELNUMBER3') && Configuration::deleteByName('BLOCKCONTACT_EMAIL') && parent::uninstall();
 	}
 
 	public function getContent()
@@ -66,6 +68,8 @@ class Blockcontact extends Module
 		if (Tools::isSubmit('submitModule'))
 		{
 			Configuration::updateValue('BLOCKCONTACT_TELNUMBER', Tools::getValue('blockcontact_telnumber'));
+			Configuration::updateValue('BLOCKCONTACT_TELNUMBER2', Tools::getValue('blockcontact_telnumber2'));
+			Configuration::updateValue('BLOCKCONTACT_TELNUMBER3', Tools::getValue('blockcontact_telnumber3'));
 			Configuration::updateValue('BLOCKCONTACT_EMAIL', Tools::getValue('blockcontact_email'));
 			$this->_clearCache('blockcontact.tpl');
 			$this->_clearCache('nav.tpl');
@@ -91,6 +95,8 @@ class Blockcontact extends Module
 		if (!$this->isCached($tpl.'.tpl', $this->getCacheId()))
 			$smarty->assign(array(
 				'telnumber' => Configuration::get('BLOCKCONTACT_TELNUMBER'),
+				'telnumber2' => Configuration::get('BLOCKCONTACT_TELNUMBER2'),
+				'telnumber3' => Configuration::get('BLOCKCONTACT_TELNUMBER3'),
 				'email' => Configuration::get('BLOCKCONTACT_EMAIL')
 			));
 		return $this->display(__FILE__, $tpl.'.tpl', $this->getCacheId());
@@ -115,20 +121,28 @@ class Blockcontact extends Module
 					'title' => $this->l('Settings'),
 					'icon' => 'icon-cogs'
 				),
-				'description' => $this->l('This block displays in the header your phone number (‘Call us now’), and a link to the ‘Contact us’ page.').'<br/><br/>'.
-						$this->l('To edit the email addresses for the ‘Contact us’ page: you should go to the ‘Contacts’ page under the ‘Customer’ menu.').'<br/>'.
-						$this->l('To edit the contact details in the footer: you should go to the ‘Contact Information Block’ module.'),
+				'description' => $this->l('Редактирование контактных номеров телефона').'<br/><br/>',
+						/*$this->l('To edit the email addresses for the ‘Contact us’ page: you should go to the ‘Contacts’ page under the ‘Customer’ menu.').'<br/>'.
+						$this->l('To edit the contact details in the footer: you should go to the ‘Contact Information Block’ module.')*/
 				'input' => array(
 					array(
 						'type' => 'text',
 						'label' => $this->l('Telephone number'),
 						'name' => 'blockcontact_telnumber',
+					),array(
+						'type' => 'text',
+						'label' => $this->l('Номер телефона 2'),
+						'name' => 'blockcontact_telnumber2',
+					),array(
+						'type' => 'text',
+						'label' => $this->l('Номер телефона 3'),
+						'name' => 'blockcontact_telnumber3',
 					),
 					array(
 						'type' => 'text',
 						'label' => $this->l('Email'),
 						'name' => 'blockcontact_email',
-						'desc' => $this->l('Enter here your customer service contact details.'),
+						'desc' => $this->l('Укажите ваш адрес электронной почты'),
 					),
 				),
 				'submit' => array(
@@ -162,6 +176,8 @@ class Blockcontact extends Module
 	{
 		return array(
 			'blockcontact_telnumber' => Tools::getValue('blockcontact_telnumber', Configuration::get('BLOCKCONTACT_TELNUMBER')),
+			'blockcontact_telnumber2' => Tools::getValue('blockcontact_telnumber2', Configuration::get('BLOCKCONTACT_TELNUMBER2')),
+			'blockcontact_telnumber3' => Tools::getValue('blockcontact_telnumber3', Configuration::get('BLOCKCONTACT_TELNUMBER3')),
 			'blockcontact_email' => Tools::getValue('blockcontact_email', Configuration::get('BLOCKCONTACT_EMAIL')),
 		);
 	}

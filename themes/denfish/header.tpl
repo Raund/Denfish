@@ -437,7 +437,7 @@ if(!$('#home_vnutr1').length){
                      <div class="social_top">
                          {hook h="displaySocialSharing"}
                      </div>
-                     <div class="top_phone"><span>+3 8050</span> 548 11 59</div>
+                     <div class="top_phone">{hook h="displayRightColumn"}</div>
                      </div>
                 </div>
                 <div id="home_vnutr1">
@@ -522,7 +522,8 @@ if(!$('#home_vnutr1').length){
             {hook h="displaySocialSharing"}
         </div>
         <div class="catalog_name">Kаталог товаров</div>
-        <div class="phone"><span>+3 8050</span> 548 11 59</div>
+        {hook h="displayRightColumn"}
+       <!-- <div class="phone"><span>+3 8050</span> 548 11 59</div>-->
     </div>
 </div><!--/хедер светлый-->
 {/if}
