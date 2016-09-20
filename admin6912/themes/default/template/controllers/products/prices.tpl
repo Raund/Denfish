@@ -267,7 +267,7 @@ $(document).ready(function () {
 	</div>
 </div>
 {if isset($specificPriceModificationForm)}
-<div class="panel" style="display:none">
+<div class="panel">
 	<h3>{l s='Specific prices'}</h3>
 	<div class="alert alert-info">
 		{l s='You can set specific prices for clients belonging to different groups, different countries, etc.'}
