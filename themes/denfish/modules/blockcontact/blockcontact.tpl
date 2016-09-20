@@ -1,23 +1,30 @@
+<script>
+$(function(){
+	$('.phone-wrap').hover(
+		function(){
+			$('.phone i').removeClass('fa-angle-down').addClass('fa-angle-up');
+		},
+		function(){
+			$('.phone i').removeClass('fa-angle-up').addClass('fa-angle-down');
+		}
+	);
+});
+</script>
 
-<div id="contact_block">
-		{if $telnumber != ''}
-			<div class="phone">
-				{$telnumber|escape:'html':'UTF-8'}
-			</div>
-		{/if}
-	{if $telnumber2 != ''}
-		<div class="phone1">
-			{$telnumber2|escape:'html':'UTF-8'}
-		</div>
-	{/if}
-	{if $telnumber3 != ''}
-		<div class="phone">
-			{$telnumber3|escape:'html':'UTF-8'}
-		</div>
-	{/if}
-		{if $email != ''}
-			<a href="mailto:{$email|escape:'html':'UTF-8'}"></a>
-		{/if}
-
+<div class="phone-wrap">
+    {if $telnumber}
+       <span class="phone">{$telnumber}<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+    {/if}
+<ul class="phones">
+    {if $telnumber2}
+    <li>{$telnumber2}</li>
+    {/if}
+    {if $telnumber3}
+    <li>{$telnumber3}</li>
+    {/if}
+    {if $email}
+        <li class="mail"> <a href="mailto:{$email}">{$email}</a></li>
+    {/if}
+</ul>
 </div>
 <!--<div class="phone"><span>+3 8050</span> 548 11 59</div>-->

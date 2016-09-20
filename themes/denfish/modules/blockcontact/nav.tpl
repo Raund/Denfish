@@ -22,11 +22,19 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-<div id="contact-link">
-	<a href="{$link->getPageLink('contact', true)|escape:'html':'UTF-8'}" title="{l s='Contact Us' mod='blockcontact'}">{l s='Contact us' mod='blockcontact'}</a>
+<div class="phone-wrap">
+    {if $telnumber}
+       <span class="phone">{$telnumber}</span>
+    {/if}
+<ul class="phones">
+    {if $telnumber2}
+    <li>{$telnumber2}</li>
+    {/if}
+    {if $telnumber3}
+    <li>{$telnumber3}</li>
+    {/if}
+    {if $email}
+        <li class="mail"> <a href="mailto:{$email}">{$email}</a></li>
+    {/if}
+</ul>
 </div>
-{if $telnumber}
-	<span class="shop-phone">
-		<i class="icon-phone"></i>{l s='Call us now:' mod='blockcontact'} <strong>{$telnumber}</strong>
-	</span>
-{/if}
