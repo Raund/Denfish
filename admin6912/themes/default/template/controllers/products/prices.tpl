@@ -288,7 +288,7 @@ $(document).ready(function () {
 			product_prices['{$combination.id_product_attribute}'] = '{$combination.price|@addcslashes:'\''}';
 		{/foreach}
 	</script>
-	<div id="add_specific_price" class="well clearfix">
+	<div id="add_specific_price" class="well clearfix" style="display: none;">
 		<div class="col-lg-12">
 			<div class="form-group">
 				<label class="control-label col-lg-2" for="{if !$multi_shop}spm_currency_0{else}sp_id_shop{/if}">{l s='For'}</label>
@@ -384,9 +384,11 @@ $(document).ready(function () {
 			</div>
 			<div class="form-group">
 				<label class="control-label col-lg-2" for="sp_from_quantity">{l s='Starting at'}</label>
-				<div class="input-group col-lg-4">
-					<span class="input-group-addon">{l s='unit'}</span>
-					<input type="text" name="sp_from_quantity" id="sp_from_quantity" value="1" />
+				<div class="col-lg-4">
+					<div class="input-group">
+						<span class="input-group-addon">{l s='unit'}</span>
+						<input type="text" name="sp_from_quantity" id="sp_from_quantity" value="1" />
+					</div>
 				</div>
 			</div>
 			<div class="form-group">
@@ -397,11 +399,11 @@ $(document).ready(function () {
 				</label>
 				<div class="col-lg-9">
 					<div class="row">
-						<div class="input-group col-lg-4">
-							<span class="input-group-addon">{$currency->prefix}{$currency->suffix}</span>
-							<input type="text" disabled="disabled" name="sp_price" id="sp_price" value="{$product->price|string_format:$priceDisplayPrecisionFormat}" />
-						</div>
-						<div class="col-lg-8">
+						<div class="col-lg-4">
+							<div class="input-group">
+								<span class="input-group-addon">{$currency->prefix}{$currency->suffix}</span>
+								<input type="text" disabled="disabled" name="sp_price" id="sp_price" value="{$product->price|string_format:$priceDisplayPrecisionFormat}" />
+							</div>
 							<p class="checkbox">
 								<label for="leave_bprice">{l s='Leave base price:'}</label>
 								<input type="checkbox" id="leave_bprice" name="leave_bprice"  value="1" checked="checked"  />
@@ -414,23 +416,28 @@ $(document).ready(function () {
 				<label class="control-label col-lg-2" for="sp_reduction">{l s='Apply a discount of'}</label>
 				<div class="col-lg-4">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-3">
 							<input type="text" name="sp_reduction" id="sp_reduction" value="0.00"/>
 						</div>
 						<div class="col-lg-6">
 							<select name="sp_reduction_type" id="sp_reduction_type">
-								<option selected="selected">-</option>
-								<option value="amount">{l s='Currency Units'}</option>
-								<option value="percentage">{l s='Percent'}</option>
+								<option value="amount" selected="selected">{$currency->name|escape:'html':'UTF-8'}</option>
+								<option value="percentage">{l s='%'}</option>
+							</select>
+						</div>
+						<div class="col-lg-3">
+							<select name="sp_reduction_tax" id="sp_reduction_tax">
+								<option value="0">{l s='Tax excluded'}</option>
+								<option value="1" selected="selected">{l s='Tax included'}</option>
 							</select>
 						</div>
 					</div>
 				</div>
-				<p class="help-block">{l s='The discount is applied after the tax'}</p>
 			</div>
 		</div>
 	</div>
 	<script type="text/javascript">
+		var currencyName = '{$currency->name|escape:'html':'UTF-8'|@addcslashes:'\''}';
 		$(document).ready(function(){
 			product_prices['0'] = $('#sp_current_ht_price').html();
 			$('#id_product_attribute').change(function() {
@@ -447,17 +454,23 @@ $(document).ready(function () {
 				nextText: '',
 				dateFormat: 'yy-mm-dd',
 				// Define a custom regional settings in order to use PrestaShop translation tools
-				currentText: '{l s='Now'}',
-				closeText: '{l s='Done'}',
+				currentText: '{l s='Now' js=1}',
+				closeText: '{l s='Done' js=1}',
 				ampm: false,
 				amNames: ['AM', 'A'],
 				pmNames: ['PM', 'P'],
 				timeFormat: 'hh:mm:ss tt',
 				timeSuffix: '',
-				timeOnlyTitle: '{l s='Choose Time'}',
-				timeText: '{l s='Time'}',
-				hourText: '{l s='Hour'}',
-				minuteText: '{l s='Minute'}',
+				timeOnlyTitle: '{l s='Choose Time' js=1}',
+				timeText: '{l s='Time' js=1}',
+				hourText: '{l s='Hour' js=1}',
+				minuteText: '{l s='Minute' js=1}'
+			});
+			$('#sp_reduction_type').on('change', function() {
+				if (this.value == 'percentage')
+					$('#sp_reduction_tax').hide();
+				else
+					$('#sp_reduction_tax').show();
 			});
 		});
 	</script>
@@ -472,7 +485,11 @@ $(document).ready(function () {
 				<th>{l s='Country'}</th>
 				<th>{l s='Group'}</th>
 				<th>{l s='Customer'}</th>
-				<th>{l s='Fixed price'}</th>
+				{if $country_display_tax_label}
+					<th>{l s='Fixed price (tax excl.)'}</th>
+				{else}
+					<th>{l s='Fixed price'}</th>
+				{/if}
 				<th>{l s='Impact'}</th>
 				<th>{l s='Period'}</th>
 				<th>{l s='From (quantity)'}</th>

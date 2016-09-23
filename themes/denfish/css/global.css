@@ -3490,3 +3490,26 @@ a#mailalert_link
 #home .phone-wrap:hover ul.phones{
 	display: block;
 }
+
+/* change for sale */
+.product-flags .content_price{
+	position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #00cccc;
+}
+
+.product-flags .old-price{
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-flags .price-percent-reduction{
+    font-size: 25px;
+    background: #c3043a;
+    margin-left: 10px;
+    color: #fff;
+}

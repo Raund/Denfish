@@ -39,28 +39,8 @@
 							<span>{l s='Quick view'}</span>
 						</a>
 						{/if}
-						<!--{if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
-							<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-								{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
-									<span itemprop="price" class="price product-price">
-										{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
-									</span>
-									<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
-									{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
-										{hook h="displayProductPriceBlock" product=$product type="old_price"}
-										<span class="old-price product-price">
-											{displayWtPrice p=$product.price_without_reduction}
-										</span>
-										{if $product.specific_prices.reduction_type == 'percentage'}
-											<span class="price-percent-reduction">-{$product.specific_prices.reduction * 100}%</span>
-										{/if}
-									{/if}
-									{hook h="displayProductPriceBlock" product=$product type="price"}
-									{hook h="displayProductPriceBlock" product=$product type="unit_price"}
-								{/if}
-							</div>
-						{/if}
-						{if isset($product.new) && $product.new == 1}
+						
+						<!--{if isset($product.new) && $product.new == 1}
 							<a class="new-box" href="{$product.link|escape:'html':'UTF-8'}">
 								<span class="new-label">{l s='New'}</span>
 							</a>
@@ -91,14 +71,26 @@
 					{/if}
 					<div class="product-flags">
 						{if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
-							{if isset($product.online_only) && $product.online_only}
-								<span class="online_only">{l s='Online only'}</span>
-							{/if}
+							<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+								{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
+									<!--<span itemprop="price" class="price product-price">
+										{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+									</span>-->
+									<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
+									{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
+										{hook h="displayProductPriceBlock" product=$product type="old_price"}
+										<span class="old-price product-price">
+											{displayWtPrice p=$product.price_without_reduction}
+										</span>
+										{if $product.specific_prices.reduction_type == 'percentage'}
+											<span class="price-percent-reduction">-{$product.specific_prices.reduction * 100}%</span>
+										{/if}
+									{/if}
+									{hook h="displayProductPriceBlock" product=$product type="price"}
+									{hook h="displayProductPriceBlock" product=$product type="unit_price"}
+								{/if}
+							</div>
 						{/if}
-						{if isset($product.on_sale) && $product.on_sale && isset($product.show_price) && $product.show_price && !$PS_CATALOG_MODE}
-							{elseif isset($product.reduction) && $product.reduction && isset($product.show_price) && $product.show_price && !$PS_CATALOG_MODE}
-								<span class="discount">{l s='Reduced price!'}</span>
-							{/if}
 					</div>
 					{if (!$PS_CATALOG_MODE && $PS_STOCK_MANAGEMENT && ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
 						{if isset($product.available_for_order) && $product.available_for_order && !isset($restricted_country_mode)}

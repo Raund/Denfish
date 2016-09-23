@@ -35,7 +35,7 @@
 				<td style="font-weight: bold; font-size: 14pt; color: #444; width: 100%">{$shop_name|escape:'html':'UTF-8'}</td>
 			</tr>
 			<tr>
-				<td style="font-size: 14pt; color: #444">{$date|date_format:"%d. %m. %Y"|escape:'html':'UTF-8'}</td>
+				<td style="font-size: 14pt; color: #444">{$date|date_format:"%d.%m.%Y"|escape:'html':'UTF-8'}</td>
 			</tr>
 			<tr>
 				<td style="font-size: 14pt; color: #444">{$title|escape:'html':'UTF-8'}</td>
