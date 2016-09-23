@@ -2,7 +2,7 @@
 
 global $_MODULE;
 $_MODULE = array();
-$_MODULE['<{bankwire}prestashop>bankwire_05adcee99142c1a60fb38bb1330bbbc1'] = 'Банковский перевод';
+$_MODULE['<{bankwire}prestashop>bankwire_05adcee99142c1a60fb38bb1330bbbc1'] = 'Предоплата на карту Приватбанк';
 $_MODULE['<{bankwire}prestashop>bankwire_a246a8e9907530c4c36b8b4c37bbc823'] = 'Приём оплаты товаров банковским переводом.';
 $_MODULE['<{bankwire}prestashop>bankwire_cbe0a99684b145e77f3e14174ac212e3'] = 'Вы точно хотите удалить эти данные?';
 $_MODULE['<{bankwire}prestashop>bankwire_0ea0227283d959415eda0cfa31d9f718'] = 'Для использования этого модуля нужно задать владельца счета и реквизиты.';
@@ -23,7 +23,7 @@ $_MODULE['<{bankwire}prestashop>payment_execution_6ff063fbc860a79759a7369ac32cee
 $_MODULE['<{bankwire}prestashop>payment_execution_511e8b930b4d3d6002984c0373eb6d4b'] = 'Оплата банковским переводом';
 $_MODULE['<{bankwire}prestashop>payment_execution_f1d3b424cd68795ecaa552883759aceb'] = 'Информация о заказе';
 $_MODULE['<{bankwire}prestashop>payment_execution_879f6b8877752685a966564d072f498f'] = 'Корзина пуста.';
-$_MODULE['<{bankwire}prestashop>payment_execution_05adcee99142c1a60fb38bb1330bbbc1'] = 'Банковский перевод';
+$_MODULE['<{bankwire}prestashop>payment_execution_05adcee99142c1a60fb38bb1330bbbc1'] = 'Предоплата на карту Приватбанк';
 $_MODULE['<{bankwire}prestashop>payment_execution_afda466128ee0594745d9f8152699b74'] = 'Вы выбрали оплату банковским переводом.';
 $_MODULE['<{bankwire}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Краткая информация по вашему заказу:';
 $_MODULE['<{bankwire}prestashop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = 'Общая сумма вашего заказа';
