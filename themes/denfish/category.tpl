@@ -52,7 +52,7 @@
 		{/if}
     <div class="clearfix">
         <div class="sort_name">
-            <h2{if (isset($subcategories) && !$products) || (isset($subcategories) && $products) || !isset($subcategories) && $products} product-listing{/if}>{$category->name|escape:'html':'UTF-8'}{if isset($categoryNameComplement)}&nbsp;{$categoryNameComplement|escape:'html':'UTF-8'}{/if}</h2>
+            <h1{if (isset($subcategories) && !$products) || (isset($subcategories) && $products) || !isset($subcategories) && $products} product-listing{/if}>{$category->name|escape:'html':'UTF-8'}{if isset($categoryNameComplement)}&nbsp;{$categoryNameComplement|escape:'html':'UTF-8'}{/if}</h1>
             <h4>Подобрано товаров:<span class="category-product-count">{include file="$tpl_dir./category-count.tpl"}</span></h4>
         </div>
 		{if $products}

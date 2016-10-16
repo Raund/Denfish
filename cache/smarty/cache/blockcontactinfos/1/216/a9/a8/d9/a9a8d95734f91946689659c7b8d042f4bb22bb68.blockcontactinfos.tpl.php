@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '3096757dfd62ab52921-40997242',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfda8289d7a2_25858817',
+  'unifunc' => 'content_58025dff293373_94222750',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57dfda8289d7a2_25858817')) {function content_57dfda8289d7a2_25858817($_smarty_tpl) {?><!--блок адреси-->
+<?php if ($_valid && !is_callable('content_58025dff293373_94222750')) {function content_58025dff293373_94222750($_smarty_tpl) {?><!--блок адреси-->
 <div class="addres left">
         <h4>Адреса наших магазинов:</h4>
         <ul>

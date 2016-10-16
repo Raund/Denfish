@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '2504057dfd62ae3eec7-61370369',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfda82a7d564_53244432',
+  'unifunc' => 'content_58025dff5ee732_35766883',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57dfda82a7d564_53244432')) {function content_57dfda82a7d564_53244432($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58025dff5ee732_35766883')) {function content_58025dff5ee732_35766883($_smarty_tpl) {?>
 		
 		<a class="_blank" href="https://www.instagram.com/denfish2016/"><i class="fa fa-instagram"></i></a>		<a class="_blank" href="http://vk.com/public111928645"><i class="fa fa-vk"></i></a>		<a class="_blank" href="https://www.facebook.com/Denfishcom-1675193942721378/?fref=ts"><i class="fa fa-facebook"></i></a>		<!--								-->
 	

@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '741457dfd62aa5b3f6-81487050',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfe20e724165_90035725',
+  'unifunc' => 'content_58025dff1f05b9_52560968',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57dfe20e724165_90035725')) {function content_57dfe20e724165_90035725($_smarty_tpl) {?>﻿<div class="article">
+<?php if ($_valid && !is_callable('content_58025dff1f05b9_52560968')) {function content_58025dff1f05b9_52560968($_smarty_tpl) {?>﻿<div class="article">
     <h3><a href="http://denfish.my/smartblog.html">Статьи от DEN<span>FISH</span></a></h3>
     
                                 <ul>

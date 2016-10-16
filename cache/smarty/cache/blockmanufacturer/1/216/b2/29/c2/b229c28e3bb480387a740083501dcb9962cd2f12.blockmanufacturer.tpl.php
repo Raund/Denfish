@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '2600157dfd62a9a2994-65395175',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfe20e6e0891_37630517',
+  'unifunc' => 'content_58025dfeef8160_68300623',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57dfe20e6e0891_37630517')) {function content_57dfe20e6e0891_37630517($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58025dfeef8160_68300623')) {function content_58025dfeef8160_68300623($_smarty_tpl) {?>
 <!-- Block manufacturers module -->
 <div class="manufact">
 		<!--			<a href="http://denfish.my/manufacturers" title="Производители">

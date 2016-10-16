@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-html, body, div, span, applet, object, iframe, h1, h2, 
+html, body, div, span, applet, object, iframe, h1, h2,
 h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
 address, big, cite, code, del, dfn, em, img, ins, q,
 small, strike, strong, sup, sub, tt, var, b, i, dl, dt,
 dd, ol, ul, ul, li, fieldset, form, label, legend, table,
 caption, tbody, tfoot, thead, tr, th, td, article, aside,
-canvas, details, figure, figcaption, header, footer, 
+canvas, details, figure, figcaption, header, footer,
 hgroup, menu, nav, output, section, summary, time, mark,
 audio, video {
 	margin:0;
@@ -204,7 +204,7 @@ a, a:hover {text-decoration: none;}
 	bottom: -79px;
 }
 /*стилі каталогу*/
-.catalog_name{	
+.catalog_name{
 	font: 22px "RobotoBold";
 	width: 270px;
 	padding: 10px 0 10px 20px;
@@ -499,7 +499,7 @@ h3 span{
 
 /*стилі посилання еще совет*/
 .adv li:nth-child(1){
-	border-right: 1px solid #4c6366;	
+	border-right: 1px solid #4c6366;
 	border-radius: 0 0 0 5px;
 	background: #353c3d;
 	padding-left: 19px;
@@ -663,7 +663,7 @@ h3 span{
 	font-family: "RobotoBold";
 	font-size: 13px;
 	padding: 8px 0 0 18px;
-	border-radius: 0 0 3px 3px; 
+	border-radius: 0 0 3px 3px;
 	float: left;
 	margin-top: 30px;
 }
@@ -694,7 +694,7 @@ h3 span{
 }
 /*розміщення блоків*/
 .article_box{
-	width: 31.334%; 
+	width: 31.334%;
 	margin-top: 30px;
 	line-height: 25px;
 	float: left;
@@ -791,7 +791,7 @@ h3 span{
 	margin-left: 64px;
 }
 /*стилі телефону*/
-.kontakt h1{
+.kontakt .footer-phones{
 	color: #fff;
 	font-family: "RobotoBold";
 	font-size: 36px;
@@ -799,7 +799,7 @@ h3 span{
 	margin-bottom: 30px;
 }
 /*стилі виділеної частини телефону*/
-.kontakt h1 span{
+.kontakt .footer-phones span{
 	color: #16d4d1;
 }
 /*розміщення соц іконок*/
@@ -856,7 +856,7 @@ h3 span{
 	margin-right: 50px;
 }
 /*стилі заголовків*/
-.reg_info h1, .reg_descr h1, .enter_info h1{
+.reg_info h3, .reg_descr h3, .enter_info h3{
 	font-size: 20px;
 	margin-bottom: 38px;
 }
@@ -951,8 +951,8 @@ h3 span{
 	width: 300px;
 	height: 380px;
 	background: #ededed;
-	padding-top: 15px; 
-	margin-top: -10px;	
+	padding-top: 15px;
+	margin-top: -10px;
 }
 /*розміщення підпунктів інформації*/
 .block_descr ul li{
@@ -1054,7 +1054,7 @@ h3 span{
 	box-shadow: 0 0 10px #d8d8d8;
 }
 .reg_vnutr1{
-	height: 90px; 
+	height: 90px;
 	margin-top: 104px;
 	padding-right: 30px;
 	border-right: 1px solid #19e2dd;
@@ -1091,11 +1091,11 @@ h3 span{
 #home_vnutr1{
 	height: 254px;
 	background: #242829;
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
 }
 
 #home_vnutr1 a:hover{
-	color: #fff; 
+	color: #fff;
 }
 
 .lozung_vnutr1{
@@ -1132,7 +1132,7 @@ h3 span{
 }
 
 .catalog_vnutr1 li:hover {
-	cursor: pointer;	
+	cursor: pointer;
 	text-decoration: underline;
 }
 
@@ -1247,7 +1247,7 @@ h3 span{
 }
 
 .rozd a.show_all:hover{
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 .block_product{
@@ -1332,7 +1332,7 @@ h3 span{
 }
 
 .order li{
-	
+
 }
 
 .order li:nth-child(2n+1){
@@ -1724,7 +1724,7 @@ a#new_comment_tab_btn span:hover{
 .many_product, .buy{
 	height: 45px;
 	border: none;
-} 
+}
 
 /*.many_product{
 	display: block;
@@ -1760,7 +1760,7 @@ a#new_comment_tab_btn span:hover{
 
 #describe_of_product .block_character ul li{
 	font: 14px "Arial";
-	color: #1e2121; 
+	color: #1e2121;
 }
 
 .character{
@@ -1769,7 +1769,7 @@ a#new_comment_tab_btn span:hover{
 
 .block_character h2{
 	font: 18px "Arial";
-	color: #00adaa; 
+	color: #00adaa;
 	margin-bottom: 35px;
 }
 
@@ -1972,7 +1972,7 @@ a#new_comment_tab_btn span:hover{
 }
 
 .not_available_block button:hover{
-	background: #00cccc url("../img/letter.png") no-repeat 8% 50%;	
+	background: #00cccc url("../img/letter.png") no-repeat 8% 50%;
 }
 
 .one_block{
@@ -2009,19 +2009,19 @@ a#new_comment_tab_btn span:hover{
 }
 #models h2{
 	font: 25px "Arial";
-	color: #00adaa; 
+	color: #00adaa;
 	margin: 10px 0;
 }
 
 #models h1{
 	font: 22px "RobotoBold";
-	color: #1e2121; 
+	color: #1e2121;
 	margin:3px 20px 0 0;
 }
 
 #models h1.models_price{
 	font: 24px "RobotoBold";
-	color: #1e2121; 
+	color: #1e2121;
 	margin:2px 20px 0 0;
 }
 
@@ -2125,7 +2125,7 @@ a#new_comment_tab_btn span:hover{
 	margin-top: 15px;
 }
 
-.sort_name h2 span{
+.sort_name h1 span{
 	color: #ccc;
 	padding-left: 5px;
 }
@@ -2306,7 +2306,7 @@ a#new_comment_tab_btn span:hover{
 	margin-top: 15px;
 }
 
-.sort_name h2{
+.sort_name h1{
 	font: 25px "Arial";
 	margin-bottom: 10px;
 	color: #1E2121;
@@ -2541,7 +2541,7 @@ width: 335px;
 }
 
 .rte{
-	width: 77.5%;	
+	width: 77.5%;
 	padding: 25px 0 50px 50px;
 	float:right;
 }
@@ -3054,7 +3054,7 @@ p.submit button.button-medium:hover{
 .desc_prod_block .star{
 	font-size: 25px;
 	margin-left: 10px;
-	
+
 }
 .mb10{
 	margin-bottom: 10px;
@@ -3068,12 +3068,12 @@ ul li a.v_nal,
 ul li a.net_v_nal{
 	text-decoration: none;
 	cursor: default;
-	
+
 }
 ul li a.net_v_nal{
 	color: #FF0066;
 }
-ul li a.v_nal .fa, 
+ul li a.v_nal .fa,
 ul li a.net_v_nal .fa{
 	margin-right: 10px;
 	font-size: 16px;
@@ -3096,7 +3096,7 @@ ul li a.net_v_nal .fa{
 	text-align:center;
 	font-size:25px;
 	font-weight:bold;
-	
+
 }
 .sale-label{
 	position: absolute;
@@ -3115,7 +3115,7 @@ ul li a.net_v_nal .fa{
 	-webkit-transition-duration: 1.5s;
     -o-transition-duration: 1.5s;
     -moz-transition-duration: 1.5s;
-    transition-duration: 1.5s; 	
+    transition-duration: 1.5s;
 }
 
 .history_price .price,
@@ -3396,7 +3396,7 @@ a#mailalert_link
 .bloc_adresses{
 	width: 50%;
 	margin: auto;
-} 
+}
 
 .reg_vnutr1 li a.logout{
 	margin-top: 35px;

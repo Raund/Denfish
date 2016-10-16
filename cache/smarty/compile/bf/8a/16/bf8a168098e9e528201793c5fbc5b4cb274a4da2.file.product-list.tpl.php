@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-09-19 15:12:35
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-15 19:49:11
          compiled from "D:\OpenServer\domains\denfish.my\themes\denfish\product-list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6257dfd633628c82-15790111%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bf8a168098e9e528201793c5fbc5b4cb274a4da2' => 
     array (
       0 => 'D:\\OpenServer\\domains\\denfish.my\\themes\\denfish\\product-list.tpl',
-      1 => 1472825940,
+      1 => 1474664915,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57dfd6339d5829_17065845',
   'variables' => 
   array (
     'products' => 0,
@@ -43,8 +45,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'compared_products' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfd6339d5829_17065845',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57dfd6339d5829_17065845')) {function content_57dfd6339d5829_17065845($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'D:\\OpenServer\\domains\\denfish.my\\tools\\smarty\\plugins\\function.math.php';
 ?><?php if (isset($_smarty_tpl->tpl_vars['products']->value)&&$_smarty_tpl->tpl_vars['products']->value) {?>

@@ -261,7 +261,7 @@ if(!$('#home_vnutr1').length){
 <div class="reg">
     <!--блок заповнення форми-->
     <div class="reg_info">
-        <h1>Регистрация покупателя</h1>
+        <h3>Регистрация покупателя</h3>
         <form action="#" method="POST" id="form">
             <div id="form-fields-container">
                 <ul>
@@ -294,7 +294,7 @@ if(!$('#home_vnutr1').length){
     <!--/блок заповнення форми-->
     <!--блок інформації форми-->
     <div class="reg_descr">
-        <h1 class="red">Преимущества регистрации</h1>
+        <h3 class="red">Преимущества регистрации</h3>
         <div class="block_descr">
             <ul>
                 <li>История покупок</li>
@@ -315,7 +315,7 @@ if(!$('#home_vnutr1').length){
 <div class="enter">
     <!--блок заповнення форми-->
     <div class="enter_info">
-        <h1>Вход</h1>
+        <h3>Вход</h3>
         <form action="#" method="POST" id="form">
             <div id="form-fields-container">
                 <ul>
@@ -343,7 +343,7 @@ if(!$('#home_vnutr1').length){
         <a class="change x-change-type right" data-type="without_reg" href="#"><i class="fa fa-check"></i> Покупка без регистрации</a>
     </div>
     <div class="reg_info us_info">
-        <h1><i class="fa fa-user"></i> Ваши данные</h1>
+        <h3><i class="fa fa-user"></i> Ваши данные</h3>
         <form action="#" method="POST">
             <div id="form-fields-container">
                 <ul>
@@ -383,7 +383,7 @@ if(!$('#home_vnutr1').length){
             <div>
                 <ul>
                     <li class="subtitle">
-                        <h1><i class="fa fa-truck"></i> Доставка</h1>
+                        <h3><i class="fa fa-truck"></i> Доставка</h3>
                         <p>Осуществляем доставку Новой Почтой</p>
                     </li>
                     <li>
@@ -395,7 +395,7 @@ if(!$('#home_vnutr1').length){
                         <span>Укажите номер отделения Новой Почты</span>
                     </li>
                     <li class="subtitle">
-                        <h1><i class="fa fa-credit-card"></i> Оплата</h1>
+                        <h3><i class="fa fa-credit-card"></i> Оплата</h3>
                         <p>Укажите предпочитаемый способ оплаты</p>
                     </li>
                     <li>

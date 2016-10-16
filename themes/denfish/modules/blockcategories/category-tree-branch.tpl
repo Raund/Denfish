@@ -22,11 +22,11 @@
 		</ul>
         <div class="new">
             <img src="{$img_dir}/new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-09-19 15:12:26
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-15 20:19:28
          compiled from "D:\OpenServer\domains\denfish.my\themes\denfish\modules\blockcategories\category-tree-branch.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:583657dfd62a58b0a1-29042240%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0ddbdf41e4d82c72fe3999dd0b2ee00148b38435' => 
     array (
       0 => 'D:\\OpenServer\\domains\\denfish.my\\themes\\denfish\\modules\\blockcategories\\category-tree-branch.tpl',
-      1 => 1470841582,
+      1 => 1476551908,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57dfd62a5d7980_17980683',
   'variables' => 
   array (
     'last' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'img_dir' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfd62a5d7980_17980683',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57dfd62a5d7980_17980683')) {function content_57dfd62a5d7980_17980683($_smarty_tpl) {?>
 
@@ -66,11 +66,11 @@ $_smarty_tpl->tpl_vars['child']->_loop = true;
         <div class="new">
             <img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
 /new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>

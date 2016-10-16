@@ -11,17 +11,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0ddbdf41e4d82c72fe3999dd0b2ee00148b38435' => 
     array (
       0 => 'D:\\OpenServer\\domains\\denfish.my\\themes\\denfish\\modules\\blockcategories\\category-tree-branch.tpl',
-      1 => 1470841582,
+      1 => 1476551908,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '2687957dfd62a542395-24737163',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfda82776eb2_13883212',
-  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5802652024c106_84515516',
+  'variables' => 
+  array (
+    'blockCategTree' => 0,
+    'currentCategory' => 0,
+    'isDhtml' => 0,
+    'child' => 0,
+  ),
+  'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57dfda82776eb2_13883212')) {function content_57dfda82776eb2_13883212($_smarty_tpl) {?><!-- Block categories module -->
+<?php if ($_valid && !is_callable('content_5802652024c106_84515516')) {function content_5802652024c106_84515516($_smarty_tpl) {?><!-- Block categories module -->
   <ul class="catalog">
 	<div id="categories_block_left" style="display:none" class="block">
 	<!--<h2 class="title_block" hidden>
@@ -99,11 +106,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -197,11 +204,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -367,11 +374,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -465,11 +472,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -581,11 +588,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -670,11 +677,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -786,11 +793,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -848,11 +855,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -910,11 +917,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -972,11 +979,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1016,11 +1023,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1060,11 +1067,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1095,11 +1102,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1166,11 +1173,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1264,11 +1271,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1317,11 +1324,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1433,11 +1440,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1585,11 +1592,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1629,11 +1636,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1718,11 +1725,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1771,11 +1778,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1824,11 +1831,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>
@@ -1877,11 +1884,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</ul>
         <div class="new">
             <img src="http://denfish.my/themes/denfish/img//new1.jpg" alt="">
-            <h1 class="nove">Новинка</h1>
-            <h1 class="year">2015</h1>
-            <h1 class="test">Тест:</h1>
-            <h1 class="par1">0,2 мм</h1>
-            <h1 class="par2">15,7 кг</h1>
+            <span class="nove">Новинка</span>
+            <span class="year">2015</span>
+            <span class="test">Тест:</span>
+            <span class="par1">0,2 мм</span>
+            <span class="par2">15,7 кг</span>
             <button class="price">25 грн</button>
         </div>
     </div>

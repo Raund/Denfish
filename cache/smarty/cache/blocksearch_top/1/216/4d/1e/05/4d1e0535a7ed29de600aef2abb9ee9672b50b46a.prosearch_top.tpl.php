@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '111357dfd629d182d7-13384545',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57dfda8224fa16_83561828',
+  'unifunc' => 'content_58025dfd978565_44835546',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57dfda8224fa16_83561828')) {function content_57dfda8224fa16_83561828($_smarty_tpl) {?><div class="search_form" style="display:none">
+<?php if ($_valid && !is_callable('content_58025dfd978565_44835546')) {function content_58025dfd978565_44835546($_smarty_tpl) {?><div class="search_form" style="display:none">
 <div id="search_block_top" class="block exclusive">
 	<form id="searchbox" method="get" action="http://denfish.my/search" >
         <input type="hidden" name="orderby" value="position" placeholder="Поиск по каталогу товаров1"/>

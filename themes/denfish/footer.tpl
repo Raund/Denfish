@@ -26,7 +26,7 @@
             <!--блок контактів-->
             <div class="kontakt left">
                 <h4>Звоните!</h4>
-                <h1>{hook h="displayRightColumn"}</h1>
+                <div class="footer-phones">{hook h="displayRightColumn"}</div>
                 <div class="ft_social">
                     <a href="https://www.instagram.com/denfish2016/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
                     <a href="http://vk.com/public111928645" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
