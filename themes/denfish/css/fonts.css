@@ -31,21 +31,10 @@
 /* font-family: "RobotoBold"; */
 @font-face {
 	font-family: "RobotoBold";
-	src: url("../font/RobotoBold.eot");
-	src: url("../font/RobotoBold.eot?#iefix")format("embedded-opentype"),
-	url("../font/RobotoBold.woff") format("woff"),
-	url("../font/RobotoBold.ttf") format("truetype");
+	src: url("../font/RobotoBold/RobotoBold.eot");
+	src: url("../font/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../font/RobotoBold/RobotoBold.woff") format("woff"),
+	url("../font/RobotoBold/RobotoBold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
-/* font-family: "FontAwesome"; */
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('../font/fontawesome-webfont.eot');
-    src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/fontawesome-webfont.woff') format('woff'),
-    url('../font/fontawesome-webfont.ttf') format('truetype'),
-    url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    }

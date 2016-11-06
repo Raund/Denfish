@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.7" />
     <link rel="icon" type="image/png" href="{$img_dir}denfish16x16.png" />
         <!-- Include CSS Files (in particular our global.css file -->
-    <link rel="stylesheet" href="{$css_dir}fonts.css"  type="text/css"/>
-    <link rel="stylesheet" href="{$css_dir}font-awesome.min.css"  type="text/css"/>
+    <link rel="stylesheet" href="{$css_dir}fonts.css?ver5"  type="text/css"/>
+    <link rel="stylesheet" href="{$css_dir}font-awesome.min.css?ver5"  type="text/css"/>
     <link rel="stylesheet" href="{$css_dir}media.css"  type="text/css"/>
  {foreach from=$css_files key=css_uri item=media}
-    <link href="{$css_uri}" rel="stylesheet" type="text/css" media="{$media}" />
+    <link href="{$css_uri}?ver5" rel="stylesheet" type="text/css" media="{$media}" />
  {/foreach}
 
  <!-- End Include CSS Files -->
@@ -32,25 +32,6 @@
         var FancyboxI18nPrev = 'Previous';
         var added_to_wishlist = 'Добавлено в избранное.';
         var ajaxsearch = true;
-        /*var baseDir = '/';
-        var baseUri = '/';
-        var blocksearch_type = 'top';
-        var contentOnly = false;
-        var displayList = false;
-        var instantsearch = false;
-        var max_item = 'You cannot add more than 3 product(s) to the product comparison';
-        var min_item = 'Please select at least one product';
-        var param_product_url = '#';
-        var placeholder_blocknewsletter = 'Введите ваш e-mail';
-        var priceDisplayMethod = 0;
-        var priceDisplayPrecision = 2;
-        var quickView = true;
-        var removingLinkText = 'удалить товар из корзины';
-        var request = 'http://prestaden.loc/ru/3-women';
-        var roundMode = 2;
-        var search_url = '{$base_dir}search';
-        var static_token = 'c285297d019d2ea6e805d3d873441647';
-        var token = '69dfce60675a0ca76506162b2b932547';*/
     </script>
 
 
@@ -185,40 +166,16 @@ else{
 
 </script>
 
-
-
-
-
-
 <script>
 
 $(function(){
 
-$('.adv li:first-child a').on('click', function(){
-    $('.adv li img').addClass("raun_adv");
-        setTimeout(function(){   
-            $('.adv li img').removeClass('raun_adv')  
-            }, 1500);
-
-                /*//for firefox
-                "-moz-animation-name":"rotatebox",
-                "-moz-animation-duration":"2.0s",
-                "-moz-animation-iteration-count":"1",
-                "-moz-animation-fill-mode":"forwards",
-
-                //for safari & chrome
-                "-webkit-animation-name":"rotatebox",
-                "-webkit-animation-duration":"2.0s",
-                "-webkit-animation-iteration-count":"1",
-                "-webkit-animation-fill-mode" : "forwards"
-*/
-           
-})
-
-
-
-
-
+    $('.adv li:first-child a').on('click', function(){
+        $('.adv li img').addClass("raun_adv");
+            setTimeout(function(){
+                $('.adv li img').removeClass('raun_adv')
+                }, 1500);
+    })
 
 //вирівняв підменю з Каталог товара на зеленому хедері
 if(!$('#home_vnutr1').length){
@@ -425,13 +382,13 @@ if(!$('#home_vnutr1').length){
                              <a href="{$base_dir}manufacturers">Производители</a>
                          </li>-->
                          <li>
-                             <a href="{$base_dir}/9-akcii-i-skidki">Акции и скидки</a>
+                             <a href="{$base_dir}9-akcii-i-skidki">Акции и скидки</a>
                          </li>
                          <li>
                              <a href="{$base_dir}index.php?fc=module&module=azgallery&controller=gallery">Фотогалерея DenFish</a>
                          </li>
                          <li>
-                             <a href="{$base_dir}/11-kontakty">Контакты</a>
+                             <a href="{$base_dir}11-kontakty">Контакты</a>
                          </li>
                      </ul>
                      <div class="social_top">
@@ -480,13 +437,13 @@ if(!$('#home_vnutr1').length){
                      <a href="{$base_dir}manufacturers">Производители</a>
                  </li>-->
                  <li>
-                     <a href="{$base_dir}/9-akcii-i-skidki">Акции и скидки</a>
+                     <a href="{$base_dir}9-akcii-i-skidki">Акции и скидки</a>
                  </li>
                  <li>
                      <a href="{$base_dir}index.php?fc=module&module=azgallery&controller=gallery">Фотогалерея DenFish</a>
                  </li>
                  <li>
-                     <a href="{$base_dir}/11-kontakty">Контакты</a>
+                     <a href="{$base_dir}11-kontakty">Контакты</a>
                  </li>
              </ul>
              <ul class="right_nav right">
