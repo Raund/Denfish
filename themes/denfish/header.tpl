@@ -11,17 +11,17 @@
     <link rel="icon" type="image/png" href="{$img_dir}denfish16x16.png" />
         <!-- Include CSS Files (in particular our global.css file -->
     <link rel="stylesheet" href="{$css_dir}fonts.css?ver5"  type="text/css"/>
-    <link rel="stylesheet" href="{$css_dir}font-awesome.min.css?ver5"  type="text/css"/>
+    <link rel="stylesheet" href="{$css_dir}font-awesome.min.css"  type="text/css"/>
     <link rel="stylesheet" href="{$css_dir}media.css"  type="text/css"/>
  {foreach from=$css_files key=css_uri item=media}
-    <link href="{$css_uri}?ver5" rel="stylesheet" type="text/css" media="{$media}" />
+    <link href="{$css_uri}?ver0.1" rel="stylesheet" type="text/css" media="{$media}" />
  {/foreach}
 
  <!-- End Include CSS Files -->
  {if isset($js_defer) && !$js_defer && isset($js_files) && isset($js_def)}
 	{$js_def}
 	{foreach from=$js_files item=js_uri}
-	<script type="text/javascript" src="{$js_uri|escape:'html':'UTF-8'}"></script>
+	<script type="text/javascript" src="{$js_uri|escape:'html':'UTF-8'}?ver0.1"></script>
 	{/foreach}
 
 {/if}
