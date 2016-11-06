@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 html, body, div, span, applet, object, iframe, h1, h2,
 h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
 address, big, cite, code, del, dfn, em, img, ins, q,
@@ -1997,7 +1996,9 @@ a#new_comment_tab_btn span:hover{
 }
 
 #models{
+    /*
 	display: none;
+    */
 	width: 100%;
 	border-bottom: 1px solid #d1d1d1;
 	margin-top: 40px;
@@ -2016,7 +2017,7 @@ a#new_comment_tab_btn span:hover{
 #models h1{
 	font: 22px "RobotoBold";
 	color: #1e2121;
-	margin:3px 20px 0 0;
+	margin:16px 20px 0 0;
 }
 
 #models h1.models_price{
@@ -2052,11 +2053,11 @@ a#new_comment_tab_btn span:hover{
 }
 
 .product-container:hover{
-	-webkit-box-shadow: 0 0 10px ##00ADAA;
-	-moz-box-shadow: 0 0 10px ##00ADAA;
-	-ms-box-shadow: 0 0 10px ##00ADAA;
-	-o-box-shadow: 0 0 10px ##00ADAA;
-	box-shadow: 0 0 10px ##00ADAA;
+	-webkit-box-shadow: 0 0 10px #00ADAA;
+	-moz-box-shadow: 0 0 10px #00ADAA;
+	-ms-box-shadow: 0 0 10px #00ADAA;
+	-o-box-shadow: 0 0 10px #00ADAA;
+	box-shadow: 0 0 10px #00ADAA;
 }
 
 .product-container a:hover{
@@ -3203,7 +3204,7 @@ ul.num_slide li:first-child{
     margin-right: 0;
     box-shadow: none;
     background: none;
-    height: 82px;
+    height: 110px;
 }
 
 #homepage-slider .bx-controls-direction{
@@ -3490,3 +3491,37 @@ a#mailalert_link
 #home .phone-wrap:hover ul.phones{
 	display: block;
 }
+/*style for product description*/
+section h3.page-product-heading{
+	font: 25px "Arial";
+	color: #00adaa;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+section.page-product-box .rte_{
+	font-size: 17px;
+	font-family: "Robotoregular";
+	line-height: 24px;
+}
+/*style for product description*/
+
+.product-container .model-img{
+	width: 70px;
+	height: 70px;
+	margin-right: 20px;
+	float: left;
+}
+.product-container .model-img img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product-container .model-price{
+	margin-top: 12px;
+}
+#models .product-container .model-reference{
+	margin-top: 3px;
+	margin-right: 50px;
+}
+
+/*style for model of product without tab*/

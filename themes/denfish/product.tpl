@@ -20,9 +20,11 @@
     <ul class="tabs clearfix">
         <li id="tab_all" class="active">Все о товаре</li>
         <li id="tab_delivery">Доставка и оплата</li>
+{*
         {if isset($accessories) && $accessories}
             <li id="tab_models">Модели</li>
         {/if}
+*}
 
 
     </ul>
@@ -106,140 +108,6 @@
         <div style="text-align: justify;"><span style="font-size: 12pt; font-family: Robotoregular, helvetica, sans-serif;">Оплата услуг транспортной компании происходит при получении заказа в офисе, складе транспортной компании.</span></div>
         <div style="text-align: justify;"><span style="font-size: 14pt; font-family: Robotoregular, helvetica, sans-serif;">&nbsp;</span></div>
     </div>
-    {if isset($accessories) && $accessories}
-        <div id="models">
-                        <h2>Модели</h2>
-                        {foreach from=$accessories item=accessory name=accessories_list}
-                            {if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
-                                {assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
-                                <div  class="product-container mt0 item product-box ajax_block_product{if $smarty.foreach.accessories_list.first} first_item{elseif $smarty.foreach.accessories_list.last} last_item{else} item{/if} product_accessories_description">
-                                    <h1>
-                                        <a href="{$accessoryLink|escape:'html':'UTF-8'}">
-                                            {$accessory.name|truncate:50:'...':true|escape:'html':'UTF-8'}
-                                        </a>
-                                    </h1>                    
-                                    <div class="clearfix">
-                                        <div class="right">
-                                            <h1 class="models_price">
-                                                {if $priceDisplay != 1}
-                                                        {displayWtPrice p=$accessory.price}{else}{displayWtPrice p=$accessory.price_tax_exc}
-                                                    {/if}
-                                            </h1>
-                                            <div class="many_product" style="display:none">
-                                                <!--Счетчик для количества товаров-->
-                                                <form id="buy_block"{if $PS_CATALOG_MODE && !isset($groups) && $product->
-                                                    quantity > 0} class="hidden"{/if} action="{$link->getPageLink('cart')|escape:'html':'UTF-8'}" method="post">
-                                                    <!-- hidden datas -->
-                                                    <p class="hidden">
-                                                        <input type="hidden" name="token" value="{$static_token}" />
-                                                        <input type="hidden" name="id_product" value="{$product->
-                                                        id|intval}" id="product_page_product_id" />
-                                                        <input type="hidden" name="add" value="1" />
-                                                        <input type="hidden" name="id_product_attribute" id="idCombination" value="" />
-                                                    </p>
-                                                    <div class="box-info-product">
-                                                        <div class="product_attributes">
-                                                            <!-- quantity wanted -->
-                                                            {if !$PS_CATALOG_MODE}
-                                                                <p id="quantity_wanted_p"{if (!$allow_oosp && $product->
-                                                                    quantity
-                                                                    <= 0) || !$product->
-                                                                        available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
-                                                                        <div class="many_product">
-                                                                            <a href="#" data-field-qty="qty" class="btn btn-default button-minus product_quantity_down">
-                                                                                <i class="fa fa-angle-left"></i>
-                                                                            </a>
-                                                                            <input type="text" name="qty" id="quantity_wanted" class="text" value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->
-                                                                            minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" />
-                                                                            <a href="#" data-field-qty="qty" class="btn btn-default button-plus product_quantity_up">
-                                                                                <i class="fa fa-angle-right"></i>
-                                                                            </a>
-                                                                        </div>
-                                                                </p>
-                                                            {/if}
-                                                            <!-- minimal quantity wanted -->
-                                                            <p id="minimal_quantity_wanted_p"{if $product->
-                                                                    minimal_quantity
-                                                                    <= 1 || !$product->
-                                                                        available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
-                                                                    {l s='This product is not sold individually. You must select at least'} <b id="minimal_quantity_label">{$product->minimal_quantity}</b>
-                                                                        {l s='quantity for this product.'}
-                                                            </p>
-                                                            {if isset($groups)}
-                                                                        <!-- attributes -->
-                                                                        <div id="attributes">
-                                                                            <div class="clearfix"></div>
-                                                                            {foreach from=$groups key=id_attribute_group item=group}
-                                                                                {if $group.attributes|@count}
-                                                                                    <fieldset class="attribute_fieldset">
-                                                                                        <label class="attribute_label" {if $group.group_type != 'color' && $group.group_type != 'radio'}for="group_{$id_attribute_group|intval}"{/if}>{$group.name|escape:'html':'UTF-8'}&nbsp;
-                                                                                        </label>
-                                                                                        {assign var="groupName" value="group_$id_attribute_group"}
-                                                                                        <div class="attribute_list">
-                                                                                            {if ($group.group_type == 'select')}
-                                                                                            <select name="{$groupName}" id="group_{$id_attribute_group|intval}" class="form-control attribute_select no-print">
-                                                                                                {foreach from=$group.attributes key=id_attribute item=group_attribute}
-                                                                                                    <option value="{$id_attribute|intval}"{if (isset($smarty.get.$groupName) && $smarty.get.$groupName|intval == $id_attribute) || $group.default == $id_attribute} selected="selected"{/if} title="{$group_attribute|escape:'html':'UTF-8'}">{$group_attribute|escape:'html':'UTF-8'}
-                                                                                                    </option>
-                                                                                                {/foreach}
-                                                                                            </select>
-                                                                                            {elseif ($group.group_type == 'color')}
-                                                                                            <ul id="color_to_pick_list" class="clearfix">
-                                                                                                {assign var="default_colorpicker" value=""}
-                                                                                                {foreach from=$group.attributes key=id_attribute item=group_attribute}
-                                                                                                    {assign var='img_color_exists' value=file_exists($col_img_dir|cat:$id_attribute|cat:'.jpg')}
-                                                                                                    <li{if $group.default == $id_attribute} class="selected"{/if}>
-                                                                                                        <a href="{$link->
-                                                                                                            getProductLink($product)|escape:'html':'UTF-8'}" id="color_{$id_attribute|intval}" name="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" class="color_pick{if ($group.default == $id_attribute)} selected{/if}"{if !$img_color_exists && isset($colors.$id_attribute.value) && $colors.$id_attribute.value} style="background:{$colors.$id_attribute.value|escape:'html':'UTF-8'};"{/if} title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}">
-                                                                                                                            {if $img_color_exists}
-                                                                                                            <img src="{$img_col_dir}{$id_attribute|intval}.jpg" alt="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" width="20" height="20" />
-                                                                                                            {/if}
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    {if ($group.default == $id_attribute)}
-                                                                                                                        {$default_colorpicker = $id_attribute}
-                                                                                                    {/if}
-                                                                                                {/foreach}
-                                                                                            </ul>
-                                                                                            <input type="hidden" class="color_pick_hidden" name="{$groupName|escape:'html':'UTF-8'}" value="{$default_colorpicker|intval}" />
-                                                                                            {elseif ($group.group_type == 'radio')}
-                                                                                            <ul>
-                                                                                                {foreach from=$group.attributes key=id_attribute item=group_attribute}
-                                                                                                    <li>
-                                                                                                        <input type="radio" class="attribute_radio" name="{$groupName|escape:'html':'UTF-8'}" value="{$id_attribute}" {if ($group.default == $id_attribute)} checked="checked"{/if} />
-                                                                                                        <span>{$group_attribute|escape:'html':'UTF-8'}</span>
-                                                                                                    </li>
-                                                                                                {/foreach}
-                                                                                            </ul>
-                                                                                            {/if}
-                                                                                        </div>
-                                                                                        <!-- end attribute_list --> 
-                                                                                    </fieldset>
-                                                                                {/if}
-                                                                            {/foreach}
-                                                                        </div>
-                                                                        <!-- end attributes -->
-                                                            {/if}
-                                                        </div>
-                                                        <!-- end product_attributes --> 
-                                                    </div>
-                                                    <!-- end box-info-product --> 
-                                                </form>
-                                            </div>
-                                            {if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
-                                                        <button class="buy">
-                                                            <a class="button ajax_add_to_cart_button btn btn-default" href="{$link->
-                                                                getPageLink('cart', true, NULL, "qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add")|escape:'html':'UTF-8'}" data-id-product="{$accessory.id_product|intval}" title="{l s='Добавить в корзину'}">
-                                                            </a>
-                                                        </button>
-                                            {/if}
-                                        </div>
-                                    </div>
-                                </div>
-                            {/if}
-                        {/foreach}
-        </div>
-    {/if}
     <div id="describe_of_product">
         <div itemscope itemtype="http://schema.org/Product">
             <div class="first_block clearfix">
@@ -591,18 +459,158 @@
             <!--end вставка видеообзора-->
             {if $product->description}
                     <!-- More info -->
-                    <section class="page-product-box" hidden>
-                        <h3 class="page-product-heading" hidden>{l s='Описание'}</h3>
+                    <section class="page-product-box">
+                        <h3 class="page-product-heading">{l s='Описание'}</h3>
             {/if}
             {if isset($product) && $product->description}
                 <!-- full description -->
-                <div  class="rte_ hidden">{$product->description}</div>
+                <div  class="rte_">{$product->description}</div>
                 </section>
                  <!--end  More info -->
             {/if}
         {/if}
-                
-                <!-- itemscope product wrapper -->
+
+        {if isset($accessories) && $accessories}
+            <div id="models">
+                <h2>Модели</h2>
+                {foreach from=$accessories item=accessory name=accessories_list}
+                    {if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
+                        {assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
+                        <div  class="product-container mt0 item product-box ajax_block_product{if $smarty.foreach.accessories_list.first} first_item{elseif $smarty.foreach.accessories_list.last} last_item{else} item{/if} product_accessories_description">
+                            <div class="model-img">
+                                <img src="{$link->getImageLink($accessory.link_rewrite, $accessory.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{$accessory.legend|escape:'html':'UTF-8'}" {*width="{$homeSize.width}" height="{$homeSize.height}"*}/>
+                            </div>
+                            <h1>
+                                <a href="{$accessoryLink|escape:'html':'UTF-8'}">
+                                    {$accessory.name|truncate:100:'...':true|escape:'html':'UTF-8'}
+                                </a>
+                            </h1>
+                            <div class="clearfix">
+                                <div class="right model-price">
+                                    <h1 class="model-reference">{$accessory.reference|truncate:100:'...':true|escape:'html':'UTF-8'}</h1>
+                                    <h1 class="models_price">
+                                        {if $priceDisplay != 1}
+                                            {displayWtPrice p=$accessory.price}{else}{displayWtPrice p=$accessory.price_tax_exc}
+                                        {/if}
+                                    </h1>
+                                    <div class="many_product" style="display:none">
+                                        <!--Счетчик для количества товаров-->
+                                        <form id="buy_block"{if $PS_CATALOG_MODE && !isset($groups) && $product->
+                                        quantity > 0} class="hidden"{/if} action="{$link->getPageLink('cart')|escape:'html':'UTF-8'}" method="post">
+                                            <!-- hidden datas -->
+                                            <p class="hidden">
+                                                <input type="hidden" name="token" value="{$static_token}" />
+                                                <input type="hidden" name="id_product" value="{$product->
+                                                id|intval}" id="product_page_product_id" />
+                                                <input type="hidden" name="add" value="1" />
+                                                <input type="hidden" name="id_product_attribute" id="idCombination" value="" />
+                                            </p>
+                                            <div class="box-info-product">
+                                                <div class="product_attributes">
+                                                    <!-- quantity wanted -->
+                                                    {if !$PS_CATALOG_MODE}
+                                                        <p id="quantity_wanted_p"{if (!$allow_oosp && $product->
+                                                        quantity
+                                                        <= 0) || !$product->
+                                                        available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
+                                                        <div class="many_product">
+                                                            <a href="#" data-field-qty="qty" class="btn btn-default button-minus product_quantity_down">
+                                                                <i class="fa fa-angle-left"></i>
+                                                            </a>
+                                                            <input type="text" name="qty" id="quantity_wanted" class="text" value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->
+                                                            minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" />
+                                                            <a href="#" data-field-qty="qty" class="btn btn-default button-plus product_quantity_up">
+                                                                <i class="fa fa-angle-right"></i>
+                                                            </a>
+                                                        </div>
+                                                        </p>
+                                                    {/if}
+                                                    <!-- minimal quantity wanted -->
+                                                    <p id="minimal_quantity_wanted_p"{if $product->
+                                                    minimal_quantity
+                                                    <= 1 || !$product->
+                                                    available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
+                                                        {l s='This product is not sold individually. You must select at least'} <b id="minimal_quantity_label">{$product->minimal_quantity}</b>
+                                                        {l s='quantity for this product.'}
+                                                    </p>
+                                                    {if isset($groups)}
+                                                        <!-- attributes -->
+                                                        <div id="attributes">
+                                                            <div class="clearfix"></div>
+                                                            {foreach from=$groups key=id_attribute_group item=group}
+                                                                {if $group.attributes|@count}
+                                                                    <fieldset class="attribute_fieldset">
+                                                                        <label class="attribute_label" {if $group.group_type != 'color' && $group.group_type != 'radio'}for="group_{$id_attribute_group|intval}"{/if}>{$group.name|escape:'html':'UTF-8'}&nbsp;
+                                                                        </label>
+                                                                        {assign var="groupName" value="group_$id_attribute_group"}
+                                                                        <div class="attribute_list">
+                                                                            {if ($group.group_type == 'select')}
+                                                                                <select name="{$groupName}" id="group_{$id_attribute_group|intval}" class="form-control attribute_select no-print">
+                                                                                    {foreach from=$group.attributes key=id_attribute item=group_attribute}
+                                                                                        <option value="{$id_attribute|intval}"{if (isset($smarty.get.$groupName) && $smarty.get.$groupName|intval == $id_attribute) || $group.default == $id_attribute} selected="selected"{/if} title="{$group_attribute|escape:'html':'UTF-8'}">{$group_attribute|escape:'html':'UTF-8'}
+                                                                                        </option>
+                                                                                    {/foreach}
+                                                                                </select>
+                                                                            {elseif ($group.group_type == 'color')}
+                                                                                <ul id="color_to_pick_list" class="clearfix">
+                                                                                    {assign var="default_colorpicker" value=""}
+                                                                                    {foreach from=$group.attributes key=id_attribute item=group_attribute}
+                                                                                        {assign var='img_color_exists' value=file_exists($col_img_dir|cat:$id_attribute|cat:'.jpg')}
+                                                                                        <li{if $group.default == $id_attribute} class="selected"{/if}>
+                                                                                            <a href="{$link->
+                                                                                            getProductLink($product)|escape:'html':'UTF-8'}" id="color_{$id_attribute|intval}" name="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" class="color_pick{if ($group.default == $id_attribute)} selected{/if}"{if !$img_color_exists && isset($colors.$id_attribute.value) && $colors.$id_attribute.value} style="background:{$colors.$id_attribute.value|escape:'html':'UTF-8'};"{/if} title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}">
+                                                                                                {if $img_color_exists}
+                                                                                                    <img src="{$img_col_dir}{$id_attribute|intval}.jpg" alt="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" title="{$colors.$id_attribute.name|escape:'html':'UTF-8'}" width="20" height="20" />
+                                                                                                {/if}
+                                                                                            </a>
+                                                                                        </li>
+                                                                                        {if ($group.default == $id_attribute)}
+                                                                                            {$default_colorpicker = $id_attribute}
+                                                                                        {/if}
+                                                                                    {/foreach}
+                                                                                </ul>
+                                                                                <input type="hidden" class="color_pick_hidden" name="{$groupName|escape:'html':'UTF-8'}" value="{$default_colorpicker|intval}" />
+                                                                            {elseif ($group.group_type == 'radio')}
+                                                                                <ul>
+                                                                                    {foreach from=$group.attributes key=id_attribute item=group_attribute}
+                                                                                        <li>
+                                                                                            <input type="radio" class="attribute_radio" name="{$groupName|escape:'html':'UTF-8'}" value="{$id_attribute}" {if ($group.default == $id_attribute)} checked="checked"{/if} />
+                                                                                            <span>{$group_attribute|escape:'html':'UTF-8'}</span>
+                                                                                        </li>
+                                                                                    {/foreach}
+                                                                                </ul>
+                                                                            {/if}
+                                                                        </div>
+                                                                        <!-- end attribute_list -->
+                                                                    </fieldset>
+                                                                {/if}
+                                                            {/foreach}
+                                                        </div>
+                                                        <!-- end attributes -->
+                                                    {/if}
+                                                </div>
+                                                <!-- end product_attributes -->
+                                            </div>
+                                            <!-- end box-info-product -->
+                                        </form>
+                                    </div>
+                                    {if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
+                                        <button class="buy">
+                                            <a class="button ajax_add_to_cart_button btn btn-default" href="{$link->
+                                            getPageLink('cart', true, NULL, "qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add")|escape:'html':'UTF-8'}" data-id-product="{$accessory.id_product|intval}" title="{l s='Добавить в корзину'}">
+                                            </a>
+                                        </button>
+                                    {/if}
+                                </div>
+                            </div>
+                        </div>
+                    {/if}
+                {/foreach}
+            </div>
+        {/if}
+
+
+        <!-- itemscope product wrapper -->
         {strip}
             {if isset($smarty.get.ad) && $smarty.get.ad}
                 {addJsDefL name=ad}{$base_dir|cat:$smarty.get.ad|escape:'html':'UTF-8'}{/addJsDefL}
