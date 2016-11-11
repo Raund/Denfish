@@ -77,6 +77,12 @@
 					<span>Редактор контактных телефонов</span>
 				</a>
 			</li>
+			<li class="maintab">
+				<a href="{$base_dir}/admin6912/index.php?controller=AdminModules&token=7761059df8988998e41a18f7fa3d91ec&configure=blocklayered&tab_module=front_office_features&module_name=blocklayered" class="title"  >
+					<i class="icon-article"></i>
+					<span>Редактор фильтров</span>
+				</a>
+			</li>
 
 		</ul>
 		<span class="menu-collapse">
