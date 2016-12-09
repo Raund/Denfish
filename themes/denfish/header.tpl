@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="{$css_dir}font-awesome.min.css"  type="text/css"/>
     <link rel="stylesheet" href="{$css_dir}media.css"  type="text/css"/>
  {foreach from=$css_files key=css_uri item=media}
-    <link href="{$css_uri}?ver0.1" rel="stylesheet" type="text/css" media="{$media}" />
+    <link href="{$css_uri}?ver0.2" rel="stylesheet" type="text/css" media="{$media}" />
  {/foreach}
 
  <!-- End Include CSS Files -->
  {if isset($js_defer) && !$js_defer && isset($js_files) && isset($js_def)}
 	{$js_def}
 	{foreach from=$js_files item=js_uri}
-	<script type="text/javascript" src="{$js_uri|escape:'html':'UTF-8'}?ver0.1"></script>
+	<script type="text/javascript" src="{$js_uri|escape:'html':'UTF-8'}?ver0.2"></script>
 	{/foreach}
 
 {/if}

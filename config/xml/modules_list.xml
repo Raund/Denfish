@@ -71,6 +71,11 @@
 		<module name="productpaymentlogos"/>
 		<module name="productscategory"/>
 		<module name="producttooltip"/>
+		<module name="ps_cashondelivery"/>
+		<module name="ps_carriercompare"/>
+		<module name="ps_emailalerts"/>
+		<module name="ps_feeder"/>
+		<module name="ps_followup"/>
 		<module name="pscleaner"/>
 		<module name="referralprogram"/>
 		<module name="sekeywords"/>
@@ -117,6 +122,7 @@
 		<module name="bpostshm"/>
 		<module name="brainify"/>
 		<module name="chronopost"/>
+		<module name="correos"/>
 		<module name="dotpay"/>
 		<module name="dpdfrance"/>
 		<module name="easymarketing"/>

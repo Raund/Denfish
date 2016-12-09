@@ -3525,3 +3525,44 @@ section.page-product-box .rte_{
 }
 
 /*style for model of product without tab*/
+.unvisible {
+	display: none; }
+.cat_desc{
+	text-align: center;
+}
+.content_scene_cat{
+	margin-top: -90px;
+}
+.cat_desc .category-name{
+	padding: 5px;
+	line-height: 18px;
+	text-align: center;
+	color: #00adaa;
+	font-size: 20px;
+	margin: 15px 0 5px 0;
+	font-family: "Roboto";
+}
+#category_description_short,
+#category_description_full{
+	text-align: justify;
+	margin: 15px 0;
+}
+#category_description_short ul,
+#category_description_full ul{
+	list-style: inherit;
+	margin-left: 20px;
+}
+#category_description_short ol,
+#category_description_full ol {
+	list-style: decimal;
+	margin-left: 20px;
+}
+.cat_desc a{
+	display: inline-block;
+	width: 100px;
+	color: #00adaa;
+	background: url("../img/arrow_down.png") no-repeat 99% 55%;
+}
+.cat_desc a:hover {
+	text-decoration: underline;
+}

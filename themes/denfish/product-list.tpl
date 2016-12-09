@@ -82,9 +82,9 @@
 						</a>
 					</h5>
 					{hook h='displayProductListReviews' product=$product}
-					<!--<p class="product-desc" itemprop="description">
+					<p class="product-desc" itemprop="description">
 						{$product.description_short|strip_tags:'UTF-8'|truncate:360:'...'}
-					</p>-->
+					</p>
 					<!-- тут був button-container-->
 					{if isset($product.color_list)}
 						<div class="color-list-container">{$product.color_list}</div>
