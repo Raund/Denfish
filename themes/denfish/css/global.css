@@ -86,6 +86,7 @@ a, a:hover {text-decoration: none;}
 /*відступи в меню і розділення між ними*/
 .left_nav{
 	padding-top: 5px;
+	float: left;
 }
 
 .left_nav li{
@@ -102,6 +103,9 @@ a, a:hover {text-decoration: none;}
 /*кінець стилі для лівого меню*/
 /*початок стилі для правого меню*/
 /*стилі посилань для правого меню в хедері*/
+.right_nav{
+	float: right;
+}
 .right_nav li a{
 	font-weight: bold;
 	font-size: 13px;
@@ -205,7 +209,7 @@ a, a:hover {text-decoration: none;}
 /*стилі каталогу*/
 .catalog_name{
 	font: 22px "RobotoBold";
-	width: 270px;
+	width: 22.5%;
 	padding: 10px 0 10px 20px;
 	background-color: #00adaa;
 }
@@ -3566,3 +3570,100 @@ section.page-product-box .rte_{
 .cat_desc a:hover {
 	text-decoration: underline;
 }
+
+/*adaptive*/
+@media screen and (max-width: 1050px){
+	#header{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.logo{
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 778px) {
+	.right_nav,
+	.left_nav{
+		float: none;
+		text-align: center;
+	}
+	.left_nav {
+		margin-bottom: 15px;
+	}
+	.left_nav li, .right_nav li {
+		display: inline-block;
+		float: none;
+	}
+	.left_nav li {
+		padding-right: 10px;
+		padding-left: 10px;
+		border-left: 1px solid #00aeaa;
+		font-size: 13px;
+	}
+	.lock .header_user_info{
+		float: none;
+	}
+	.key {
+		padding: 0 20px 5px 27px;
+	}
+	.lock {
+		padding: 0 0px 5px 27px;
+	}
+	.cart {
+		padding: 0 30px 5px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

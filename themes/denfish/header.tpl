@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=0.7" />
     <link rel="icon" type="image/png" href="{$img_dir}denfish16x16.png" />
-        <!-- Include CSS Files (in particular our global.css file -->
+        {* Include CSS Files (in particular our global.css file *}
     <link rel="stylesheet" href="{$css_dir}fonts.css?ver5"  type="text/css"/>
     <link rel="stylesheet" href="{$css_dir}font-awesome.min.css"  type="text/css"/>
     <link rel="stylesheet" href="{$css_dir}media.css"  type="text/css"/>
@@ -17,7 +17,7 @@
     <link href="{$css_uri}?ver0.2" rel="stylesheet" type="text/css" media="{$media}" />
  {/foreach}
 
- <!-- End Include CSS Files -->
+ {* End Include CSS Files *}
  {if isset($js_defer) && !$js_defer && isset($js_files) && isset($js_def)}
 	{$js_def}
 	{foreach from=$js_files item=js_uri}
@@ -35,10 +35,10 @@
     </script>
 
 
- <!--Include the Hook Header.  This is the area where modules in the hook known as header are outputed -->
+ {*Include the Hook Header.  This is the area where modules in the hook known as header are outputed *}
 
  {$HOOK_HEADER}
- <!-- End Include Hook Header -->
+ {* End Include Hook Header *}
 {literal}
     <!-- Start SiteHeart code -->
     <script>
@@ -85,7 +85,7 @@ $(function(){
 </script>
 
 <script>
-//<!--для зникнення каталогу-->
+//{*для зникнення каталогу*}
 $(function(){
 //для виводу на сторінці товару каталогу поверх всього
 if($('#content_newproduct').length){
@@ -194,7 +194,7 @@ if($('#content_newproduct').length){
 if($('#content_vnutr1 .rozd').length){
         $('.catalog .sub_menu').css('top', '-130px');  
     }
-//<!--для зникнення пошуку зліва-->
+//{*для зникнення пошуку зліва*}
 if(!$('#home_vnutr1').length){
      $('.search_form').slideDown(500);
     }
@@ -203,7 +203,7 @@ if(!$('#home_vnutr1').length){
 </script>
 
 <script>
-    //<!--скрипт підключення блоку fb-->
+    //{*скрипт підключення блоку fb*}
     (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -214,9 +214,9 @@ if(!$('#home_vnutr1').length){
 </script>
 
 
-<!--форма реєстрації-->
+{*форма реєстрації*}
 <div class="reg">
-    <!--блок заповнення форми-->
+    {*блок заповнення форми*}
     <div class="reg_info">
         <h3>Регистрация покупателя</h3>
         <form action="#" method="POST" id="form">
@@ -248,8 +248,8 @@ if(!$('#home_vnutr1').length){
             <input type="submit" id="submit" value="Зарегистрироваться">
         </form>
     </div>
-    <!--/блок заповнення форми-->
-    <!--блок інформації форми-->
+    {*/блок заповнення форми*}
+    {*блок інформації форми*}
     <div class="reg_descr">
         <h3 class="red">Преимущества регистрации</h3>
         <div class="block_descr">
@@ -265,12 +265,12 @@ if(!$('#home_vnutr1').length){
             </ul>
         </div>
     </div>
-    <!--блок інформації форми-->
+    {*блок інформації форми*}
 </div>
-<!--end форма реєстрації-->
-<!--форма входу-->
+{*end форма реєстрації*}
+{*форма входу*}
 <div class="enter">
-    <!--блок заповнення форми-->
+    {*блок заповнення форми*}
     <div class="enter_info">
         <h3>Вход</h3>
         <form action="#" method="POST" id="form">
@@ -289,9 +289,9 @@ if(!$('#home_vnutr1').length){
             <input type="submit" id="submit" value="Войти">
         </form>
     </div>
-    <!--/блок заповнення форми-->
+    {*/блок заповнення форми*}
 </div>
-<!--end форма входу-->
+{*end форма входу*}
 
 
 <div class="order-form" id="x-order-form">
@@ -371,30 +371,32 @@ if(!$('#home_vnutr1').length){
 
      <div id="wrapper">
          {if (isset($header) && $header == 'dark') || ($page_name!='index' && $page_name !='order-opc' && $page_name !='manufacturer') }
-             <!--Подключение темнего хедера-->
-                <div id="header"><!--хедер-->
+             {*Подключение темнего хедера*}
+                <div id="header">{*хедер*}
                      <div class="container clearfix">
-                     <ul class="left_nav left">
-                        <!-- <li>
-                             <a href="{$base_dir}/4-about-us">О нас</a>
-                         </li>
-                         <li>
-                             <a href="{$base_dir}manufacturers">Производители</a>
-                         </li>-->
-                         <li>
-                             <a href="{$base_dir}9-akcii-i-skidki">Акции и скидки</a>
-                         </li>
-                         <li>
-                             <a href="{$base_dir}index.php?fc=module&module=azgallery&controller=gallery">Фотогалерея DenFish</a>
-                         </li>
-                         <li>
-                             <a href="{$base_dir}11-kontakty">Контакты</a>
-                         </li>
-                     </ul>
-                     <div class="social_top">
-                         {hook h="displaySocialSharing"}
-                     </div>
-                     <div class="top_phone">{hook h="displayRightColumn"}</div>
+                         <ul class="left_nav left">
+    {*
+                            <li>
+                                 <a href="{$base_dir}/4-about-us">О нас</a>
+                             </li>
+                             <li>
+                                 <a href="{$base_dir}manufacturers">Производители</a>
+                             </li>
+    *}
+                             <li>
+                                 <a href="{$base_dir}9-akcii-i-skidki">Акции и скидки</a>
+                             </li>
+                             <li>
+                                 <a href="{$base_dir}index.php?fc=module&module=azgallery&controller=gallery">Фотогалерея DenFish</a>
+                             </li>
+                             <li>
+                                 <a href="{$base_dir}11-kontakty">Контакты</a>
+                             </li>
+                         </ul>
+                         <div class="social_top">
+                             {hook h="displaySocialSharing"}
+                         </div>
+                         <div class="top_phone">{hook h="displayRightColumn"}</div>
                      </div>
                 </div>
                 <div id="home_vnutr1">
@@ -410,7 +412,7 @@ if(!$('#home_vnutr1').length){
                                 {$HOOK_TOP}
                             </li>
                             <li class="price clerfix">
-                                <span class=" price ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span><!--для відображення кількості товарів (в файлі blockcart вона hidden-->
+                                <span class=" price ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>{*для відображення кількості товарів (в файлі blockcart вона hidden*}
                             </li>
                             <li>
                                 <a href="{$base_dir}quick-order"> <button>Оформить заказ</button></a>
@@ -425,67 +427,66 @@ if(!$('#home_vnutr1').length){
                             </li>
                         </ul>
                     </div>
-                </div><!--/хедер-->
-         {else}<!--Подключение светлого хедера-->
-         <div id="header"><!--хедер светлый-->
-           <div class="container clearfix">
-             <ul class="left_nav left">
-                <!-- <li>
-                     <a href="{$base_dir}/4-about-us">О нас</a>
-                 </li>
-                 <li>
-                     <a href="{$base_dir}manufacturers">Производители</a>
-                 </li>-->
-                 <li>
-                     <a href="{$base_dir}9-akcii-i-skidki">Акции и скидки</a>
-                 </li>
-                 <li>
-                     <a href="{$base_dir}index.php?fc=module&module=azgallery&controller=gallery">Фотогалерея DenFish</a>
-                 </li>
-                 <li>
-                     <a href="{$base_dir}11-kontakty">Контакты</a>
-                 </li>
-             </ul>
-             <ul class="right_nav right">
-                 <li class="key">
-                     <a href="#" class="x-show-register">Регистрация</a>
-                 </li>
-                 <li class="lock">
-                     {hook h="displayNav"}
-                 </li>
-                 <li class="cart">
-                     {$HOOK_TOP}
-                 <li class="price">
-                     <span class=" price ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span><!--для відображення кількості товарів (в файлі blockcart вона hidden-->
-                 </li>
-             </ul>
-         </div>
-         <!--Include the Top Hook.
-    This is the area where modules in the hook known as top are outputed -->
+                </div>{*/хедер*}
 
-         <!-- End Include Top Hook -->
-     </div>
-<div id="home">
-    <div class="container clearfix">
-        <a href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}">
-            <img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
-        </a>
-        <div class="lozung clearfix">
-            <div class="str1">все что нужно</div>
-            <div class="str2">для рыболовного счастья</div>
-            <div class="str3">в одном месте!</div>
-        </div>
-        <div class="social">
-            {hook h="displaySocialSharing"}
-        </div>
-        <div class="catalog_name">Kаталог товаров</div>
-        {hook h="displayRightColumn"}
-       <!-- <div class="phone"><span>+3 8050</span> 548 11 59</div>-->
-    </div>
-</div><!--/хедер светлый-->
-{/if}
+         {else}{*Подключение светлого хедера*}
 
-            <!--Include the Left Hook.  This is the area where modules in the hook known as left are outputed -->
+            <div id="header">{*хедер светлый*}
+                <div class="container">
+                    <ul class="left_nav clearfix">
+                        {* <li>
+                        <a href="{$base_dir}/4-about-us">О нас</a>
+                        </li>
+                        <li>
+                        <a href="{$base_dir}manufacturers">Производители</a>
+                        </li>*}
+                        <li>
+                        <a href="{$base_dir}9-akcii-i-skidki">Акции и скидки</a>
+                        </li>
+                        <li>
+                        <a href="{$base_dir}index.php?fc=module&module=azgallery&controller=gallery">Фотогалерея DenFish</a>
+                        </li>
+                        <li>
+                        <a href="{$base_dir}11-kontakty">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="right_nav clearfix">
+                        <li class="key">
+                        <a href="#" class="x-show-register">Регистрация</a>
+                        </li>
+                        <li class="lock">
+                        {hook h="displayNav"}
+                        </li>
+                        <li class="cart">
+                        {$HOOK_TOP}
+                        <li class="price">
+                        <span class=" price ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>{*для відображення кількості товарів (в файлі blockcart вона hidden*}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        <div id="home">
+            <div class="container clearfix">
+                <a href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}">
+                    <img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
+                </a>
+                <div class="lozung clearfix">
+                    <div class="str1">все что нужно</div>
+                    <div class="str2">для рыболовного счастья</div>
+                    <div class="str3">в одном месте!</div>
+                </div>
+                <div class="social">
+                    {hook h="displaySocialSharing"}
+                </div>
+                <div class="catalog_name">Kаталог товаров</div>
+                {hook h="displayRightColumn"}
+               {* <div class="phone"><span>+3 8050</span> 548 11 59</div>*}
+            </div>
+        </div>{*/хедер светлый*}
+        {/if}
+
+            {*Include the Left Hook.  This is the area where modules in the hook known as left are outputed *}
         <div class="container clearfix">
                     <div id="sidebar">
                     {if (isset($header) && $header == 'dark') || ($page_name =='manufacturer' && $page_name =='product') }
@@ -495,29 +496,29 @@ if(!$('#home_vnutr1').length){
                     </ul>
                     {/if}
                     {if ($page_name =='product') }
-                    <!--<div id="disable_menu">-->
+                    {*<div id="disable_menu">*}
                     <ul class="catalog_vnutr1">
                         <li class="catalog_product" style="background-color:#c3043a">Каталог товаров</li>
                         <li class="back_to_product"><a href="{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}">Назад к Фильтрам</a></li>
                     </ul>
                     {/if}
                     {if ($page_name =='category') || ($page_name =='my-account') || ($page_name =='history') || ($page_name =='addresses') || ($page_name =='identity') || ($page_name =='module-blockwishlist-mywishlist') || ($page_name =='address') || ($page_name =='cms') || ($page_name =='module-azgallery-gallery') || ($page_name =='module-smartblog-category') || ($page_name =='module-smartblog-details') || ($page_name =='module-wnnews-news') || ($page_name =='search')}
-                    <!--<div id="disable_menu">-->
+                    {*<div id="disable_menu">*}
                     <ul class="catalog_vnutr1">
                         <li class="catalog_product" style="background-color:#1E2121">Каталог товаров</li>
                     </ul>
                     {/if}
                     {if ($page_name =='quick-order') }
-                    <!--<div id="disable_menu">-->
+                    {*<div id="disable_menu">*}
                     <ul class="catalog">
     <div id="categories_block_left" style="display:none" class="block">
-    <!--<h2 class="title_block" hidden>
+    {*<h2 class="title_block" hidden>
         {if isset($currentCategory)}
             {$currentCategory->name|escape}
         {else}
             {l s='Categories' mod='blockcategories'}
         {/if}
-    </h2>-->
+    </h2>*}
 
         <div class="block_content">
             <ul class="catalog {if $isDhtml}dhtml{/if}">
@@ -534,11 +535,11 @@ if(!$('#home_vnutr1').length){
 </div>
     </ul>
                     {/if}
-                <!--Подключение хука LeftColumn-->
+                {*Подключение хука LeftColumn*}
                      {$HOOK_LEFT_COLUMN}
                     </div>
 
 
-                 <!-- End Include left Hook -->
+                 {* End Include left Hook *}
 
-  <!-- End left column Div-->
+  {* End left column Div*}

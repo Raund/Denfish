@@ -27,7 +27,7 @@
         zoom: 0.85;
     }
     .container{
-        width: 1200px;
+        max-width: 1200px;
     }
     #jquery-overlay{
         width: 100% !important;
