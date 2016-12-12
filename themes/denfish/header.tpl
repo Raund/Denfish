@@ -466,7 +466,7 @@ if(!$('#home_vnutr1').length){
                 </div>
             </div>
 
-        <div id="home">
+        <div id="home" class="home-center">
             <div class="container clearfix">
                 <a href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}">
                     <img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>

@@ -733,9 +733,11 @@ h3 span{
 /*стилі footer*/
 /*загальне розміщення та фон*/
 #footer{
-	height: 425px;
+	min-height: 425px;
 	background: url("../img/footer_bg.jpg");
 	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	padding-top: 65px;
 }
 /*початок меню в футері*/
@@ -764,6 +766,7 @@ h3 span{
 /*загальне розміщення блоку адреси*/
 .addres{
 	margin-left: 70px;
+	float: left;
 }
 /*стилі заголовків адреси і контактів*/
 .addres h4, .kontakt h4{
@@ -791,6 +794,7 @@ h3 span{
 /*початок блоку контактів*/
 /*розміщення*/
 .kontakt{
+	float: left;
 	margin-left: 64px;
 }
 /*стилі телефону*/
@@ -3570,7 +3574,10 @@ section.page-product-box .rte_{
 .cat_desc a:hover {
 	text-decoration: underline;
 }
-
+.logo_ft,
+.ft_nav{
+	float: left;
+}
 /*adaptive*/
 @media screen and (max-width: 1050px){
 	#header{
@@ -3579,6 +3586,9 @@ section.page-product-box .rte_{
 	}
 	.logo{
 		margin-left: 0;
+	}
+	.kontakt .footer-phones{
+		margin-bottom: 0;
 	}
 }
 @media screen and (max-width: 778px) {
@@ -3611,6 +3621,82 @@ section.page-product-box .rte_{
 	}
 	.cart {
 		padding: 0 30px 5px 0;
+	}
+	.home-center{
+		text-align: center;
+	}
+	.logo{
+		float: none;
+		margin-top: 90px;
+	}
+	.lozung{
+		display: none;
+	}
+	.social{
+		right: 0;
+		left: 0;
+		top: 270px;
+	}
+	#home .phone-wrap .phone{
+		position: relative;
+		top: -3px;
+		padding-right: 10px;
+	}
+	#footer{
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.logo_ft{
+		margin-bottom: 25px;
+	}
+	.addres {
+		margin-left: 0;
+		margin-top: 20px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.logo_ft,
+	.ft_nav,
+	.addres,
+	.kontakt{
+		float: none;
+	}
+	.copyright,
+	.addres h4,
+	.kontakt h4{
+		display: none;
+	}
+	.addres ul {
+		margin-left: 0;
+		padding-left: 0;
+		background-image: none;
+	}
+	.ft_nav li {
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	.kontakt .footer-phones{
+		margin-bottom: 20px;
+	}
+	.kontakt .phone-wrap .phone{
+		position: relative;
+		font: 30px "RobotoBold";
+		background-image: none;
+		width: 325px;
+		text-align: center;
+		padding: 0;
+		right: 0;
+		top: 0;
+	}
+	.kontakt{
+		margin-left: 0;
+	}
+	.kontakt .phone-wrap ul.phones{
+		margin: 0 auto;
+		padding: 0;
 	}
 }
 

@@ -1,5 +1,5 @@
 <!--блок адреси-->
-<div class="addres left">
+<div class="addres">
         <h4>{l s='Адреса наших магазинов:' mod='blockcontactinfos'}</h4>
         <ul>
             {if $blockcontactinfos_company != ''}

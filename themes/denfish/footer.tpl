@@ -9,12 +9,12 @@
         <div class="container">
 
             <!--лого футера-->
-            <div class="logo_ft left"><a href="#"><img src="{$img_dir}ft_logo.png" alt=""></a>
+            <div class="logo_ft"><a href="#"><img src="{$img_dir}ft_logo.png" alt=""></a>
                 <div class="copyright">&copy; Copyright denfish</div>
             </div>
             <!--/лого футера-->
 
-            <ul class="ft_nav left">
+            <ul class="ft_nav">
                <!--<li><a href="{$base_dir}/4-about-us">О нас</a></li> тимчасово за бажанням клієнта-->
                 <li><a href="{$base_dir}1-delivery">Доставка и оплата</a></li>
                 <li><a href="{$base_dir}smartblog.html">Статьи DENFISH</a></li>
@@ -27,7 +27,7 @@
             {$HOOK_FOOTER}
 
             <!--блок контактів-->
-            <div class="kontakt left">
+            <div class="kontakt">
                 <h4>Звоните!</h4>
                 <div class="footer-phones">{hook h="displayRightColumn"}</div>
                 <div class="ft_social">
