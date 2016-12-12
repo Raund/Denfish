@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{$css_dir}font-awesome.min.css"  type="text/css"/>
     <link rel="stylesheet" href="{$css_dir}media.css"  type="text/css"/>
  {foreach from=$css_files key=css_uri item=media}
-    <link href="{$css_uri}?ver0.2" rel="stylesheet" type="text/css" media="{$media}" />
+    <link href="{$css_uri}?ver0.3" rel="stylesheet" type="text/css" media="{$media}" />
  {/foreach}
 
  {* End Include CSS Files *}

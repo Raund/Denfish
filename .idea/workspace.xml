@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ceec79-7230-4797-b469-bd60c4522c8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/css/global.css" afterPath="$PROJECT_DIR$/themes/denfish/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/footer.tpl" afterPath="$PROJECT_DIR$/themes/denfish/footer.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/header.tpl" afterPath="$PROJECT_DIR$/themes/denfish/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/modules/blockcontactinfos/blockcontactinfos.tpl" afterPath="$PROJECT_DIR$/themes/denfish/modules/blockcontactinfos/blockcontactinfos.tpl" />
     </list>
     <ignored path="denfish.my.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,17 +26,17 @@
     <splitter split-orientation="horizontal" split-proportion="0.6222547">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+          <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/themes/denfish/header.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="466" column="18" selection-start-line="466" selection-start-column="18" selection-end-line="466" selection-end-column="18" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/themes/denfish/footer.tpl">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="487">
@@ -109,10 +105,10 @@
         <option value="$PROJECT_DIR$/themes/denfish/product-list.tpl" />
         <option value="$PROJECT_DIR$/themes/denfish/category.tpl" />
         <option value="$PROJECT_DIR$/themes/denfish/css/dm_fix.css" />
-        <option value="$PROJECT_DIR$/themes/denfish/header.tpl" />
         <option value="$PROJECT_DIR$/themes/denfish/footer.tpl" />
         <option value="$PROJECT_DIR$/themes/denfish/modules/blockcontactinfos/blockcontactinfos.tpl" />
         <option value="$PROJECT_DIR$/themes/denfish/css/global.css" />
+        <option value="$PROJECT_DIR$/themes/denfish/header.tpl" />
       </list>
     </option>
   </component>
@@ -381,12 +377,12 @@
       <workItem from="1481120454355" duration="5789000" />
       <workItem from="1481280386614" duration="8622000" />
       <workItem from="1481314470926" duration="1347000" />
-      <workItem from="1481533211419" duration="7400000" />
+      <workItem from="1481533211419" duration="8027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58369000" />
+    <option name="totallyTimeSpent" value="58996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="414" width="1382" height="744" extended-state="6" />
@@ -761,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/denfish/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="466" column="18" selection-start-line="466" selection-start-column="18" selection-end-line="466" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/denfish/modules/blockcontactinfos/blockcontactinfos.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
@@ -789,6 +777,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="3681" column="27" selection-start-line="3681" selection-start-column="27" selection-end-line="3681" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/denfish/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
