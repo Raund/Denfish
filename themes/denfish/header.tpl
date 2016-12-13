@@ -372,9 +372,9 @@ if(!$('#home_vnutr1').length){
      <div id="wrapper">
          {if (isset($header) && $header == 'dark') || ($page_name!='index' && $page_name !='order-opc' && $page_name !='manufacturer') }
              {*Подключение темнего хедера*}
-                <div id="header">{*хедер*}
+                <div id="header" class="home-center">{*хедер*}
                      <div class="container clearfix">
-                         <ul class="left_nav left">
+                         <ul class="left_nav">
     {*
                             <li>
                                  <a href="{$base_dir}/4-about-us">О нас</a>
@@ -407,25 +407,27 @@ if(!$('#home_vnutr1').length){
                             <div class="str2_vnutr1">для рыболовного счастья</div>
                             <div class="str3_vnutr1">в одном месте!</div>
                         </div>
-                        <ul class="cart_vnutr1 right">
-                            <li class="cartimg_vnutr1">
-                                {$HOOK_TOP}
-                            </li>
-                            <li class="price clerfix">
-                                <span class=" price ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>{*для відображення кількості товарів (в файлі blockcart вона hidden*}
-                            </li>
-                            <li>
-                                <a href="{$base_dir}quick-order"> <button>Оформить заказ</button></a>
-                            </li>
-                        </ul>
-                        <ul class="reg_vnutr1 right">
-                            <li class="key_vnutr1">
-                                <a href="#" class="x-show-register">Регистрация</a>
-                            </li>
-                            <li class="lock_vnutr1">
-                                {hook h="displayNav"}
-                            </li>
-                        </ul>
+                        <div class="black-reg-cart clearfix">
+                            <ul class="cart_vnutr1 right">
+                                <li class="cartimg_vnutr1">
+                                    {$HOOK_TOP}
+                                </li>
+                                <li class="price clerfix">
+                                    <span class=" price ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>{*для відображення кількості товарів (в файлі blockcart вона hidden*}
+                                </li>
+                                <li>
+                                    <a href="{$base_dir}quick-order"> <button>Оформить заказ</button></a>
+                                </li>
+                            </ul>
+                            <ul class="reg_vnutr1 right">
+                                <li class="key_vnutr1">
+                                    <a href="#" class="x-show-register">Регистрация</a>
+                                </li>
+                                <li class="lock_vnutr1">
+                                    {hook h="displayNav"}
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>{*/хедер*}
 

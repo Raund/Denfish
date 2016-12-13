@@ -1021,6 +1021,7 @@ h3 span{
 	font: 30px "RobotoBold";
 	color: #fff;
 	line-height: 28px;
+	margin-top: -5px;
 }
 
 .cart_vnutr1{
@@ -1096,7 +1097,7 @@ h3 span{
 	background: url('../img/cart.png') no-repeat right;
 }
 #home_vnutr1{
-	height: 254px;
+	min-height: 254px;
 	background: #242829;
 	margin-bottom: 25px;
 }
@@ -3584,11 +3585,23 @@ section.page-product-box .rte_{
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	#home_vnutr1 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 	.logo{
 		margin-left: 0;
 	}
 	.kontakt .footer-phones{
 		margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 850px) {
+	.social_top{
+		margin-left: 0;
+	}
+	.lozung_vnutr1{
+		display: none;
 	}
 }
 @media screen and (max-width: 778px) {
@@ -3625,6 +3638,11 @@ section.page-product-box .rte_{
 	.home-center{
 		text-align: center;
 	}
+	#home_vnutr1 .logo{
+		display: block;
+		text-align: center;
+		margin-top: 130px;
+	}
 	.logo{
 		float: none;
 		margin-top: 90px;
@@ -3642,6 +3660,20 @@ section.page-product-box .rte_{
 		top: -3px;
 		padding-right: 10px;
 	}
+	.phone-wrap ul.phones{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.black-reg-cart{
+		text-align: center;
+		width: 320px;
+		margin: 0 auto;
+	}
+	.cart_vnutr1,
+	.reg_vnutr1{
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
 	#footer{
 		text-align: center;
 		padding-top: 25px;
@@ -3656,10 +3688,22 @@ section.page-product-box .rte_{
 		font-size: 25px;
 		line-height: 30px;
 	}
+	.social_top{
+		text-align: center;
+		margin-left: 0;
+		margin-bottom: 5px;
+	}
+	.top_phone {
+		text-align: center;
+		width: 100%;
+		margin-top: 0;
+	}
 	.logo_ft,
 	.ft_nav,
 	.addres,
-	.kontakt{
+	.kontakt,
+	.social_top,
+	.top_phone{
 		float: none;
 	}
 	.copyright,
