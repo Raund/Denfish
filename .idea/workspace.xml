@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ceec79-7230-4797-b469-bd60c4522c8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl" afterPath="$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/css/global.css" afterPath="$PROJECT_DIR$/themes/denfish/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/header.tpl" afterPath="$PROJECT_DIR$/themes/denfish/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/modules/homeslider/homeslider.tpl" afterPath="$PROJECT_DIR$/themes/denfish/modules/homeslider/homeslider.tpl" />
     </list>
     <ignored path="denfish.my.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +29,8 @@
           <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/themes/denfish/header.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="409" column="50" selection-start-line="409" selection-start-column="36" selection-end-line="409" selection-end-column="50" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
                   <folding />
                 </state>
               </provider>
@@ -133,8 +129,8 @@
         <option value="$PROJECT_DIR$/themes/denfish/modules/blockcontactinfos/blockcontactinfos.tpl" />
         <option value="$PROJECT_DIR$/themes/denfish/modules/homeslider/homeslider.tpl" />
         <option value="$PROJECT_DIR$/modules/smartbloghomelatestnews/views/templates/front/smartblog_latest_news.tpl" />
-        <option value="$PROJECT_DIR$/themes/denfish/header.tpl" />
         <option value="$PROJECT_DIR$/themes/denfish/css/global.css" />
+        <option value="$PROJECT_DIR$/themes/denfish/header.tpl" />
       </list>
     </option>
   </component>
@@ -325,18 +321,18 @@
       <workItem from="1481314470926" duration="1347000" />
       <workItem from="1481533211419" duration="8557000" />
       <workItem from="1481572792483" duration="21000" />
-      <workItem from="1481625818180" duration="5376000" />
+      <workItem from="1481625818180" duration="5740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64923000" />
+    <option name="totallyTimeSpent" value="65287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="414" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22474378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22474378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -724,18 +720,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/denfish/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="409" column="50" selection-start-line="409" selection-start-column="36" selection-end-line="409" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/denfish/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="3674" column="24" selection-start-line="3674" selection-start-column="24" selection-end-line="3674" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/denfish/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
           <folding />
         </state>
       </provider>
