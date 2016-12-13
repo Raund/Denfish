@@ -3480,6 +3480,9 @@ a#mailalert_link
 .phone-wrap:hover{
 	cursor: pointer;
 }
+.phone-wrap{
+	position: relative;
+}
 .phone-wrap:hover ul.phones{
 	display: block;
 }
@@ -3663,6 +3666,14 @@ section.page-product-box .rte_{
 	.phone-wrap ul.phones{
 		width: 100%;
 		padding-left: 20px;
+		right: 0;
+	}
+	#home .phone-wrap ul.phones{
+		width: 342px;
+		right: 50%;
+		top: 40px;
+		margin-right: -171px;
+		bottom: initial;
 	}
 	.black-reg-cart{
 		text-align: center;
@@ -3706,6 +3717,8 @@ section.page-product-box .rte_{
 	.top_phone{
 		float: none;
 	}
+	#vk_groups,
+	.facebook,
 	.copyright,
 	.addres h4,
 	.kontakt h4{
