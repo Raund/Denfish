@@ -91,3 +91,10 @@ padding-right: 20px;
 	padding: 10px 0 100px 60px;
 	float: right;
 }
+@media screen and (max-width: 778px) {
+	#content{
+		width: 100%;
+		padding: 20px;
+		padding-right: 0;
+	}
+}

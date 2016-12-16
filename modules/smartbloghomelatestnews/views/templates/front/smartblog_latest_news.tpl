@@ -46,7 +46,7 @@
 {/if}
 
 
-<div class="article">
+<div class="article clearfix">
     <h3><a href="{smartblog::GetSmartBlogLink('smartblog')}">{l s='Статьи от DEN' mod='smartbloghomelatestnews'}<span>{l s='FISH' mod='smartbloghomelatestnews'}</span></a></h3>
     
         {if isset($view_data) AND !empty($view_data)}

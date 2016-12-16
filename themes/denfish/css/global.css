@@ -3598,6 +3598,12 @@ section.page-product-box .rte_{
 	.kontakt .footer-phones{
 		margin-bottom: 0;
 	}
+	.article_text {
+		min-height: 190px;
+	}
+	.article_box a {
+		margin-top: 5px;
+	}
 }
 @media screen and (max-width: 850px) {
 	.social_top{
@@ -3605,6 +3611,20 @@ section.page-product-box .rte_{
 	}
 	.lozung_vnutr1{
 		display: none;
+	}
+	.img_menu li {
+		width: 31%;
+		margin-right: 2%;
+	}
+	.img_menu li:nth-child(4n) {
+		margin-right: 2%;
+	}
+	.article_box {
+		width: 31%;
+		margin-right: 2%;
+	}
+	.article_text {
+		min-height: 220px;
 	}
 }
 @media screen and (max-width: 778px) {
@@ -3754,6 +3774,52 @@ section.page-product-box .rte_{
 	.kontakt .phone-wrap ul.phones{
 		margin: 0 auto;
 		padding: 0;
+	}
+	#sidebar{
+		width: 100%;
+	}
+	.advice {
+		margin-left: 20px;
+		margin-right: 25px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.img_menu li {
+		width: 45%;
+		margin-right: 4%;
+	}
+	.img_menu li:nth-child(4n) {
+		margin-right: 4%;
+	}
+	.discr{
+		text-align: center;
+		padding-left: 0;
+		font-size: 15px;
+	}
+	.article_box {
+		width: 45%;
+		margin-right: 4%;
+	}
+	.article_text {
+		min-height: 175px;
+	}
+	.article_box a {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.img_menu li {
+		width: 45%;
+		margin-right: 4%;
+	}
+	.img_menu li:nth-child(4n) {
+		margin-right: 4%;
+	}
+	.article_box {
+		width: 95%;
+	}
+	.article_text {
+		min-height: 100px;
 	}
 }
 
