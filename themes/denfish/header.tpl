@@ -490,58 +490,58 @@ if(!$('#home_vnutr1').length){
 
             {*Include the Left Hook.  This is the area where modules in the hook known as left are outputed *}
         <div class="container clearfix">
-                    <div id="sidebar">
-                    {if (isset($header) && $header == 'dark') || ($page_name =='manufacturer' && $page_name =='product') }
-                    <ul class="catalog_vnutr1">
-                        <li class="catalog_product">Каталог товаров</li>
-                        <li class="back_to_product"><a href="{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}">Назад к Фильтрам</a></li>
-                    </ul>
-                    {/if}
-                    {if ($page_name =='product') }
-                    {*<div id="disable_menu">*}
-                    <ul class="catalog_vnutr1">
-                        <li class="catalog_product" style="background-color:#c3043a">Каталог товаров</li>
-                        <li class="back_to_product"><a href="{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}">Назад к Фильтрам</a></li>
-                    </ul>
-                    {/if}
-                    {if ($page_name =='category') || ($page_name =='my-account') || ($page_name =='history') || ($page_name =='addresses') || ($page_name =='identity') || ($page_name =='module-blockwishlist-mywishlist') || ($page_name =='address') || ($page_name =='cms') || ($page_name =='module-azgallery-gallery') || ($page_name =='module-smartblog-category') || ($page_name =='module-smartblog-details') || ($page_name =='module-wnnews-news') || ($page_name =='search')}
-                    {*<div id="disable_menu">*}
-                    <ul class="catalog_vnutr1">
-                        <li class="catalog_product" style="background-color:#1E2121">Каталог товаров</li>
-                    </ul>
-                    {/if}
-                    {if ($page_name =='quick-order') }
-                    {*<div id="disable_menu">*}
-                    <ul class="catalog">
-    <div id="categories_block_left" style="display:none" class="block">
-    {*<h2 class="title_block" hidden>
-        {if isset($currentCategory)}
-            {$currentCategory->name|escape}
-        {else}
-            {l s='Categories' mod='blockcategories'}
-        {/if}
-    </h2>*}
-
-        <div class="block_content">
-            <ul class="catalog {if $isDhtml}dhtml{/if}">
-                {foreach from=$blockCategTree.children item=child name=blockCategTree}
-                {if $smarty.foreach.blockCategTree.last}
-                    {include file="$branche_tpl_path" node=$child last='true'}
-                {else}
-                    {include file="$branche_tpl_path" node=$child}
+            <div id="sidebar">
+                {if (isset($header) && $header == 'dark') || ($page_name =='manufacturer' && $page_name =='product') }
+                <ul class="catalog_vnutr1">
+                    <li class="catalog_product">Каталог товаров</li>
+                    <li class="back_to_product"><a href="{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}">Назад к Фильтрам</a></li>
+                </ul>
                 {/if}
-                {/foreach}
-            </ul>
-        </div>
+                {if ($page_name =='product') }
+                {*<div id="disable_menu">*}
+                <ul class="catalog_vnutr1">
+                    <li class="catalog_product" style="background-color:#c3043a">Каталог товаров</li>
+                    <li class="back_to_product"><a href="{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}">Назад к Фильтрам</a></li>
+                </ul>
+                {/if}
+                {if ($page_name =='category') || ($page_name =='my-account') || ($page_name =='history') || ($page_name =='addresses') || ($page_name =='identity') || ($page_name =='module-blockwishlist-mywishlist') || ($page_name =='address') || ($page_name =='cms') || ($page_name =='module-azgallery-gallery') || ($page_name =='module-smartblog-category') || ($page_name =='module-smartblog-details') || ($page_name =='module-wnnews-news') || ($page_name =='search')}
+                {*<div id="disable_menu">*}
+                <ul class="catalog_vnutr1">
+                    <li class="catalog_product" style="background-color:#1E2121">Каталог товаров</li>
+                </ul>
+                {/if}
+                {if ($page_name =='quick-order') }
+                {*<div id="disable_menu">*}
+                <ul class="catalog">
+                    <div id="categories_block_left" style="display:none" class="block">
+                    {*<h2 class="title_block" hidden>
+                        {if isset($currentCategory)}
+                            {$currentCategory->name|escape}
+                        {else}
+                            {l s='Categories' mod='blockcategories'}
+                        {/if}
+                    </h2>*}
 
-</div>
-    </ul>
-                    {/if}
-                {*Подключение хука LeftColumn*}
-                     {$HOOK_LEFT_COLUMN}
+                        <div class="block_content">
+                            <ul class="catalog {if $isDhtml}dhtml{/if}">
+                                {foreach from=$blockCategTree.children item=child name=blockCategTree}
+                                {if $smarty.foreach.blockCategTree.last}
+                                    {include file="$branche_tpl_path" node=$child last='true'}
+                                {else}
+                                    {include file="$branche_tpl_path" node=$child}
+                                {/if}
+                                {/foreach}
+                            </ul>
+                        </div>
+
                     </div>
+                </ul>
+                {/if}
+            {*Подключение хука LeftColumn*}
+                 {$HOOK_LEFT_COLUMN}
+            </div>
 
 
-                 {* End Include left Hook *}
+             {* End Include left Hook *}
 
   {* End left column Div*}
