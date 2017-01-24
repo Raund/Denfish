@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ceec79-7230-4797-b469-bd60c4522c8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/css/global.css" afterPath="$PROJECT_DIR$/themes/denfish/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/header.tpl" afterPath="$PROJECT_DIR$/themes/denfish/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/product-list.tpl" afterPath="$PROJECT_DIR$/themes/denfish/product-list.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/denfish/shopping-cart.tpl" afterPath="$PROJECT_DIR$/themes/denfish/shopping-cart.tpl" />
     </list>
     <ignored path="denfish.my.iws" />
@@ -309,15 +301,15 @@
       <workItem from="1481872128326" duration="8425000" />
       <workItem from="1482070787073" duration="125000" />
       <workItem from="1482841837471" duration="162000" />
-      <workItem from="1485260636993" duration="1137000" />
+      <workItem from="1485260636993" duration="1257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85930000" />
+    <option name="totallyTimeSpent" value="86050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

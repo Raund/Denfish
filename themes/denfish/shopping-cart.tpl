@@ -560,7 +560,7 @@
 			Оформить заказ
 		</a>
        		<span class="itogo">{l s='Итог:'}</span>
-		<span class="itogo_price" id="total_price" >{displayPrice price=$total_price_without_tax}</span>
+		<span class="itogo_price" id="total_price" >{displayPrice price=$total_price}</span>
 	</p>
     {hook h="displayHome"}
 	{if !empty($HOOK_SHOPPING_CART_EXTRA)}
