@@ -135,7 +135,7 @@
 								{/if}
 							{else}
 							<!--забрав з класу ajax_add_to_cart_button-->
-								<span class="button btn btn-default disabled" style="    width: 190px;
+								<span class="button btn btn-default disabled" style="width: 100%;
 							    display: block;
 							    height: 40px;
 							    margin: -10px 0 0 -18px;
